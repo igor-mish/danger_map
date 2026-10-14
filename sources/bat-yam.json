@@ -1,0 +1,4192 @@
+{
+  "layer_id": 17,
+  "layer_name": "מבנים מסוכנים",
+  "captured_at": "2026-10-14T18:49:40.089Z",
+  "expected_object_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205
+  ],
+  "data": {
+    "displayFieldName": "St_name",
+    "fieldAliases": {
+      "Tik_Pikuch": "תיק פיקוח",
+      "Announcement_date": "תאריך הכרזה",
+      "Status": "סטטוס",
+      "St_code": "קוד רחוב",
+      "St_name": "שם רחוב",
+      "H_num": "מספר בית",
+      "Gush": "גוש",
+      "Helka": "חלקה",
+      "End_date": "תאריך סיום",
+      "LinkToTik": "קישור לתיק",
+      "OBJECTID": "OBJECTID"
+    },
+    "geometryType": "esriGeometryPoint",
+    "spatialReference": {
+      "wkid": 2039,
+      "latestWkid": 2039
+    },
+    "fields": [
+      {
+        "name": "Tik_Pikuch",
+        "type": "esriFieldTypeInteger",
+        "alias": "תיק פיקוח"
+      },
+      {
+        "name": "Announcement_date",
+        "type": "esriFieldTypeString",
+        "alias": "תאריך הכרזה",
+        "length": 10
+      },
+      {
+        "name": "Status",
+        "type": "esriFieldTypeString",
+        "alias": "סטטוס",
+        "length": 1
+      },
+      {
+        "name": "St_code",
+        "type": "esriFieldTypeInteger",
+        "alias": "קוד רחוב"
+      },
+      {
+        "name": "St_name",
+        "type": "esriFieldTypeString",
+        "alias": "שם רחוב",
+        "length": 60
+      },
+      {
+        "name": "H_num",
+        "type": "esriFieldTypeSmallInteger",
+        "alias": "מספר בית"
+      },
+      {
+        "name": "Gush",
+        "type": "esriFieldTypeInteger",
+        "alias": "גוש"
+      },
+      {
+        "name": "Helka",
+        "type": "esriFieldTypeSmallInteger",
+        "alias": "חלקה"
+      },
+      {
+        "name": "End_date",
+        "type": "esriFieldTypeString",
+        "alias": "תאריך סיום",
+        "length": 10
+      },
+      {
+        "name": "LinkToTik",
+        "type": "esriFieldTypeString",
+        "alias": "קישור לתיק",
+        "length": 89
+      },
+      {
+        "name": "OBJECTID",
+        "type": "esriFieldTypeOID",
+        "alias": "OBJECTID"
+      }
+    ],
+    "features": [
+      {
+        "attributes": {
+          "Tik_Pikuch": 201800095,
+          "Announcement_date": "27/03/2016",
+          "Status": "פ",
+          "St_code": 601,
+          "St_name": "העבודה (אהוד קינמון)",
+          "H_num": 10,
+          "Gush": 7129,
+          "Helka": 129,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=201800095",
+          "OBJECTID": 1
+        },
+        "geometry": {
+          "x": 176555,
+          "y": 657768
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 201800095,
+          "Announcement_date": "27/03/2016",
+          "Status": "פ",
+          "St_code": 601,
+          "St_name": "העבודה (אהוד קינמון)",
+          "H_num": 10,
+          "Gush": 7129,
+          "Helka": 129,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=201800095",
+          "OBJECTID": 2
+        },
+        "geometry": {
+          "x": 176541,
+          "y": 657726
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2016569,
+          "Announcement_date": "24/11/2015",
+          "Status": "פ",
+          "St_code": 612,
+          "St_name": "אנה פרנק",
+          "H_num": 27,
+          "Gush": 7124,
+          "Helka": 115,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2016569",
+          "OBJECTID": 3
+        },
+        "geometry": {
+          "x": 176894,
+          "y": 657125
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202200105,
+          "Announcement_date": "03/10/2022",
+          "Status": "פ",
+          "St_code": 612,
+          "St_name": "אנה פרנק",
+          "H_num": 29,
+          "Gush": 7124,
+          "Helka": 250,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202200105",
+          "OBJECTID": 4
+        },
+        "geometry": {
+          "x": 176903,
+          "y": 657172
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2016632,
+          "Announcement_date": "10/06/2012",
+          "Status": "פ",
+          "St_code": 645,
+          "St_name": "אצ\"ל",
+          "H_num": 11,
+          "Gush": 7138,
+          "Helka": 283,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2016632",
+          "OBJECTID": 5
+        },
+        "geometry": {
+          "x": 175736,
+          "y": 657764
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2016559,
+          "Announcement_date": "12/03/2013",
+          "Status": "פ",
+          "St_code": 209,
+          "St_name": "ארלוזרוב",
+          "H_num": 17,
+          "Gush": 7145,
+          "Helka": 57,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2016559",
+          "OBJECTID": 6
+        },
+        "geometry": {
+          "x": 175984,
+          "y": 659471
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 201800255,
+          "Announcement_date": "25/02/2018",
+          "Status": "פ",
+          "St_code": 209,
+          "St_name": "ארלוזרוב",
+          "H_num": 32,
+          "Gush": 7145,
+          "Helka": 75,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=201800255",
+          "OBJECTID": 7
+        },
+        "geometry": {
+          "x": 175966,
+          "y": 659313
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 201800255,
+          "Announcement_date": "25/02/2018",
+          "Status": "פ",
+          "St_code": 209,
+          "St_name": "ארלוזרוב",
+          "H_num": 32,
+          "Gush": 7145,
+          "Helka": 75,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=201800255",
+          "OBJECTID": 8
+        },
+        "geometry": {
+          "x": 175940,
+          "y": 659303
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202100252,
+          "Announcement_date": "27/03/2021",
+          "Status": "פ",
+          "St_code": 669,
+          "St_name": "האדמור מבאבוב",
+          "H_num": 6,
+          "Gush": 7124,
+          "Helka": 275,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202100252",
+          "OBJECTID": 9
+        },
+        "geometry": {
+          "x": 176713,
+          "y": 657379
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202100252,
+          "Announcement_date": "27/03/2021",
+          "Status": "פ",
+          "St_code": 669,
+          "St_name": "האדמור מבאבוב",
+          "H_num": 6,
+          "Gush": 7124,
+          "Helka": 275,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202100252",
+          "OBJECTID": 10
+        },
+        "geometry": {
+          "x": 176734,
+          "y": 657365
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2016699,
+          "Announcement_date": "10/11/2019",
+          "Status": "פ",
+          "St_code": 411,
+          "St_name": "ביאליק",
+          "H_num": 8,
+          "Gush": 0,
+          "Helka": 0,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2016699",
+          "OBJECTID": 11
+        },
+        "geometry": {
+          "x": 176232,
+          "y": 658787
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 201800133,
+          "Announcement_date": "25/02/2018",
+          "Status": "פ",
+          "St_code": 221,
+          "St_name": "בלפור",
+          "H_num": 131,
+          "Gush": 7137,
+          "Helka": 118,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=201800133",
+          "OBJECTID": 12
+        },
+        "geometry": {
+          "x": 175858,
+          "y": 658015
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202600267,
+          "Announcement_date": "19/05/2025",
+          "Status": "פ",
+          "St_code": 221,
+          "St_name": "בלפור",
+          "H_num": 137,
+          "Gush": 7137,
+          "Helka": 121,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202600267",
+          "OBJECTID": 13
+        },
+        "geometry": {
+          "x": 175834,
+          "y": 657969
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2016460,
+          "Announcement_date": "07/03/2016",
+          "Status": "פ",
+          "St_code": 221,
+          "St_name": "בלפור",
+          "H_num": 137,
+          "Gush": 7137,
+          "Helka": 121,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2016460",
+          "OBJECTID": 14
+        },
+        "geometry": {
+          "x": 175834,
+          "y": 657969
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2016460,
+          "Announcement_date": "07/03/2016",
+          "Status": "פ",
+          "St_code": 221,
+          "St_name": "בלפור",
+          "H_num": 137,
+          "Gush": 7137,
+          "Helka": 121,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2016460",
+          "OBJECTID": 15
+        },
+        "geometry": {
+          "x": 175826,
+          "y": 657949
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202600267,
+          "Announcement_date": "19/05/2025",
+          "Status": "פ",
+          "St_code": 221,
+          "St_name": "בלפור",
+          "H_num": 137,
+          "Gush": 7137,
+          "Helka": 121,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202600267",
+          "OBJECTID": 16
+        },
+        "geometry": {
+          "x": 175826,
+          "y": 657949
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017040,
+          "Announcement_date": "19/06/2013",
+          "Status": "פ",
+          "St_code": 221,
+          "St_name": "בלפור",
+          "H_num": 41,
+          "Gush": 7148,
+          "Helka": 13,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017040",
+          "OBJECTID": 17
+        },
+        "geometry": {
+          "x": 176106,
+          "y": 659423
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017907,
+          "Announcement_date": "19/10/2017",
+          "Status": "פ",
+          "St_code": 221,
+          "St_name": "בלפור",
+          "H_num": 69,
+          "Gush": 7148,
+          "Helka": 120,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017907",
+          "OBJECTID": 18
+        },
+        "geometry": {
+          "x": 176099,
+          "y": 659013
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2016442,
+          "Announcement_date": "23/06/2016",
+          "Status": "פ",
+          "St_code": 221,
+          "St_name": "בלפור",
+          "H_num": 79,
+          "Gush": 0,
+          "Helka": 0,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2016442",
+          "OBJECTID": 19
+        },
+        "geometry": {
+          "x": 176109,
+          "y": 658842
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2016479,
+          "Announcement_date": "27/03/2016",
+          "Status": "פ",
+          "St_code": 221,
+          "St_name": "בלפור",
+          "H_num": 79,
+          "Gush": 7136,
+          "Helka": 465,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2016479",
+          "OBJECTID": 20
+        },
+        "geometry": {
+          "x": 176109,
+          "y": 658842
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202200005,
+          "Announcement_date": "10/04/2022",
+          "Status": "פ",
+          "St_code": 221,
+          "St_name": "בלפור",
+          "H_num": 87,
+          "Gush": 7136,
+          "Helka": 280,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202200005",
+          "OBJECTID": 21
+        },
+        "geometry": {
+          "x": 176118,
+          "y": 658683
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2016693,
+          "Announcement_date": "12/03/2013",
+          "Status": "פ",
+          "St_code": 218,
+          "St_name": "ישראל בן ציון",
+          "H_num": 20,
+          "Gush": 7130,
+          "Helka": 287,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2016693",
+          "OBJECTID": 22
+        },
+        "geometry": {
+          "x": 176339,
+          "y": 658134
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017507,
+          "Announcement_date": "23/08/2015",
+          "Status": "פ",
+          "St_code": 218,
+          "St_name": "ישראל בן ציון",
+          "H_num": 20,
+          "Gush": 7130,
+          "Helka": 287,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017507",
+          "OBJECTID": 23
+        },
+        "geometry": {
+          "x": 176339,
+          "y": 658134
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2016673,
+          "Announcement_date": "05/12/2013",
+          "Status": "פ",
+          "St_code": 212,
+          "St_name": "דרך בן גוריון",
+          "H_num": 107,
+          "Gush": 7139,
+          "Helka": 109,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2016673",
+          "OBJECTID": 24
+        },
+        "geometry": {
+          "x": 175449,
+          "y": 658180
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202500276,
+          "Announcement_date": "17/11/2025",
+          "Status": "פ",
+          "St_code": 212,
+          "St_name": "דרך בן גוריון",
+          "H_num": 119,
+          "Gush": 7138,
+          "Helka": 173,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202500276",
+          "OBJECTID": 25
+        },
+        "geometry": {
+          "x": 175469,
+          "y": 658031
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2016445,
+          "Announcement_date": "28/07/2016",
+          "Status": "פ",
+          "St_code": 212,
+          "St_name": "דרך בן גוריון",
+          "H_num": 133,
+          "Gush": 7138,
+          "Helka": 190,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2016445",
+          "OBJECTID": 26
+        },
+        "geometry": {
+          "x": 175491,
+          "y": 657874
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 201800097,
+          "Announcement_date": "02/06/2013",
+          "Status": "פ",
+          "St_code": 212,
+          "St_name": "דרך בן גוריון",
+          "H_num": 135,
+          "Gush": 7138,
+          "Helka": 191,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=201800097",
+          "OBJECTID": 27
+        },
+        "geometry": {
+          "x": 175495,
+          "y": 657843
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017143,
+          "Announcement_date": "15/09/2016",
+          "Status": "פ",
+          "St_code": 212,
+          "St_name": "דרך בן גוריון",
+          "H_num": 136,
+          "Gush": 7120,
+          "Helka": 179,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017143",
+          "OBJECTID": 28
+        },
+        "geometry": {
+          "x": 175400,
+          "y": 657672
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202000469,
+          "Announcement_date": "12/09/2016",
+          "Status": "פ",
+          "St_code": 212,
+          "St_name": "דרך בן גוריון",
+          "H_num": 138,
+          "Gush": 7120,
+          "Helka": 135,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202000469",
+          "OBJECTID": 29
+        },
+        "geometry": {
+          "x": 175366,
+          "y": 657625
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 201800584,
+          "Announcement_date": "08/07/2014",
+          "Status": "פ",
+          "St_code": 212,
+          "St_name": "דרך בן גוריון",
+          "H_num": 61,
+          "Gush": 7143,
+          "Helka": 7,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=201800584",
+          "OBJECTID": 30
+        },
+        "geometry": {
+          "x": 175609,
+          "y": 659042
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017505,
+          "Announcement_date": "23/06/2016",
+          "Status": "פ",
+          "St_code": 212,
+          "St_name": "דרך בן גוריון",
+          "H_num": 61,
+          "Gush": 7143,
+          "Helka": 7,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017505",
+          "OBJECTID": 31
+        },
+        "geometry": {
+          "x": 175609,
+          "y": 659042
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017505,
+          "Announcement_date": "23/06/2016",
+          "Status": "פ",
+          "St_code": 212,
+          "St_name": "דרך בן גוריון",
+          "H_num": 61,
+          "Gush": 7143,
+          "Helka": 7,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017505",
+          "OBJECTID": 32
+        },
+        "geometry": {
+          "x": 175630,
+          "y": 659062
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 201800584,
+          "Announcement_date": "08/07/2014",
+          "Status": "פ",
+          "St_code": 212,
+          "St_name": "דרך בן גוריון",
+          "H_num": 61,
+          "Gush": 7143,
+          "Helka": 7,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=201800584",
+          "OBJECTID": 33
+        },
+        "geometry": {
+          "x": 175630,
+          "y": 659062
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2016687,
+          "Announcement_date": "29/11/2021",
+          "Status": "ל",
+          "St_code": 212,
+          "St_name": "דרך בן גוריון",
+          "H_num": 73,
+          "Gush": 7142,
+          "Helka": 175,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2016687",
+          "OBJECTID": 34
+        },
+        "geometry": {
+          "x": 175530,
+          "y": 658701
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017503,
+          "Announcement_date": "08/01/2013",
+          "Status": "פ",
+          "St_code": 212,
+          "St_name": "דרך בן גוריון",
+          "H_num": 81,
+          "Gush": 7142,
+          "Helka": 179,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017503",
+          "OBJECTID": 35
+        },
+        "geometry": {
+          "x": 175510,
+          "y": 658568
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 201800115,
+          "Announcement_date": "01/12/2016",
+          "Status": "פ",
+          "St_code": 212,
+          "St_name": "דרך בן גוריון",
+          "H_num": 91,
+          "Gush": 7139,
+          "Helka": 97,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=201800115",
+          "OBJECTID": 36
+        },
+        "geometry": {
+          "x": 175480,
+          "y": 658375
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017422,
+          "Announcement_date": "10/11/2016",
+          "Status": "פ",
+          "St_code": 212,
+          "St_name": "דרך בן גוריון",
+          "H_num": 97,
+          "Gush": 7139,
+          "Helka": 101,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017422",
+          "OBJECTID": 37
+        },
+        "geometry": {
+          "x": 175467,
+          "y": 658307
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202600316,
+          "Announcement_date": "02/09/2026",
+          "Status": "פ",
+          "St_code": 317,
+          "St_name": "רבי בנימין",
+          "H_num": 4,
+          "Gush": 7130,
+          "Helka": 269,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202600316",
+          "OBJECTID": 38
+        },
+        "geometry": {
+          "x": 176381,
+          "y": 658283
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202600316,
+          "Announcement_date": "02/09/2026",
+          "Status": "פ",
+          "St_code": 317,
+          "St_name": "רבי בנימין",
+          "H_num": 4,
+          "Gush": 7130,
+          "Helka": 269,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202600316",
+          "OBJECTID": 39
+        },
+        "geometry": {
+          "x": 176386,
+          "y": 658297
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2016517,
+          "Announcement_date": "22/05/2016",
+          "Status": "פ",
+          "St_code": 402,
+          "St_name": "בר אילן",
+          "H_num": 49,
+          "Gush": 7154,
+          "Helka": 230,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2016517",
+          "OBJECTID": 40
+        },
+        "geometry": {
+          "x": 176204,
+          "y": 657876
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 201800113,
+          "Announcement_date": "20/10/2013",
+          "Status": "פ",
+          "St_code": 402,
+          "St_name": "בר אילן",
+          "H_num": 7,
+          "Gush": 7155,
+          "Helka": 163,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=201800113",
+          "OBJECTID": 41
+        },
+        "geometry": {
+          "x": 176479,
+          "y": 658236
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202500070,
+          "Announcement_date": "19/05/2025",
+          "Status": "פ",
+          "St_code": 316,
+          "St_name": "בר יהודה",
+          "H_num": 30,
+          "Gush": 7137,
+          "Helka": 116,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202500070",
+          "OBJECTID": 42
+        },
+        "geometry": {
+          "x": 175865,
+          "y": 657937
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2016707,
+          "Announcement_date": "06/12/2012",
+          "Status": "פ",
+          "St_code": 316,
+          "St_name": "בר יהודה",
+          "H_num": 36,
+          "Gush": 7137,
+          "Helka": 124,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2016707",
+          "OBJECTID": 43
+        },
+        "geometry": {
+          "x": 175850,
+          "y": 657880
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202000214,
+          "Announcement_date": "16/06/2020",
+          "Status": "פ",
+          "St_code": 652,
+          "St_name": "גנוסר",
+          "H_num": 24,
+          "Gush": 7139,
+          "Helka": 101,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202000214",
+          "OBJECTID": 44
+        },
+        "geometry": {
+          "x": 175485,
+          "y": 658313
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2016505,
+          "Announcement_date": "14/03/2016",
+          "Status": "פ",
+          "St_code": 652,
+          "St_name": "גנוסר",
+          "H_num": 26,
+          "Gush": 7139,
+          "Helka": 102,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2016505",
+          "OBJECTID": 45
+        },
+        "geometry": {
+          "x": 175512,
+          "y": 658307
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202500216,
+          "Announcement_date": "08/07/2025",
+          "Status": "פ",
+          "St_code": 426,
+          "St_name": "דניאל",
+          "H_num": 10,
+          "Gush": 7149,
+          "Helka": 200,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202500216",
+          "OBJECTID": 46
+        },
+        "geometry": {
+          "x": 176551,
+          "y": 659334
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202500138,
+          "Announcement_date": "10/07/2025",
+          "Status": "פ",
+          "St_code": 426,
+          "St_name": "דניאל",
+          "H_num": 4,
+          "Gush": 7149,
+          "Helka": 197,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202500138",
+          "OBJECTID": 47
+        },
+        "geometry": {
+          "x": 176568,
+          "y": 659389
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202400129,
+          "Announcement_date": "13/11/2024",
+          "Status": "פ",
+          "St_code": 426,
+          "St_name": "דניאל",
+          "H_num": 4,
+          "Gush": 7149,
+          "Helka": 197,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202400129",
+          "OBJECTID": 48
+        },
+        "geometry": {
+          "x": 176568,
+          "y": 659389
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017638,
+          "Announcement_date": "26/03/2017",
+          "Status": "פ",
+          "St_code": 426,
+          "St_name": "דניאל",
+          "H_num": 49,
+          "Gush": 7135,
+          "Helka": 150,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017638",
+          "OBJECTID": 49
+        },
+        "geometry": {
+          "x": 176562,
+          "y": 658722
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2016490,
+          "Announcement_date": "14/06/2016",
+          "Status": "פ",
+          "St_code": 426,
+          "St_name": "דניאל",
+          "H_num": 51,
+          "Gush": 7135,
+          "Helka": 152,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2016490",
+          "OBJECTID": 50
+        },
+        "geometry": {
+          "x": 176563,
+          "y": 658706
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202500139,
+          "Announcement_date": "10/07/2025",
+          "Status": "פ",
+          "St_code": 426,
+          "St_name": "דניאל",
+          "H_num": 6,
+          "Gush": 7149,
+          "Helka": 198,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202500139",
+          "OBJECTID": 51
+        },
+        "geometry": {
+          "x": 176560,
+          "y": 659372
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202500219,
+          "Announcement_date": "08/09/2025",
+          "Status": "פ",
+          "St_code": 426,
+          "St_name": "דניאל",
+          "H_num": 7,
+          "Gush": 7149,
+          "Helka": 210,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202500219",
+          "OBJECTID": 52
+        },
+        "geometry": {
+          "x": 176583,
+          "y": 659343
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202400094,
+          "Announcement_date": "18/09/2024",
+          "Status": "פ",
+          "St_code": 301,
+          "St_name": "דנין יחזקאל",
+          "H_num": 25,
+          "Gush": 7136,
+          "Helka": 405,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202400094",
+          "OBJECTID": 53
+        },
+        "geometry": {
+          "x": 176395,
+          "y": 658363
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2016823,
+          "Announcement_date": "30/01/2013",
+          "Status": "פ",
+          "St_code": 606,
+          "St_name": "האורגים",
+          "H_num": 25,
+          "Gush": 7123,
+          "Helka": 213,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2016823",
+          "OBJECTID": 54
+        },
+        "geometry": {
+          "x": 175981,
+          "y": 657319
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2016802,
+          "Announcement_date": "17/08/2014",
+          "Status": "ל",
+          "St_code": 511,
+          "St_name": "הגבעות",
+          "H_num": 1,
+          "Gush": 7156,
+          "Helka": 79,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2016802",
+          "OBJECTID": 55
+        },
+        "geometry": {
+          "x": 177441,
+          "y": 658321
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 201800137,
+          "Announcement_date": "15/12/2016",
+          "Status": "פ",
+          "St_code": 122,
+          "St_name": "הגליל",
+          "H_num": 3,
+          "Gush": 7152,
+          "Helka": 242,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=201800137",
+          "OBJECTID": 56
+        },
+        "geometry": {
+          "x": 176983,
+          "y": 659409
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017161,
+          "Announcement_date": "18/01/2017",
+          "Status": "פ",
+          "St_code": 122,
+          "St_name": "הגליל",
+          "H_num": 3,
+          "Gush": 7152,
+          "Helka": 250,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017161",
+          "OBJECTID": 57
+        },
+        "geometry": {
+          "x": 176983,
+          "y": 659409
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017161,
+          "Announcement_date": "18/01/2017",
+          "Status": "פ",
+          "St_code": 122,
+          "St_name": "הגליל",
+          "H_num": 3,
+          "Gush": 7152,
+          "Helka": 250,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017161",
+          "OBJECTID": 58
+        },
+        "geometry": {
+          "x": 177002,
+          "y": 659396
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 201800137,
+          "Announcement_date": "15/12/2016",
+          "Status": "פ",
+          "St_code": 122,
+          "St_name": "הגליל",
+          "H_num": 3,
+          "Gush": 7152,
+          "Helka": 242,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=201800137",
+          "OBJECTID": 59
+        },
+        "geometry": {
+          "x": 177002,
+          "y": 659396
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 201800137,
+          "Announcement_date": "15/12/2016",
+          "Status": "פ",
+          "St_code": 122,
+          "St_name": "הגליל",
+          "H_num": 3,
+          "Gush": 7152,
+          "Helka": 242,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=201800137",
+          "OBJECTID": 60
+        },
+        "geometry": {
+          "x": 177014,
+          "y": 659366
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017161,
+          "Announcement_date": "18/01/2017",
+          "Status": "פ",
+          "St_code": 122,
+          "St_name": "הגליל",
+          "H_num": 3,
+          "Gush": 7152,
+          "Helka": 250,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017161",
+          "OBJECTID": 61
+        },
+        "geometry": {
+          "x": 177014,
+          "y": 659366
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2016528,
+          "Announcement_date": "28/08/2017",
+          "Status": "פ",
+          "St_code": 126,
+          "St_name": "הגפן",
+          "H_num": 6,
+          "Gush": 7151,
+          "Helka": 312,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2016528",
+          "OBJECTID": 62
+        },
+        "geometry": {
+          "x": 177032,
+          "y": 659167
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017415,
+          "Announcement_date": "15/01/2014",
+          "Status": "פ",
+          "St_code": 403,
+          "St_name": "החשמונאים",
+          "H_num": 29,
+          "Gush": 7135,
+          "Helka": 243,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017415",
+          "OBJECTID": 63
+        },
+        "geometry": {
+          "x": 176647,
+          "y": 658566
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2016769,
+          "Announcement_date": "11/09/2016",
+          "Status": "פ",
+          "St_code": 426,
+          "St_name": "דניאל",
+          "H_num": 46,
+          "Gush": 7135,
+          "Helka": 180,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2016769",
+          "OBJECTID": 64
+        },
+        "geometry": {
+          "x": 176604,
+          "y": 658482
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202500003,
+          "Announcement_date": "19/01/2025",
+          "Status": "פ",
+          "St_code": 208,
+          "St_name": "הלפר",
+          "H_num": 21,
+          "Gush": 7146,
+          "Helka": 100,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202500003",
+          "OBJECTID": 65
+        },
+        "geometry": {
+          "x": 176147,
+          "y": 659542
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2016413,
+          "Announcement_date": "12/09/2012",
+          "Status": "פ",
+          "St_code": 208,
+          "St_name": "הלפר",
+          "H_num": 33,
+          "Gush": 7147,
+          "Helka": 75,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2016413",
+          "OBJECTID": 66
+        },
+        "geometry": {
+          "x": 176292,
+          "y": 659627
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017512,
+          "Announcement_date": "31/07/2013",
+          "Status": "פ",
+          "St_code": 208,
+          "St_name": "הלפר",
+          "H_num": 6,
+          "Gush": 7145,
+          "Helka": 126,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017512",
+          "OBJECTID": 67
+        },
+        "geometry": {
+          "x": 175826,
+          "y": 659497
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017512,
+          "Announcement_date": "31/07/2013",
+          "Status": "פ",
+          "St_code": 208,
+          "St_name": "הלפר",
+          "H_num": 6,
+          "Gush": 7145,
+          "Helka": 126,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017512",
+          "OBJECTID": 68
+        },
+        "geometry": {
+          "x": 175808,
+          "y": 659496
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017512,
+          "Announcement_date": "31/07/2013",
+          "Status": "פ",
+          "St_code": 208,
+          "St_name": "הלפר",
+          "H_num": 6,
+          "Gush": 7145,
+          "Helka": 126,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017512",
+          "OBJECTID": 69
+        },
+        "geometry": {
+          "x": 175819,
+          "y": 659478
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017533,
+          "Announcement_date": "08/02/2017",
+          "Status": "פ",
+          "St_code": 603,
+          "St_name": "המלאכה",
+          "H_num": 5,
+          "Gush": 7129,
+          "Helka": 34,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017533",
+          "OBJECTID": 70
+        },
+        "geometry": {
+          "x": 176456,
+          "y": 657669
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 201800377,
+          "Announcement_date": "12/07/2018",
+          "Status": "פ",
+          "St_code": 304,
+          "St_name": "הנביאים",
+          "H_num": 20,
+          "Gush": 7154,
+          "Helka": 237,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=201800377",
+          "OBJECTID": 71
+        },
+        "geometry": {
+          "x": 176278,
+          "y": 657901
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017518,
+          "Announcement_date": "03/03/2013",
+          "Status": "פ",
+          "St_code": 304,
+          "St_name": "הנביאים",
+          "H_num": 48,
+          "Gush": 7154,
+          "Helka": 291,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017518",
+          "OBJECTID": 72
+        },
+        "geometry": {
+          "x": 176119,
+          "y": 657704
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2016405,
+          "Announcement_date": "26/06/2016",
+          "Status": "פ",
+          "St_code": 304,
+          "St_name": "הנביאים",
+          "H_num": 52,
+          "Gush": 0,
+          "Helka": 0,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2016405",
+          "OBJECTID": 73
+        },
+        "geometry": {
+          "x": 176083,
+          "y": 657668
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 201800114,
+          "Announcement_date": "13/11/2012",
+          "Status": "פ",
+          "St_code": 304,
+          "St_name": "הנביאים",
+          "H_num": 60,
+          "Gush": 7120,
+          "Helka": 155,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=201800114",
+          "OBJECTID": 74
+        },
+        "geometry": {
+          "x": 175724,
+          "y": 657348
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202000118,
+          "Announcement_date": "31/03/2020",
+          "Status": "ל",
+          "St_code": 605,
+          "St_name": "הסוללים",
+          "H_num": 6,
+          "Gush": 7123,
+          "Helka": 117,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202000118",
+          "OBJECTID": 75
+        },
+        "geometry": {
+          "x": 176222,
+          "y": 657235
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2016815,
+          "Announcement_date": "16/01/2013",
+          "Status": "פ",
+          "St_code": 607,
+          "St_name": "העמל",
+          "H_num": 9,
+          "Gush": 7123,
+          "Helka": 122,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2016815",
+          "OBJECTID": 76
+        },
+        "geometry": {
+          "x": 176015,
+          "y": 657197
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017074,
+          "Announcement_date": "14/07/2014",
+          "Status": "פ",
+          "St_code": 201,
+          "St_name": "שד העצמאות",
+          "H_num": 18,
+          "Gush": 7141,
+          "Helka": 93,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017074",
+          "OBJECTID": 77
+        },
+        "geometry": {
+          "x": 175904,
+          "y": 658868
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017074,
+          "Announcement_date": "14/07/2014",
+          "Status": "פ",
+          "St_code": 201,
+          "St_name": "שד העצמאות",
+          "H_num": 18,
+          "Gush": 7141,
+          "Helka": 93,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017074",
+          "OBJECTID": 78
+        },
+        "geometry": {
+          "x": 175925,
+          "y": 658870
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017072,
+          "Announcement_date": "07/02/2016",
+          "Status": "ל",
+          "St_code": 201,
+          "St_name": "שד העצמאות",
+          "H_num": 2,
+          "Gush": 7142,
+          "Helka": 197,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017072",
+          "OBJECTID": 79
+        },
+        "geometry": {
+          "x": 175562,
+          "y": 658820
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202100293,
+          "Announcement_date": "21/11/2021",
+          "Status": "פ",
+          "St_code": 201,
+          "St_name": "שד העצמאות",
+          "H_num": 22,
+          "Gush": 7141,
+          "Helka": 14,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202100293",
+          "OBJECTID": 80
+        },
+        "geometry": {
+          "x": 175980,
+          "y": 658877
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017072,
+          "Announcement_date": "07/02/2016",
+          "Status": "ל",
+          "St_code": 201,
+          "St_name": "שד העצמאות",
+          "H_num": 2,
+          "Gush": 7142,
+          "Helka": 197,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017072",
+          "OBJECTID": 81
+        },
+        "geometry": {
+          "x": 175550,
+          "y": 658778
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017090,
+          "Announcement_date": "21/12/2011",
+          "Status": "פ",
+          "St_code": 201,
+          "St_name": "שד העצמאות",
+          "H_num": 33,
+          "Gush": 7148,
+          "Helka": 175,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017090",
+          "OBJECTID": 82
+        },
+        "geometry": {
+          "x": 176145,
+          "y": 658980
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017090,
+          "Announcement_date": "21/12/2011",
+          "Status": "פ",
+          "St_code": 201,
+          "St_name": "שד העצמאות",
+          "H_num": 33,
+          "Gush": 7148,
+          "Helka": 175,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017090",
+          "OBJECTID": 83
+        },
+        "geometry": {
+          "x": 176142,
+          "y": 659002
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017090,
+          "Announcement_date": "21/12/2011",
+          "Status": "פ",
+          "St_code": 201,
+          "St_name": "שד העצמאות",
+          "H_num": 33,
+          "Gush": 7148,
+          "Helka": 175,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017090",
+          "OBJECTID": 84
+        },
+        "geometry": {
+          "x": 176150,
+          "y": 658964
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 201800064,
+          "Announcement_date": "25/01/2018",
+          "Status": "פ",
+          "St_code": 201,
+          "St_name": "שד העצמאות",
+          "H_num": 54,
+          "Gush": 7149,
+          "Helka": 117,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=201800064",
+          "OBJECTID": 85
+        },
+        "geometry": {
+          "x": 176373,
+          "y": 659271
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202500137,
+          "Announcement_date": "10/07/2025",
+          "Status": "פ",
+          "St_code": 201,
+          "St_name": "שד העצמאות",
+          "H_num": 58,
+          "Gush": 7149,
+          "Helka": 83,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202500137",
+          "OBJECTID": 86
+        },
+        "geometry": {
+          "x": 176397,
+          "y": 659362
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202500136,
+          "Announcement_date": "10/07/2025",
+          "Status": "פ",
+          "St_code": 201,
+          "St_name": "שד העצמאות",
+          "H_num": 58,
+          "Gush": 7149,
+          "Helka": 83,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202500136",
+          "OBJECTID": 87
+        },
+        "geometry": {
+          "x": 176397,
+          "y": 659362
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202300101,
+          "Announcement_date": "16/05/2023",
+          "Status": "פ",
+          "St_code": 201,
+          "St_name": "שד העצמאות",
+          "H_num": 6,
+          "Gush": 7142,
+          "Helka": 195,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202300101",
+          "OBJECTID": 88
+        },
+        "geometry": {
+          "x": 175631,
+          "y": 658831
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017491,
+          "Announcement_date": "14/06/2016",
+          "Status": "פ",
+          "St_code": 201,
+          "St_name": "שד העצמאות",
+          "H_num": 62,
+          "Gush": 7153,
+          "Helka": 178,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017491",
+          "OBJECTID": 89
+        },
+        "geometry": {
+          "x": 176438,
+          "y": 659482
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017797,
+          "Announcement_date": "15/08/2017",
+          "Status": "פ",
+          "St_code": 201,
+          "St_name": "שד העצמאות",
+          "H_num": 67,
+          "Gush": 7147,
+          "Helka": 115,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017797",
+          "OBJECTID": 90
+        },
+        "geometry": {
+          "x": 176346,
+          "y": 659474
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 201900062,
+          "Announcement_date": "07/03/2019",
+          "Status": "פ",
+          "St_code": 201,
+          "St_name": "שד העצמאות",
+          "H_num": 67,
+          "Gush": 0,
+          "Helka": 0,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=201900062",
+          "OBJECTID": 91
+        },
+        "geometry": {
+          "x": 176346,
+          "y": 659474
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 201800601,
+          "Announcement_date": "03/01/2019",
+          "Status": "פ",
+          "St_code": 321,
+          "St_name": "הפטמן",
+          "H_num": 2,
+          "Gush": 7130,
+          "Helka": 255,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=201800601",
+          "OBJECTID": 92
+        },
+        "geometry": {
+          "x": 176181,
+          "y": 658309
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2016481,
+          "Announcement_date": "29/02/2016",
+          "Status": "פ",
+          "St_code": 321,
+          "St_name": "הפטמן",
+          "H_num": 2,
+          "Gush": 7130,
+          "Helka": 255,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2016481",
+          "OBJECTID": 93
+        },
+        "geometry": {
+          "x": 176181,
+          "y": 658309
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2016446,
+          "Announcement_date": "23/06/2016",
+          "Status": "פ",
+          "St_code": 114,
+          "St_name": "הפלמ\"ח",
+          "H_num": 19,
+          "Gush": 6998,
+          "Helka": 194,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2016446",
+          "OBJECTID": 94
+        },
+        "geometry": {
+          "x": 177103,
+          "y": 659645
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202600301,
+          "Announcement_date": "24/08/2026",
+          "Status": "פ",
+          "St_code": 114,
+          "St_name": "הפלמ\"ח",
+          "H_num": 30,
+          "Gush": 6998,
+          "Helka": 127,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202600301",
+          "OBJECTID": 95
+        },
+        "geometry": {
+          "x": 177266,
+          "y": 659674
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017854,
+          "Announcement_date": "28/08/2017",
+          "Status": "פ",
+          "St_code": 320,
+          "St_name": "הצפירה",
+          "H_num": 4,
+          "Gush": 7142,
+          "Helka": 138,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017854",
+          "OBJECTID": 96
+        },
+        "geometry": {
+          "x": 175682,
+          "y": 658596
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202000429,
+          "Announcement_date": "18/10/2020",
+          "Status": "פ",
+          "St_code": 320,
+          "St_name": "הצפירה",
+          "H_num": 4,
+          "Gush": 7142,
+          "Helka": 138,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202000429",
+          "OBJECTID": 97
+        },
+        "geometry": {
+          "x": 175682,
+          "y": 658596
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202600199,
+          "Announcement_date": "19/04/2026",
+          "Status": "פ",
+          "St_code": 311,
+          "St_name": "הקוממיות",
+          "H_num": 14,
+          "Gush": 7121,
+          "Helka": 58,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202600199",
+          "OBJECTID": 98
+        },
+        "geometry": {
+          "x": 175729,
+          "y": 657115
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017070,
+          "Announcement_date": "30/05/2012",
+          "Status": "פ",
+          "St_code": 416,
+          "St_name": "הרצוג הרב",
+          "H_num": 11,
+          "Gush": 7150,
+          "Helka": 253,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017070",
+          "OBJECTID": 99
+        },
+        "geometry": {
+          "x": 176411,
+          "y": 659051
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017065,
+          "Announcement_date": "13/01/2014",
+          "Status": "פ",
+          "St_code": 416,
+          "St_name": "הרצוג הרב",
+          "H_num": 20,
+          "Gush": 7148,
+          "Helka": 194,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017065",
+          "OBJECTID": 100
+        },
+        "geometry": {
+          "x": 176377,
+          "y": 659035
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202000456,
+          "Announcement_date": "16/11/2020",
+          "Status": "פ",
+          "St_code": 416,
+          "St_name": "הרצוג הרב",
+          "H_num": 20,
+          "Gush": 7148,
+          "Helka": 194,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202000456",
+          "OBJECTID": 101
+        },
+        "geometry": {
+          "x": 176377,
+          "y": 659035
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017545,
+          "Announcement_date": "29/04/2015",
+          "Status": "פ",
+          "St_code": 416,
+          "St_name": "הרצוג הרב",
+          "H_num": 20,
+          "Gush": 7148,
+          "Helka": 194,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017545",
+          "OBJECTID": 102
+        },
+        "geometry": {
+          "x": 176377,
+          "y": 659035
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 201900018,
+          "Announcement_date": "20/01/2019",
+          "Status": "פ",
+          "St_code": 416,
+          "St_name": "הרצוג הרב",
+          "H_num": 34,
+          "Gush": 7150,
+          "Helka": 322,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=201900018",
+          "OBJECTID": 103
+        },
+        "geometry": {
+          "x": 176443,
+          "y": 658920
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 201800107,
+          "Announcement_date": "06/09/2012",
+          "Status": "פ",
+          "St_code": 416,
+          "St_name": "הרצוג הרב",
+          "H_num": 9,
+          "Gush": 7150,
+          "Helka": 392,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=201800107",
+          "OBJECTID": 104
+        },
+        "geometry": {
+          "x": 176428,
+          "y": 659108
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 201800107,
+          "Announcement_date": "06/09/2012",
+          "Status": "פ",
+          "St_code": 416,
+          "St_name": "הרצוג הרב",
+          "H_num": 9,
+          "Gush": 7150,
+          "Helka": 392,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=201800107",
+          "OBJECTID": 105
+        },
+        "geometry": {
+          "x": 176420,
+          "y": 659077
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017514,
+          "Announcement_date": "05/12/2011",
+          "Status": "פ",
+          "St_code": 508,
+          "St_name": "ניסנבוים יצחק",
+          "H_num": 28,
+          "Gush": 7123,
+          "Helka": 191,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017514",
+          "OBJECTID": 106
+        },
+        "geometry": {
+          "x": 176549,
+          "y": 657269
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017289,
+          "Announcement_date": "12/11/2012",
+          "Status": "פ",
+          "St_code": 508,
+          "St_name": "ניסנבוים יצחק",
+          "H_num": 38,
+          "Gush": 7124,
+          "Helka": 258,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017289",
+          "OBJECTID": 107
+        },
+        "geometry": {
+          "x": 176626,
+          "y": 657455
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017530,
+          "Announcement_date": "12/11/2012",
+          "Status": "פ",
+          "St_code": 508,
+          "St_name": "ניסנבוים יצחק",
+          "H_num": 38,
+          "Gush": 7124,
+          "Helka": 258,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017530",
+          "OBJECTID": 108
+        },
+        "geometry": {
+          "x": 176626,
+          "y": 657455
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 201800094,
+          "Announcement_date": "25/10/2012",
+          "Status": "פ",
+          "St_code": 508,
+          "St_name": "ניסנבוים יצחק",
+          "H_num": 42,
+          "Gush": 7124,
+          "Helka": 256,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=201800094",
+          "OBJECTID": 109
+        },
+        "geometry": {
+          "x": 176650,
+          "y": 657509
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017290,
+          "Announcement_date": "28/10/2012",
+          "Status": "פ",
+          "St_code": 508,
+          "St_name": "ניסנבוים יצחק",
+          "H_num": 42,
+          "Gush": 7124,
+          "Helka": 256,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017290",
+          "OBJECTID": 110
+        },
+        "geometry": {
+          "x": 176650,
+          "y": 657509
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202200013,
+          "Announcement_date": "08/04/2025",
+          "Status": "פ",
+          "St_code": 508,
+          "St_name": "ניסנבוים יצחק",
+          "H_num": 46,
+          "Gush": 7124,
+          "Helka": 255,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202200013",
+          "OBJECTID": 111
+        },
+        "geometry": {
+          "x": 176673,
+          "y": 657564
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017286,
+          "Announcement_date": "12/11/2012",
+          "Status": "פ",
+          "St_code": 508,
+          "St_name": "ניסנבוים יצחק",
+          "H_num": 48,
+          "Gush": 7124,
+          "Helka": 254,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017286",
+          "OBJECTID": 112
+        },
+        "geometry": {
+          "x": 176690,
+          "y": 657593
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017529,
+          "Announcement_date": "05/12/2013",
+          "Status": "פ",
+          "St_code": 508,
+          "St_name": "ניסנבוים יצחק",
+          "H_num": 48,
+          "Gush": 7124,
+          "Helka": 254,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017529",
+          "OBJECTID": 113
+        },
+        "geometry": {
+          "x": 176690,
+          "y": 657593
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017291,
+          "Announcement_date": "12/11/2012",
+          "Status": "פ",
+          "St_code": 508,
+          "St_name": "ניסנבוים יצחק",
+          "H_num": 50,
+          "Gush": 7124,
+          "Helka": 253,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017291",
+          "OBJECTID": 114
+        },
+        "geometry": {
+          "x": 176698,
+          "y": 657620
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017311,
+          "Announcement_date": "06/12/2011",
+          "Status": "פ",
+          "St_code": 414,
+          "St_name": "עוזיאל",
+          "H_num": 16,
+          "Gush": 7136,
+          "Helka": 205,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017311",
+          "OBJECTID": 115
+        },
+        "geometry": {
+          "x": 176363,
+          "y": 658878
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017684,
+          "Announcement_date": "26/03/2017",
+          "Status": "פ",
+          "St_code": 414,
+          "St_name": "עוזיאל",
+          "H_num": 22,
+          "Gush": 0,
+          "Helka": 0,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017684",
+          "OBJECTID": 116
+        },
+        "geometry": {
+          "x": 176408,
+          "y": 658851
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017111,
+          "Announcement_date": "01/05/2013",
+          "Status": "פ",
+          "St_code": 210,
+          "St_name": "הרצל",
+          "H_num": 28,
+          "Gush": 7145,
+          "Helka": 127,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017111",
+          "OBJECTID": 117
+        },
+        "geometry": {
+          "x": 175849,
+          "y": 659476
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202500072,
+          "Announcement_date": "22/05/2025",
+          "Status": "פ",
+          "St_code": 210,
+          "St_name": "הרצל",
+          "H_num": 43,
+          "Gush": 7144,
+          "Helka": 77,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202500072",
+          "OBJECTID": 118
+        },
+        "geometry": {
+          "x": 175903,
+          "y": 659114
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202000490,
+          "Announcement_date": "07/02/2023",
+          "Status": "פ",
+          "St_code": 210,
+          "St_name": "הרצל",
+          "H_num": 53,
+          "Gush": 7144,
+          "Helka": 52,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202000490",
+          "OBJECTID": 119
+        },
+        "geometry": {
+          "x": 175897,
+          "y": 658944
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202500009,
+          "Announcement_date": "26/01/2025",
+          "Status": "פ",
+          "St_code": 210,
+          "St_name": "הרצל",
+          "H_num": 57,
+          "Gush": 7141,
+          "Helka": 168,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202500009",
+          "OBJECTID": 120
+        },
+        "geometry": {
+          "x": 175906,
+          "y": 658804
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017501,
+          "Announcement_date": "26/01/2017",
+          "Status": "פ",
+          "St_code": 210,
+          "St_name": "הרצל",
+          "H_num": 75,
+          "Gush": 7141,
+          "Helka": 224,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017501",
+          "OBJECTID": 121
+        },
+        "geometry": {
+          "x": 176033,
+          "y": 658537
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017501,
+          "Announcement_date": "26/01/2017",
+          "Status": "פ",
+          "St_code": 210,
+          "St_name": "הרצל",
+          "H_num": 75,
+          "Gush": 7141,
+          "Helka": 224,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017501",
+          "OBJECTID": 122
+        },
+        "geometry": {
+          "x": 176054,
+          "y": 658538
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202400090,
+          "Announcement_date": "16/09/2024",
+          "Status": "פ",
+          "St_code": 106,
+          "St_name": "השלושה",
+          "H_num": 41,
+          "Gush": 7152,
+          "Helka": 385,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202400090",
+          "OBJECTID": 123
+        },
+        "geometry": {
+          "x": 177191,
+          "y": 659509
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202400090,
+          "Announcement_date": "16/09/2024",
+          "Status": "פ",
+          "St_code": 106,
+          "St_name": "השלושה",
+          "H_num": 41,
+          "Gush": 7152,
+          "Helka": 385,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202400090",
+          "OBJECTID": 124
+        },
+        "geometry": {
+          "x": 177219,
+          "y": 659508
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202200038,
+          "Announcement_date": "10/04/2022",
+          "Status": "פ",
+          "St_code": 308,
+          "St_name": "השקמה",
+          "H_num": 9,
+          "Gush": 7154,
+          "Helka": 161,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202200038",
+          "OBJECTID": 125
+        },
+        "geometry": {
+          "x": 176131,
+          "y": 658093
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 20191904,
+          "Announcement_date": "03/12/2019",
+          "Status": "פ",
+          "St_code": 308,
+          "St_name": "השקמה",
+          "H_num": 9,
+          "Gush": 7154,
+          "Helka": 161,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=20191904",
+          "OBJECTID": 126
+        },
+        "geometry": {
+          "x": 176131,
+          "y": 658093
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202000317,
+          "Announcement_date": "28/07/2020",
+          "Status": "פ",
+          "St_code": 446,
+          "St_name": "שפירא",
+          "H_num": 31,
+          "Gush": 7138,
+          "Helka": 299,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202000317",
+          "OBJECTID": 127
+        },
+        "geometry": {
+          "x": 175724,
+          "y": 657932
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 201800040,
+          "Announcement_date": "18/01/2018",
+          "Status": "ל",
+          "St_code": 501,
+          "St_name": "התחיה",
+          "H_num": 13,
+          "Gush": 7131,
+          "Helka": 80,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=201800040",
+          "OBJECTID": 128
+        },
+        "geometry": {
+          "x": 177379,
+          "y": 658933
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202600010,
+          "Announcement_date": "06/01/2026",
+          "Status": "פ",
+          "St_code": 117,
+          "St_name": "ויצמן",
+          "H_num": 17,
+          "Gush": 7153,
+          "Helka": 255,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202600010",
+          "OBJECTID": 129
+        },
+        "geometry": {
+          "x": 176575,
+          "y": 659629
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202600010,
+          "Announcement_date": "06/01/2026",
+          "Status": "פ",
+          "St_code": 117,
+          "St_name": "ויצמן",
+          "H_num": 17,
+          "Gush": 7153,
+          "Helka": 255,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202600010",
+          "OBJECTID": 130
+        },
+        "geometry": {
+          "x": 176549,
+          "y": 659647
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017164,
+          "Announcement_date": "05/10/2016",
+          "Status": "פ",
+          "St_code": 117,
+          "St_name": "ויצמן",
+          "H_num": 21,
+          "Gush": 7153,
+          "Helka": 262,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017164",
+          "OBJECTID": 131
+        },
+        "geometry": {
+          "x": 176607,
+          "y": 659660
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017164,
+          "Announcement_date": "05/10/2016",
+          "Status": "פ",
+          "St_code": 117,
+          "St_name": "ויצמן",
+          "H_num": 21,
+          "Gush": 7153,
+          "Helka": 262,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017164",
+          "OBJECTID": 132
+        },
+        "geometry": {
+          "x": 176587,
+          "y": 659686
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017535,
+          "Announcement_date": "09/03/2017",
+          "Status": "פ",
+          "St_code": 117,
+          "St_name": "ויצמן",
+          "H_num": 38,
+          "Gush": 0,
+          "Helka": 0,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017535",
+          "OBJECTID": 133
+        },
+        "geometry": {
+          "x": 176816,
+          "y": 659598
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017535,
+          "Announcement_date": "09/03/2017",
+          "Status": "פ",
+          "St_code": 117,
+          "St_name": "ויצמן",
+          "H_num": 38,
+          "Gush": 0,
+          "Helka": 0,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017535",
+          "OBJECTID": 134
+        },
+        "geometry": {
+          "x": 176817,
+          "y": 659575
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017535,
+          "Announcement_date": "09/03/2017",
+          "Status": "פ",
+          "St_code": 117,
+          "St_name": "ויצמן",
+          "H_num": 38,
+          "Gush": 0,
+          "Helka": 0,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017535",
+          "OBJECTID": 135
+        },
+        "geometry": {
+          "x": 176808,
+          "y": 659554
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202100292,
+          "Announcement_date": "21/11/2021",
+          "Status": "פ",
+          "St_code": 302,
+          "St_name": "ז'בוטינסקי",
+          "H_num": 9,
+          "Gush": 7142,
+          "Helka": 85,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202100292",
+          "OBJECTID": 136
+        },
+        "geometry": {
+          "x": 175696,
+          "y": 658773
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017402,
+          "Announcement_date": "23/06/2016",
+          "Status": "פ",
+          "St_code": 438,
+          "St_name": "חביבה רייך",
+          "H_num": 26,
+          "Gush": 7155,
+          "Helka": 215,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017402",
+          "OBJECTID": 137
+        },
+        "geometry": {
+          "x": 176869,
+          "y": 658416
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017547,
+          "Announcement_date": "24/02/2014",
+          "Status": "פ",
+          "St_code": 133,
+          "St_name": "חלמית",
+          "H_num": 11,
+          "Gush": 6997,
+          "Helka": 270,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017547",
+          "OBJECTID": 138
+        },
+        "geometry": {
+          "x": 177274,
+          "y": 659995
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017176,
+          "Announcement_date": "24/12/2014",
+          "Status": "פ",
+          "St_code": 133,
+          "St_name": "חלמית",
+          "H_num": 15,
+          "Gush": 6997,
+          "Helka": 271,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017176",
+          "OBJECTID": 139
+        },
+        "geometry": {
+          "x": 177324,
+          "y": 659997
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 201800068,
+          "Announcement_date": "01/02/2018",
+          "Status": "פ",
+          "St_code": 133,
+          "St_name": "חלמית",
+          "H_num": 9,
+          "Gush": 6997,
+          "Helka": 275,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=201800068",
+          "OBJECTID": 140
+        },
+        "geometry": {
+          "x": 177247,
+          "y": 660001
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 201800067,
+          "Announcement_date": "01/02/2018",
+          "Status": "פ",
+          "St_code": 133,
+          "St_name": "חלמית",
+          "H_num": 9,
+          "Gush": 6997,
+          "Helka": 275,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=201800067",
+          "OBJECTID": 141
+        },
+        "geometry": {
+          "x": 177247,
+          "y": 660001
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 201800066,
+          "Announcement_date": "01/02/2018",
+          "Status": "פ",
+          "St_code": 133,
+          "St_name": "חלמית",
+          "H_num": 9,
+          "Gush": 6997,
+          "Helka": 275,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=201800066",
+          "OBJECTID": 142
+        },
+        "geometry": {
+          "x": 177247,
+          "y": 660001
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 201800066,
+          "Announcement_date": "01/02/2018",
+          "Status": "פ",
+          "St_code": 133,
+          "St_name": "חלמית",
+          "H_num": 9,
+          "Gush": 6997,
+          "Helka": 275,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=201800066",
+          "OBJECTID": 143
+        },
+        "geometry": {
+          "x": 177241,
+          "y": 660022
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 201800067,
+          "Announcement_date": "01/02/2018",
+          "Status": "פ",
+          "St_code": 133,
+          "St_name": "חלמית",
+          "H_num": 9,
+          "Gush": 6997,
+          "Helka": 275,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=201800067",
+          "OBJECTID": 144
+        },
+        "geometry": {
+          "x": 177241,
+          "y": 660022
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 201800068,
+          "Announcement_date": "01/02/2018",
+          "Status": "פ",
+          "St_code": 133,
+          "St_name": "חלמית",
+          "H_num": 9,
+          "Gush": 6997,
+          "Helka": 275,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=201800068",
+          "OBJECTID": 145
+        },
+        "geometry": {
+          "x": 177241,
+          "y": 660022
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202400038,
+          "Announcement_date": "30/04/2024",
+          "Status": "פ",
+          "St_code": 310,
+          "St_name": "שד' יוספטל",
+          "H_num": 31,
+          "Gush": 7140,
+          "Helka": 284,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202400038",
+          "OBJECTID": 146
+        },
+        "geometry": {
+          "x": 176028,
+          "y": 658367
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017674,
+          "Announcement_date": "01/09/2016",
+          "Status": "פ",
+          "St_code": 312,
+          "St_name": "שדה יצחק",
+          "H_num": 33,
+          "Gush": 7154,
+          "Helka": 296,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017674",
+          "OBJECTID": 147
+        },
+        "geometry": {
+          "x": 175974,
+          "y": 657649
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017676,
+          "Announcement_date": "01/09/2016",
+          "Status": "פ",
+          "St_code": 312,
+          "St_name": "שדה יצחק",
+          "H_num": 33,
+          "Gush": 7154,
+          "Helka": 296,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017676",
+          "OBJECTID": 148
+        },
+        "geometry": {
+          "x": 175974,
+          "y": 657649
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017675,
+          "Announcement_date": "01/09/2016",
+          "Status": "פ",
+          "St_code": 312,
+          "St_name": "שדה יצחק",
+          "H_num": 33,
+          "Gush": 7154,
+          "Helka": 296,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017675",
+          "OBJECTID": 149
+        },
+        "geometry": {
+          "x": 175974,
+          "y": 657649
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017673,
+          "Announcement_date": "01/09/2016",
+          "Status": "פ",
+          "St_code": 312,
+          "St_name": "שדה יצחק",
+          "H_num": 33,
+          "Gush": 7154,
+          "Helka": 296,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017673",
+          "OBJECTID": 150
+        },
+        "geometry": {
+          "x": 175974,
+          "y": 657649
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202600001,
+          "Announcement_date": "01/01/2026",
+          "Status": "פ",
+          "St_code": 102,
+          "St_name": "ירושלים",
+          "H_num": 13,
+          "Gush": 7145,
+          "Helka": 68,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202600001",
+          "OBJECTID": 151
+        },
+        "geometry": {
+          "x": 175920,
+          "y": 659178
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202600002,
+          "Announcement_date": "01/01/2025",
+          "Status": "פ",
+          "St_code": 102,
+          "St_name": "ירושלים",
+          "H_num": 17,
+          "Gush": 7145,
+          "Helka": 135,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202600002",
+          "OBJECTID": 152
+        },
+        "geometry": {
+          "x": 175964,
+          "y": 659192
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017502,
+          "Announcement_date": "24/11/2015",
+          "Status": "פ",
+          "St_code": 102,
+          "St_name": "ירושלים",
+          "H_num": 2,
+          "Gush": 7143,
+          "Helka": 8,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017502",
+          "OBJECTID": 153
+        },
+        "geometry": {
+          "x": 175674,
+          "y": 659123
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202200032,
+          "Announcement_date": "07/03/2022",
+          "Status": "פ",
+          "St_code": 102,
+          "St_name": "ירושלים",
+          "H_num": 28,
+          "Gush": 7148,
+          "Helka": 54,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202200032",
+          "OBJECTID": 154
+        },
+        "geometry": {
+          "x": 176149,
+          "y": 659257
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202200062,
+          "Announcement_date": "07/06/2022",
+          "Status": "פ",
+          "St_code": 102,
+          "St_name": "ירושלים",
+          "H_num": 28,
+          "Gush": 7148,
+          "Helka": 54,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202200062",
+          "OBJECTID": 155
+        },
+        "geometry": {
+          "x": 176149,
+          "y": 659257
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202200062,
+          "Announcement_date": "07/06/2022",
+          "Status": "פ",
+          "St_code": 102,
+          "St_name": "ירושלים",
+          "H_num": 28,
+          "Gush": 7148,
+          "Helka": 54,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202200062",
+          "OBJECTID": 156
+        },
+        "geometry": {
+          "x": 176132,
+          "y": 659246
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202200032,
+          "Announcement_date": "07/03/2022",
+          "Status": "פ",
+          "St_code": 102,
+          "St_name": "ירושלים",
+          "H_num": 28,
+          "Gush": 7148,
+          "Helka": 54,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202200032",
+          "OBJECTID": 157
+        },
+        "geometry": {
+          "x": 176132,
+          "y": 659246
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017211,
+          "Announcement_date": "12/01/2017",
+          "Status": "פ",
+          "St_code": 102,
+          "St_name": "ירושלים",
+          "H_num": 40,
+          "Gush": 7149,
+          "Helka": 118,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017211",
+          "OBJECTID": 158
+        },
+        "geometry": {
+          "x": 176386,
+          "y": 659277
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017211,
+          "Announcement_date": "12/01/2017",
+          "Status": "פ",
+          "St_code": 102,
+          "St_name": "ירושלים",
+          "H_num": 40,
+          "Gush": 7149,
+          "Helka": 118,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017211",
+          "OBJECTID": 159
+        },
+        "geometry": {
+          "x": 176411,
+          "y": 659276
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202500134,
+          "Announcement_date": "10/07/2025",
+          "Status": "פ",
+          "St_code": 102,
+          "St_name": "ירושלים",
+          "H_num": 43,
+          "Gush": 7149,
+          "Helka": 99,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202500134",
+          "OBJECTID": 160
+        },
+        "geometry": {
+          "x": 176424,
+          "y": 659307
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202500111,
+          "Announcement_date": "29/06/2025",
+          "Status": "פ",
+          "St_code": 102,
+          "St_name": "ירושלים",
+          "H_num": 44,
+          "Gush": 7149,
+          "Helka": 129,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202500111",
+          "OBJECTID": 161
+        },
+        "geometry": {
+          "x": 176476,
+          "y": 659271
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202500109,
+          "Announcement_date": "29/06/2025",
+          "Status": "פ",
+          "St_code": 102,
+          "St_name": "ירושלים",
+          "H_num": 46,
+          "Gush": 7149,
+          "Helka": 130,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202500109",
+          "OBJECTID": 162
+        },
+        "geometry": {
+          "x": 176518,
+          "y": 659269
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202500133,
+          "Announcement_date": "10/07/2025",
+          "Status": "פ",
+          "St_code": 102,
+          "St_name": "ירושלים",
+          "H_num": 47,
+          "Gush": 7149,
+          "Helka": 201,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202500133",
+          "OBJECTID": 163
+        },
+        "geometry": {
+          "x": 176529,
+          "y": 659297
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202500110,
+          "Announcement_date": "29/06/2025",
+          "Status": "פ",
+          "St_code": 102,
+          "St_name": "ירושלים",
+          "H_num": 50,
+          "Gush": 7149,
+          "Helka": 133,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202500110",
+          "OBJECTID": 164
+        },
+        "geometry": {
+          "x": 176598,
+          "y": 659262
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017214,
+          "Announcement_date": "24/11/2015",
+          "Status": "פ",
+          "St_code": 102,
+          "St_name": "ירושלים",
+          "H_num": 69,
+          "Gush": 7152,
+          "Helka": 64,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017214",
+          "OBJECTID": 165
+        },
+        "geometry": {
+          "x": 176828,
+          "y": 659289
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017208,
+          "Announcement_date": "03/01/2017",
+          "Status": "פ",
+          "St_code": 102,
+          "St_name": "ירושלים",
+          "H_num": 70,
+          "Gush": 7151,
+          "Helka": 175,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017208",
+          "OBJECTID": 166
+        },
+        "geometry": {
+          "x": 176863,
+          "y": 659256
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017218,
+          "Announcement_date": "08/07/2001",
+          "Status": "פ",
+          "St_code": 102,
+          "St_name": "ירושלים",
+          "H_num": 75,
+          "Gush": 7152,
+          "Helka": 73,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017218",
+          "OBJECTID": 167
+        },
+        "geometry": {
+          "x": 176881,
+          "y": 659289
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017951,
+          "Announcement_date": "05/11/2017",
+          "Status": "פ",
+          "St_code": 102,
+          "St_name": "ירושלים",
+          "H_num": 79,
+          "Gush": 7151,
+          "Helka": 320,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017951",
+          "OBJECTID": 168
+        },
+        "geometry": {
+          "x": 176944,
+          "y": 659278
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017951,
+          "Announcement_date": "05/11/2017",
+          "Status": "פ",
+          "St_code": 102,
+          "St_name": "ירושלים",
+          "H_num": 79,
+          "Gush": 7151,
+          "Helka": 320,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017951",
+          "OBJECTID": 169
+        },
+        "geometry": {
+          "x": 177009,
+          "y": 659281
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 201800328,
+          "Announcement_date": "01/05/2017",
+          "Status": "פ",
+          "St_code": 604,
+          "St_name": "המסגר",
+          "H_num": 8,
+          "Gush": 7123,
+          "Helka": 83,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=201800328",
+          "OBJECTID": 170
+        },
+        "geometry": {
+          "x": 176337,
+          "y": 657512
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017397,
+          "Announcement_date": "03/12/2019",
+          "Status": "ל",
+          "St_code": 521,
+          "St_name": "כ\"ט בנובמבר",
+          "H_num": 22,
+          "Gush": 7124,
+          "Helka": 89,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017397",
+          "OBJECTID": 171
+        },
+        "geometry": {
+          "x": 176951,
+          "y": 657471
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 201800121,
+          "Announcement_date": "18/02/2018",
+          "Status": "פ",
+          "St_code": 433,
+          "St_name": "כנרת",
+          "H_num": 6,
+          "Gush": 7151,
+          "Helka": 255,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=201800121",
+          "OBJECTID": 172
+        },
+        "geometry": {
+          "x": 176878,
+          "y": 659035
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017231,
+          "Announcement_date": "12/11/2015",
+          "Status": "פ",
+          "St_code": 401,
+          "St_name": "כצנלסון",
+          "H_num": 55,
+          "Gush": 7156,
+          "Helka": 108,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017231",
+          "OBJECTID": 173
+        },
+        "geometry": {
+          "x": 176967,
+          "y": 658372
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202200094,
+          "Announcement_date": "13/11/2022",
+          "Status": "פ",
+          "St_code": 415,
+          "St_name": "ליואי אברהם",
+          "H_num": 4,
+          "Gush": 7150,
+          "Helka": 316,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202200094",
+          "OBJECTID": 174
+        },
+        "geometry": {
+          "x": 176338,
+          "y": 658990
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017274,
+          "Announcement_date": "13/02/2014",
+          "Status": "פ",
+          "St_code": 503,
+          "St_name": "מבצע סיני",
+          "H_num": 10,
+          "Gush": 7131,
+          "Helka": 108,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017274",
+          "OBJECTID": 175
+        },
+        "geometry": {
+          "x": 177106,
+          "y": 658811
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202000151,
+          "Announcement_date": "20/01/2021",
+          "Status": "פ",
+          "St_code": 503,
+          "St_name": "מבצע סיני",
+          "H_num": 18,
+          "Gush": 7131,
+          "Helka": 15,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202000151",
+          "OBJECTID": 176
+        },
+        "geometry": {
+          "x": 177261,
+          "y": 658687
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202200033,
+          "Announcement_date": "07/03/2022",
+          "Status": "פ",
+          "St_code": 503,
+          "St_name": "מבצע סיני",
+          "H_num": 8,
+          "Gush": 7131,
+          "Helka": 107,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202200033",
+          "OBJECTID": 177
+        },
+        "geometry": {
+          "x": 177071,
+          "y": 658814
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017275,
+          "Announcement_date": "13/02/2014",
+          "Status": "פ",
+          "St_code": 503,
+          "St_name": "מבצע סיני",
+          "H_num": 8,
+          "Gush": 7131,
+          "Helka": 107,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017275",
+          "OBJECTID": 178
+        },
+        "geometry": {
+          "x": 177071,
+          "y": 658814
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 201900158,
+          "Announcement_date": "26/05/2019",
+          "Status": "פ",
+          "St_code": 216,
+          "St_name": "מסריק",
+          "H_num": 20,
+          "Gush": 7142,
+          "Helka": 61,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=201900158",
+          "OBJECTID": 179
+        },
+        "geometry": {
+          "x": 175660,
+          "y": 658794
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2016478,
+          "Announcement_date": "25/02/2016",
+          "Status": "פ",
+          "St_code": 216,
+          "St_name": "מסריק",
+          "H_num": 9,
+          "Gush": 7143,
+          "Helka": 53,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2016478",
+          "OBJECTID": 180
+        },
+        "geometry": {
+          "x": 175702,
+          "y": 658991
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2016478,
+          "Announcement_date": "25/02/2016",
+          "Status": "פ",
+          "St_code": 216,
+          "St_name": "מסריק",
+          "H_num": 9,
+          "Gush": 7143,
+          "Helka": 53,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2016478",
+          "OBJECTID": 181
+        },
+        "geometry": {
+          "x": 175724,
+          "y": 658988
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017269,
+          "Announcement_date": "06/10/2011",
+          "Status": "פ",
+          "St_code": 675,
+          "St_name": "מצודת בית\"ר",
+          "H_num": 8,
+          "Gush": 7129,
+          "Helka": 102,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017269",
+          "OBJECTID": 182
+        },
+        "geometry": {
+          "x": 176560,
+          "y": 657879
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 201900422,
+          "Announcement_date": "18/12/2019",
+          "Status": "פ",
+          "St_code": 121,
+          "St_name": "נגבה",
+          "H_num": 9,
+          "Gush": 7153,
+          "Helka": 299,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=201900422",
+          "OBJECTID": 183
+        },
+        "geometry": {
+          "x": 176654,
+          "y": 659551
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202300063,
+          "Announcement_date": "06/11/2025",
+          "Status": "פ",
+          "St_code": 443,
+          "St_name": "נורדאו מקס",
+          "H_num": 6,
+          "Gush": 7138,
+          "Helka": 168,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202300063",
+          "OBJECTID": 184
+        },
+        "geometry": {
+          "x": 175493,
+          "y": 658122
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2016430,
+          "Announcement_date": "10/09/2013",
+          "Status": "פ",
+          "St_code": 215,
+          "St_name": "סוקולוב",
+          "H_num": 24,
+          "Gush": 7143,
+          "Helka": 28,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2016430",
+          "OBJECTID": 185
+        },
+        "geometry": {
+          "x": 175783,
+          "y": 658973
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017469,
+          "Announcement_date": "10/10/2016",
+          "Status": "פ",
+          "St_code": 215,
+          "St_name": "סוקולוב",
+          "H_num": 4,
+          "Gush": 7145,
+          "Helka": 118,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017469",
+          "OBJECTID": 186
+        },
+        "geometry": {
+          "x": 175753,
+          "y": 659293
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2016412,
+          "Announcement_date": "26/06/2016",
+          "Status": "פ",
+          "St_code": 655,
+          "St_name": "שי עגנון",
+          "H_num": 50,
+          "Gush": 7138,
+          "Helka": 204,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2016412",
+          "OBJECTID": 187
+        },
+        "geometry": {
+          "x": 175555,
+          "y": 657862
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017488,
+          "Announcement_date": "01/01/2011",
+          "Status": "פ",
+          "St_code": 655,
+          "St_name": "שי עגנון",
+          "H_num": 58,
+          "Gush": 7138,
+          "Helka": 368,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017488",
+          "OBJECTID": 188
+        },
+        "geometry": {
+          "x": 175544,
+          "y": 657754
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2016728,
+          "Announcement_date": "12/12/2011",
+          "Status": "פ",
+          "St_code": 553,
+          "St_name": "גנרל קינג פייר",
+          "H_num": 5,
+          "Gush": 7123,
+          "Helka": 151,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2016728",
+          "OBJECTID": 189
+        },
+        "geometry": {
+          "x": 176082,
+          "y": 657454
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017394,
+          "Announcement_date": "22/11/2015",
+          "Status": "פ",
+          "St_code": 213,
+          "St_name": "קדושי קהיר",
+          "H_num": 4,
+          "Gush": 7148,
+          "Helka": 211,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017394",
+          "OBJECTID": 190
+        },
+        "geometry": {
+          "x": 176232,
+          "y": 659077
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2016462,
+          "Announcement_date": "03/02/2016",
+          "Status": "פ",
+          "St_code": 418,
+          "St_name": "קלויזנר",
+          "H_num": 6,
+          "Gush": 7150,
+          "Helka": 346,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2016462",
+          "OBJECTID": 191
+        },
+        "geometry": {
+          "x": 176611,
+          "y": 658997
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202100267,
+          "Announcement_date": "16/01/2022",
+          "Status": "פ",
+          "St_code": 101,
+          "St_name": "קרן קימת לישראל",
+          "H_num": 9,
+          "Gush": 7151,
+          "Helka": 25,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202100267",
+          "OBJECTID": 192
+        },
+        "geometry": {
+          "x": 177113,
+          "y": 659035
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202100267,
+          "Announcement_date": "16/01/2022",
+          "Status": "פ",
+          "St_code": 101,
+          "St_name": "קרן קימת לישראל",
+          "H_num": 9,
+          "Gush": 7151,
+          "Helka": 25,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202100267",
+          "OBJECTID": 193
+        },
+        "geometry": {
+          "x": 177112,
+          "y": 659052
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202100267,
+          "Announcement_date": "16/01/2022",
+          "Status": "פ",
+          "St_code": 101,
+          "St_name": "קרן קימת לישראל",
+          "H_num": 9,
+          "Gush": 7151,
+          "Helka": 25,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202100267",
+          "OBJECTID": 194
+        },
+        "geometry": {
+          "x": 177110,
+          "y": 659069
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017032,
+          "Announcement_date": "23/11/2015",
+          "Status": "פ",
+          "St_code": 220,
+          "St_name": "רוטשילד",
+          "H_num": 22,
+          "Gush": 7148,
+          "Helka": 177,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017032",
+          "OBJECTID": 195
+        },
+        "geometry": {
+          "x": 176138,
+          "y": 659366
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017032,
+          "Announcement_date": "23/11/2015",
+          "Status": "פ",
+          "St_code": 220,
+          "St_name": "רוטשילד",
+          "H_num": 22,
+          "Gush": 7148,
+          "Helka": 177,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017032",
+          "OBJECTID": 196
+        },
+        "geometry": {
+          "x": 176145,
+          "y": 659339
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202500107,
+          "Announcement_date": "29/06/2025",
+          "Status": "פ",
+          "St_code": 220,
+          "St_name": "רוטשילד",
+          "H_num": 37,
+          "Gush": 7153,
+          "Helka": 141,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202500107",
+          "OBJECTID": 197
+        },
+        "geometry": {
+          "x": 176458,
+          "y": 659452
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202500108,
+          "Announcement_date": "29/06/2025",
+          "Status": "פ",
+          "St_code": 220,
+          "St_name": "רוטשילד",
+          "H_num": 39,
+          "Gush": 7153,
+          "Helka": 242,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202500108",
+          "OBJECTID": 198
+        },
+        "geometry": {
+          "x": 176504,
+          "y": 659449
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202500221,
+          "Announcement_date": "08/09/2025",
+          "Status": "פ",
+          "St_code": 124,
+          "St_name": "בן יוסף שלמה",
+          "H_num": 2,
+          "Gush": 7149,
+          "Helka": 187,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202500221",
+          "OBJECTID": 199
+        },
+        "geometry": {
+          "x": 176480,
+          "y": 659405
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202500214,
+          "Announcement_date": "08/09/2025",
+          "Status": "פ",
+          "St_code": 124,
+          "St_name": "בן יוסף שלמה",
+          "H_num": 4,
+          "Gush": 7149,
+          "Helka": 189,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202500214",
+          "OBJECTID": 200
+        },
+        "geometry": {
+          "x": 176465,
+          "y": 659379
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202500211,
+          "Announcement_date": "08/07/2025",
+          "Status": "פ",
+          "St_code": 124,
+          "St_name": "בן יוסף שלמה",
+          "H_num": 5,
+          "Gush": 7149,
+          "Helka": 193,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202500211",
+          "OBJECTID": 201
+        },
+        "geometry": {
+          "x": 176499,
+          "y": 659373
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202500220,
+          "Announcement_date": "08/09/2025",
+          "Status": "פ",
+          "St_code": 124,
+          "St_name": "בן יוסף שלמה",
+          "H_num": 5,
+          "Gush": 7149,
+          "Helka": 193,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202500220",
+          "OBJECTID": 202
+        },
+        "geometry": {
+          "x": 176499,
+          "y": 659373
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202500212,
+          "Announcement_date": "08/07/2025",
+          "Status": "פ",
+          "St_code": 124,
+          "St_name": "בן יוסף שלמה",
+          "H_num": 6,
+          "Gush": 7149,
+          "Helka": 190,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202500212",
+          "OBJECTID": 203
+        },
+        "geometry": {
+          "x": 176459,
+          "y": 659343
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 202500215,
+          "Announcement_date": "08/07/2025",
+          "Status": "פ",
+          "St_code": 124,
+          "St_name": "בן יוסף שלמה",
+          "H_num": 8,
+          "Gush": 7149,
+          "Helka": 191,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=202500215",
+          "OBJECTID": 204
+        },
+        "geometry": {
+          "x": 176448,
+          "y": 659308
+        }
+      },
+      {
+        "attributes": {
+          "Tik_Pikuch": 2017666,
+          "Announcement_date": "14/05/2017",
+          "Status": "פ",
+          "St_code": 545,
+          "St_name": "תל חי",
+          "H_num": 9,
+          "Gush": 7128,
+          "Helka": 259,
+          "End_date": "",
+          "LinkToTik": "https://handasi.complot.co.il/handasi2016/redirects/prf.htm?sid=81&p=2017666",
+          "OBJECTID": 205
+        },
+        "geometry": {
+          "x": 177603,
+          "y": 657968
+        }
+      }
+    ]
+  }
+}
