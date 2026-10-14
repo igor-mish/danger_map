@@ -98,6 +98,11 @@ def main():
             previous=holon_positions.get((record['category'],record['address'],record.get('block'),record.get('parcel')),{}) if record['city']=='חולון' else old.get(record['id'],{})
             if record['city']!='בת ים' and previous.get('address')==record['address']:
                 record.update({k:v for k,v in previous.items() if k in ('lat','lng') or k.startswith('geocode_')})
+    parcel_source=ROOT/'public/sources/holon-parcel-locations.json'
+    for location in json.loads(parcel_source.read_text())['locations']:
+        for record in records:
+            if (record['city'],record['address'],str(record.get('block')),str(record.get('parcel')))==(location['city'],location['address'],location['block'],location['parcel']):
+                record.update(lat=location['lat'],lng=location['lng'],location_precision='parcel',location_source_url=location['source_url'],geocode_label='מיקום החלקה לפי GovMap · אינו מיקום מדויק של המבנה או הכניסה')
     payload={'records':records,'sources':[
         {'city':'תל אביב','file':'tel-aviv.pdf','date':ta_records[0]['source_date'],'sha256':hashlib.sha256(ta.read_bytes()).hexdigest()},
         {'city':'חולון','file':'holon.pdf','date':ho_records[0]['source_date'],'sha256':hashlib.sha256(ho.read_bytes()).hexdigest()},

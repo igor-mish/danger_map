@@ -4,3 +4,5 @@
 .secondary{background:#eff4ef;color:#245347;border:1px solid #d7e2d9}button:disabled{opacity:.45;cursor:default}#placement:not([hidden]){position:absolute;z-index:600;top:80px;right:22px;width:300px;max-width:calc(100% - 44px);background:#fff;padding:18px;border-radius:12px;box-shadow:0 3px 20px #24453430;font-size:13px}#placement p{font-size:12px}#placement button{margin-left:10px}
 
 .record-details{display:grid;grid-template-columns:minmax(95px,1fr) minmax(0,1.5fr);gap:5px 12px;font-size:12px;line-height:1.5;margin:12px 0}.record-details dt{color:#718582}.record-details dd{margin:0;overflow-wrap:anywhere}.case-link{display:block;font-weight:600;margin:10px 0}.leaflet-popup-content .record-details{font-size:12px}#coverage{margin-top:16px;line-height:1.65}
+
+.parcel-marker span{background:#4b7fac;border-style:dashed}.parcel-dot{background:#4b7fac;margin-right:14px}

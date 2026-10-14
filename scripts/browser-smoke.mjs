@@ -41,7 +41,11 @@ try {
  await page.locator('#search').fill('');
  await page.locator('#city').selectOption('חולון');
  assert.equal(await page.locator('.card').count(),70);
- assert.equal(await page.locator('#mapped').innerText(),'13');assert.match(await page.locator('#coverage').innerText(),/57 ללא מיקום/);
+ assert.equal(await page.locator('#mapped').innerText(),'14');assert.match(await page.locator('#coverage').innerText(),/56 ללא מיקום/);
+ await page.locator('#search').fill('וולפסון 26');assert.equal(await page.locator('.parcel-marker').count(),1);
+ await page.locator('.card').getByRole('button',{name:'הצגה במפה'}).click();await page.locator('.leaflet-popup').waitFor();
+ assert.match(await page.locator('.leaflet-popup').innerText(),/אינו מיקום מדויק/);assert.match(await page.locator('.leaflet-popup').getByRole('link',{name:'הצגת החלקה ב־GovMap'}).getAttribute('href'),/^https:\/\/www\.govmap\.gov\.il\//);
+ await page.locator('#search').fill('');
  await page.locator('#pal-kal').check();assert.equal(await page.locator('.card').count(),87);
  await page.locator('#search').fill('וולפסון');assert.equal(await page.locator('.card').count(),2);
  await page.locator('summary').click();
