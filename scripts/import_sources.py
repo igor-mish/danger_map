@@ -9,6 +9,7 @@ import tempfile
 import xml.etree.ElementTree as ET
 from bidi.algorithm import get_display
 from bat_yam import bat_yam
+from tel_aviv_gis import enrich_tel_aviv
 
 ROOT = Path(__file__).resolve().parents[1]
 CASE = re.compile(r'03-\d{4}-\d{4}')
@@ -98,6 +99,8 @@ def main():
             previous=holon_positions.get((record['category'],record['address'],record.get('block'),record.get('parcel')),{}) if record['city']=='חולון' else old.get(record['id'],{})
             if record['city']!='בת ים' and previous.get('address')==record['address']:
                 record.update({k:v for k,v in previous.items() if k in ('lat','lng') or k.startswith('geocode_')})
+    ta_gis_source=ROOT/'public/sources/tel-aviv-gis.json'
+    ta_gis_stats=enrich_tel_aviv(records,json.loads(ta_gis_source.read_text()))
     parcel_source=ROOT/'public/sources/holon-parcel-locations.json'
     for location in json.loads(parcel_source.read_text())['locations']:
         for record in records:
@@ -107,7 +110,7 @@ def main():
         {'city':'תל אביב','file':'tel-aviv.pdf','date':ta_records[0]['source_date'],'sha256':hashlib.sha256(ta.read_bytes()).hexdigest()},
         {'city':'חולון','file':'holon.pdf','date':ho_records[0]['source_date'],'sha256':hashlib.sha256(ho.read_bytes()).hexdigest()},
         {'city':'בת ים','file':'bat-yam.json','date':by_records[0]['source_date'],'date_kind':'snapshot','sha256':hashlib.sha256(by_source.read_bytes()).hexdigest()}],
-        'audit':{'bat_yam_rows':len(by_records),'bat_yam_status_counts':{code:sum(r['status_code']==code for r in by_records) for code in sorted({r['status_code'] for r in by_records})},'tel_aviv_rows':len(ta_records),'holon_dangerous_rows':sum(r['city']=='חולון' and r['category']=='dangerous' for r in records),
+        'audit':{'tel_aviv_gis':ta_gis_stats,'bat_yam_rows':len(by_records),'bat_yam_status_counts':{code:sum(r['status_code']==code for r in by_records) for code in sorted({r['status_code'] for r in by_records})},'tel_aviv_rows':len(ta_records),'holon_dangerous_rows':sum(r['city']=='חולון' and r['category']=='dangerous' for r in records),
         'holon_pal_kal_rows':sum(r['category']=='pal-kal' for r in records),
         'missing_addresses':sum(r.get('address_missing',False) for r in records),
         'notes':['חולון: הרשימה מתוארכת ל־15.7.2026 וכוללת 70 רשומות מבנים מסוכנים.', 'תל אביב: כמה תיקים עשויים להתייחס לאותה כתובת. ספירת הרשומות היא ספירת תיקים, לא מספר מבנים ייחודיים.']}}

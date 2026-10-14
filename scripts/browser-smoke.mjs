@@ -3,9 +3,9 @@ import { existsSync } from 'node:fs';
 import { chromium, request } from 'playwright';
 
 const browser=await chromium.launch({headless:true,executablePath:process.env.CHROMIUM_PATH||(existsSync('/usr/bin/chromium')?'/usr/bin/chromium':undefined),args:['--no-sandbox']});
-let verifiedNetwork;
+let verifiedNetwork,page;
 try {
- const page=await browser.newPage({viewport:{width:1440,height:900}});
+ page=await browser.newPage({viewport:{width:1440,height:900}});
  // Forward real map/font responses through the platform-trusted Node HTTPS client.
  // This adapts cloud proxy trust for testing; never disable certificate verification.
  if(process.env.HTTPS_PROXY){
@@ -14,12 +14,12 @@ try {
    const origin=new URL(process.env.APP_URL).origin;
    await page.route(`${origin}/**`,async route=>{
     const response=await verifiedNetwork.get(route.request().url(),{headers:await route.request().allHeaders()});
-    assert.equal(response.status(),200);await route.fulfill({response});
+    assert.equal(response.status(),200);try{await route.fulfill({response});}catch(e){if(!e.message.includes('Route is already handled'))throw e;}
    });
   }
   await page.route(/^https:\/\/(?:[abc]\.tile\.openstreetmap\.org|fonts\.googleapis\.com|fonts\.gstatic\.com)\//,async route=>{
    const response=await verifiedNetwork.get(route.request().url(),{headers:await route.request().allHeaders()});
-   assert.equal(response.status(),200);assert.equal(response.headers()['x-blocked'],undefined);await route.fulfill({response});
+   assert.equal(response.status(),200);assert.equal(response.headers()['x-blocked'],undefined);try{await route.fulfill({response});}catch(e){if(!e.message.includes('Route is already handled'))throw e;}
   });
  }
  const errors=[];page.on('pageerror',e=>errors.push(e.message));
@@ -38,6 +38,8 @@ try {
  assert.equal(await page.locator('.card').count(),1);await page.locator('.card').getByRole('button',{name:'הצגה במפה'}).click();
  await page.locator('.leaflet-popup').waitFor();const details=await page.locator('.leaflet-popup').innerText();
  assert.match(details,/מאוכלס/);assert.match(details,/המתנה לאישורי מסירה/);assert.match(details,/06\/09\/2026/);assert.match(details,/26\/08\/2026/);assert.match(details,/15\/09\/2026/);
+ const gisDetails=page.locator('.leaflet-popup .gis-details');await gisDetails.getByRole('heading',{name:'ממצאים ותיאור צו'}).waitFor();assert.match(await gisDetails.innerText(),/התאמה לפי כתובת/);assert.match(await gisDetails.innerText(),/11\/10\/2026/);
+ await page.locator('#search').fill('אהרונסון, רחוב 28');assert.equal(await page.locator('.card').count(),1);assert.equal(await page.locator('.building-marker').count(),1);await page.locator('.card').getByRole('button',{name:'הצגה במפה'}).click();await page.locator('.leaflet-popup').waitFor();assert.match(await page.locator('.leaflet-popup').innerText(),/מיקום מה־GIS העירוני/);
  await page.locator('#search').fill('');
  await page.locator('#city').selectOption('חולון');
  assert.equal(await page.locator('.card').count(),70);
@@ -72,4 +74,4 @@ try {
  assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
  assert.deepEqual(errors,[]);
  console.log('PASS: real records, city/search/category filters, CSV import, marker/popup, manual location confirmation/cancel/storage, export, invalid CSV preservation, reload, real map tiles, mobile width; no JS errors.');
-} finally {await verifiedNetwork?.dispose();await browser.close();}
+} catch(error) {console.error(error);throw error;} finally {await page?.unrouteAll({behavior:'ignoreErrors'});await browser.close();await verifiedNetwork?.dispose();}

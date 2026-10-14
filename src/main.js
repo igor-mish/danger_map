@@ -25,6 +25,13 @@ function locationLink(record){
  if(record.location_precision!=='parcel'||!record.location_source_url)return null;
  try{const url=new URL(record.location_source_url);if(url.protocol!=='https:'||url.hostname!=='www.govmap.gov.il')return null;const a=el('a','הצגת החלקה ב־GovMap');a.href=url.href;a.target='_blank';a.rel='noopener noreferrer';return a;}catch{return null;}
 }
+function gisDetails(record){
+ if(!record.gis_address_records?.length)return null;
+ const details=el('section','','gis-details');details.append(el('h4','ממצאים ותיאור צו'));
+ details.append(el('p','מקור: GIS עירוני · התאמה לפי כתובת. פרטי התיק והאכלוס להלן מגיעים מה־PDF.'));
+ for(const info of record.gis_address_records){const section=el('section');section.append(el('strong',info.order_description));if(info.findings)section.append(el('p',info.findings));if(info.location_description)section.append(el('p',info.location_description));section.append(el('small',`מזהה GIS: ${info.unique_id} · טעינה לשכבה: ${info.imported_at||'לא ידוע'}`));details.append(section);}
+ const link=el('a','קובץ צילום שכבת ה־GIS');link.href=`${import.meta.env.BASE_URL}sources/tel-aviv-gis.json`;link.target='_blank';link.rel='noopener noreferrer';details.append(link);return details;
+}
 function detailList(record){
  const items=[];
  if(record.case_id)items.push(['מספר תיק',record.case_id]);
@@ -34,6 +41,7 @@ function detailList(record){
  if(record.location_precision==='parcel')items.push(['דיוק המיקום','חלקה · אינו מיקום מדויק של המבנה או הכניסה']);
  const dl=el('dl','','record-details');items.forEach(([label,value])=>{if(value!==undefined&&value!==null&&String(value).trim()!=='')dl.append(el('dt',label),el('dd',String(value)));});return dl;
 }
+const taGisLink=el('a','תל אביב · שכבת GIS עירונית (שליפה מלאה שנבדקה)');taGisLink.href=`${import.meta.env.BASE_URL}sources/tel-aviv-gis.json`;taGisLink.target='_blank';taGisLink.rel='noopener noreferrer';document.querySelector('#sources').append(taGisLink);
 sources.forEach(s=>{const box=el('div');box.append(sourceLink(s),el('p',`${s.dateKind==='snapshot'?'צילום הנתונים':'תאריך המסמך'}: ${s.date}`));const original=el('a','פתיחה באתר העירייה');original.href=s.url;original.target='_blank';original.rel='noopener noreferrer';box.append(original);document.querySelector('#sources').append(box);});
 function render(){
  const selected=records.filter(r=>r.category!=='pal-kal'||document.querySelector('#pal-kal').checked);
@@ -46,9 +54,9 @@ function render(){
  visible.forEach(r=>{
   const card=el('article','','card');card.append(el('small',r.city+(r.category==='pal-kal'?' · מבנה פל־קל':'')),el('h3',r.address));
   if(r.source_page)card.append(el('p',`עמוד ${r.source_page} במסמך`));
-  card.append(detailList(r));const parcelLink=locationLink(r);if(parcelLink)card.append(parcelLink);if(r.notes&&r.city!=='תל אביב')card.append(el('p',r.notes));const link=caseLink(r);if(link)card.append(link);
+  const gis=gisDetails(r);if(gis)card.append(gis);card.append(detailList(r));const parcelLink=locationLink(r);if(parcelLink)card.append(parcelLink);if(r.notes&&r.city!=='תל אביב')card.append(el('p',r.notes));const link=caseLink(r);if(link)card.append(link);
   card.append(sourceLink(r.source));
-  if(r.positioned){const content=el('div');content.append(el('strong',r.address),el('p',r.city),detailList(r));const popupCaseLink=caseLink(r);if(popupCaseLink)content.append(popupCaseLink);const parcelLink=locationLink(r);if(parcelLink)content.append(parcelLink);content.append(sourceLink(r.source),el('p',r.geocode_label||'מיקום מקובץ הנתונים'));const marker=L.marker([r.lat,r.lng],{icon:r.location_precision==='parcel'?parcelIcon:icon}).bindPopup(content,{maxWidth:360,maxHeight:340}).addTo(markers);const b=el('button','הצגה במפה');b.onclick=()=>{map.flyTo([r.lat,r.lng],17);marker.openPopup();};card.append(b);}
+  if(r.positioned){const content=el('div');content.append(el('strong',r.address),el('p',r.city));const gis=gisDetails(r);if(gis)content.append(gis);content.append(detailList(r));const popupCaseLink=caseLink(r);if(popupCaseLink)content.append(popupCaseLink);const parcelLink=locationLink(r);if(parcelLink)content.append(parcelLink);content.append(sourceLink(r.source),el('p',r.geocode_label||'מיקום מקובץ הנתונים'));const marker=L.marker([r.lat,r.lng],{icon:r.location_precision==='parcel'?parcelIcon:icon}).bindPopup(content,{maxWidth:360,maxHeight:340}).addTo(markers);const b=el('button','הצגה במפה');b.onclick=()=>{map.flyTo([r.lat,r.lng],17);marker.openPopup();};card.append(b);}
   else{card.append(el('p','מיקום טרם אומת · אינו מוצג במפה','unmapped'));if(!r.address_missing){const place=el('button','סימון מיקום ידני');place.className='secondary';place.onclick=()=>beginPlacement(r);card.append(place);}}list.append(card);
  });
 }
