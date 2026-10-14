@@ -1,5 +1,7 @@
 # מפת מבנים מסוכנים — תל אביב וחולון
 
+**[פתיחת המפה באתר הציבורי](https://igor-mish.github.io/danger_map/)**
+
 ממשק ווב בעברית עם חיפוש, סינון עיר, פרטי רשומה וקישור למסמך המקור. בת ים אינה נכללת.
 
 ## הפעלה
@@ -61,12 +63,12 @@ cd /workspace/danger_map
 
 לסביבת הפיתוח נדרשת גישה ל־nominatim.openstreetmap.org, a.tile.openstreetmap.org, b.tile.openstreetmap.org, c.tile.openstreetmap.org. לרענון המקורות: www.tel-aviv.gov.il ו־www.holon.muni.il. לגופנים: fonts.googleapis.com ו־fonts.gstatic.com.
 
-`npm run build` מפיק את dist לאירוח סטטי. גרסת אתר מוכנה נשמרת בענף gh-pages; זמינות האתר תלויה בהפעלת GitHub Pages בהגדרות המאגר. הסטטוס ברשימות עשוי להשתנות מאז תאריך המסמך; בדיקה עדכנית נעשית מול הרשות המקומית.
+`npm run build` מפיק את dist לאירוח סטטי. האתר פורסם ב־GitHub Pages ונבדק בכתובת הציבורית. גרסת האתר הבנויה נשמרת בענף gh-pages. הסטטוס ברשימות עשוי להשתנות מאז תאריך המסמך; בדיקה עדכנית נעשית מול הרשות המקומית.
 
 ## אתר ציבורי — GitHub Pages
 
-המאגר העצמאי: https://github.com/igor-mish/danger_map . כדי להפעיל את האתר, פתח Settings → Pages ובחר Source: Deploy from a branch, Branch: gh-pages, Folder: /(root), ואז Save.
+המאגר העצמאי: https://github.com/igor-mish/danger_map . Pages כבר הופעל במאגר הזה. לשחזור ההגדרה, פתח Settings → Pages ובחר Source: Deploy from a branch, Branch: gh-pages, Folder: /(root), ואז Save.
 
-לאחר השלמת הפרסום, כתובת האתר הצפויה היא https://igor-mish.github.io/danger_map/ .
+כתובת האתר הפעיל היא https://igor-mish.github.io/danger_map/ .
 
 לבניית גרסה חדשה: `VITE_BASE_PATH=/danger_map/ npm run build`. יש להעלות את תוכן dist לשורש הענף gh-pages, כולל קובץ .nojekyll. המאגר מכיל רק את אפליקציית המפה, ולא את כלי הדוחות המקורי של Nafa.
