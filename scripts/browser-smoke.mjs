@@ -1,0 +1,49 @@
+import assert from 'node:assert/strict';
+import { existsSync } from 'node:fs';
+import { chromium, request } from 'playwright';
+
+const browser=await chromium.launch({headless:true,executablePath:process.env.CHROMIUM_PATH||(existsSync('/usr/bin/chromium')?'/usr/bin/chromium':undefined),args:['--no-sandbox']});
+let verifiedNetwork;
+try {
+ const page=await browser.newPage({viewport:{width:1440,height:900}});
+ // Forward real map/font responses through the platform-trusted Node HTTPS client.
+ // This adapts cloud proxy trust for testing; never disable certificate verification.
+ if(process.env.HTTPS_PROXY){
+  verifiedNetwork=await request.newContext({proxy:{server:process.env.HTTPS_PROXY}});
+  await page.route(/^https:\/\/(?:[abc]\.tile\.openstreetmap\.org|fonts\.googleapis\.com|fonts\.gstatic\.com)\//,async route=>{
+   const response=await verifiedNetwork.get(route.request().url(),{headers:await route.request().allHeaders()});
+   assert.equal(response.status(),200);assert.equal(response.headers()['x-blocked'],undefined);await route.fulfill({response});
+  });
+ }
+ const errors=[];page.on('pageerror',e=>errors.push(e.message));
+ await page.goto(process.env.APP_URL||'http://localhost:5173/');
+ await page.waitForFunction(()=>document.querySelector('#total').textContent==='683');
+ await page.locator('#city').selectOption('חולון');
+ assert.equal(await page.locator('.card').count(),68);
+ await page.locator('#pal-kal').check();assert.equal(await page.locator('.card').count(),85);
+ await page.locator('#search').fill('וולפסון');assert.equal(await page.locator('.card').count(),2);
+ await page.locator('summary').click();
+ await page.locator('#upload').setInputFiles({name:'fixture.csv',mimeType:'text/csv',buffer:Buffer.from('city,address,lat,lng\nתל אביב,כתובת בדיקה בלבד,32.07,34.78\nחולון,בדיקה ללא מיקום,,\n')});
+ await page.locator('#city').selectOption('');await page.locator('#search').fill('');
+ assert.equal(await page.locator('.card').count(),2);
+ assert.equal(await page.locator('.building-marker').count(),1);
+ await page.getByRole('button',{name:'הצגה במפה',exact:true}).click();await page.locator('.leaflet-popup').waitFor();
+ await page.getByRole('button',{name:'סימון מיקום ידני',exact:true}).click();
+ assert.equal(await page.locator('#save-position').isDisabled(),true);
+ await page.locator('#map').click({position:{x:300,y:400}});
+ assert.equal(await page.locator('#save-position').isDisabled(),false);
+ await page.getByRole('button',{name:'ביטול',exact:true}).click();assert.equal(await page.locator('#placement').isHidden(),true);
+ await page.getByRole('button',{name:'סימון מיקום ידני',exact:true}).click();await page.locator('#map').click({position:{x:300,y:400}});
+ await page.locator('#save-position').click();assert.equal(await page.locator('.building-marker').count(),2);
+ assert.match(await page.evaluate(()=>localStorage.getItem('nafa-map-locations')),/בדיקה ללא מיקום/);
+ const download=page.waitForEvent('download');await page.locator('#export').click();assert.equal((await download).suggestedFilename(),'municipal-buildings.csv');
+ await page.locator('#upload').setInputFiles({name:'bad.csv',mimeType:'text/csv',buffer:Buffer.from('city,address\nבת ים,בדיקה\n')});
+ assert.equal(await page.locator('.card').count(),2);await page.getByText('לא נמצאו רשומות תקינות בקובץ. הנתונים הקודמים נשמרו.',{exact:true}).waitFor();
+ await page.reload();await page.waitForFunction(()=>document.querySelector('#total').textContent==='683');
+ await page.waitForFunction(()=>[...document.querySelectorAll('.leaflet-tile')].some(i=>i.complete&&i.naturalWidth>=256));
+ if(process.env.SCREENSHOT_PATH)await page.screenshot({path:process.env.SCREENSHOT_PATH});
+ await page.setViewportSize({width:390,height:844});
+ assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
+ assert.deepEqual(errors,[]);
+ console.log('PASS: real records, city/search/category filters, CSV import, marker/popup, manual location confirmation/cancel/storage, export, invalid CSV preservation, reload, real map tiles, mobile width; no JS errors.');
+} finally {await verifiedNetwork?.dispose();await browser.close();}

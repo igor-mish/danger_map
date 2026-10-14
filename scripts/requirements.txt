@@ -1,0 +1,2 @@
+python-bidi==0.6.7
+requests==2.31.0

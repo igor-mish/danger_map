@@ -1,0 +1,8 @@
+node_modules/
+dist/
+data/sources/*.pdf
+data/geocode-cache.json
+data/.update.lock
+
+.venv/
+__pycache__/
