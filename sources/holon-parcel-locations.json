@@ -1,0 +1,18 @@
+{
+  "locations": [
+    {
+      "city": "חולון",
+      "address": "וולפסון 26",
+      "block": "6021",
+      "parcel": "196",
+      "lat": 32.017495614876886,
+      "lng": 34.78154163026833,
+      "x": 179502.19,
+      "y": 658336.63,
+      "source_crs": "EPSG:2039",
+      "source_url": "https://www.govmap.gov.il/?c=179544.78,658341.56&z=11&lay=15&q=%D7%92%D7%95%D7%A9+6021+%D7%97%D7%9C%D7%A7%D7%94+196&bs=15%7C179502.19,658336.63&b=11",
+      "location_precision": "parcel",
+      "evidence": "GovMap share link and user screenshot of parcel 196 block 6021"
+    }
+  ]
+}
