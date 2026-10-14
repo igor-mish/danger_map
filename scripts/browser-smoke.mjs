@@ -10,6 +10,13 @@ try {
  // This adapts cloud proxy trust for testing; never disable certificate verification.
  if(process.env.HTTPS_PROXY){
   verifiedNetwork=await request.newContext({proxy:{server:process.env.HTTPS_PROXY}});
+  if(process.env.APP_URL?.startsWith('https://')){
+   const origin=new URL(process.env.APP_URL).origin;
+   await page.route(`${origin}/**`,async route=>{
+    const response=await verifiedNetwork.get(route.request().url(),{headers:await route.request().allHeaders()});
+    assert.equal(response.status(),200);await route.fulfill({response});
+   });
+  }
   await page.route(/^https:\/\/(?:[abc]\.tile\.openstreetmap\.org|fonts\.googleapis\.com|fonts\.gstatic\.com)\//,async route=>{
    const response=await verifiedNetwork.get(route.request().url(),{headers:await route.request().allHeaders()});
    assert.equal(response.status(),200);assert.equal(response.headers()['x-blocked'],undefined);await route.fulfill({response});
