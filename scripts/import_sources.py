@@ -8,6 +8,7 @@ import subprocess
 import tempfile
 import xml.etree.ElementTree as ET
 from bidi.algorithm import get_display
+from bat_yam import bat_yam
 
 ROOT = Path(__file__).resolve().parents[1]
 CASE = re.compile(r'03-\d{4}-\d{4}')
@@ -44,10 +45,14 @@ def tel_aviv(pdf):
             address=column(row,390,504)
             code=column(row,375,389)
             status=column(row,122,219)
+            treatment_since=column(row,60,122)
+            last_visit=column(row,260,322)
+            case_opened=column(row,322,375)
+            preserved_marker=column(row,30,60)
             occupancy=column(row,220,260)
             records.append({'id':case.text,'city':'תל אביב','address':address or f'כתובת חסרה במקור · תיק {case.text}',
                 'address_missing':not bool(address),'category':'dangerous','source_date':date,'source_page':page_number,
-                'case_id':case.text,'section':code,'treatment':status,'occupancy':occupancy,
+                'case_id':case.text,'section':code,'treatment':status,'occupancy':occupancy,'treatment_since':treatment_since,'last_visit':last_visit,'case_opened':case_opened,'preserved_marker':preserved_marker,
                 'notes':f'סעיף {code} · {status} · {occupancy}', 'lat':None,'lng':None})
     declared=int(re.search(r'לדו"ח\s+(\d+)', clean(text(pdf))).group(1))
     if len(records)!=declared:
@@ -81,21 +86,26 @@ def main():
     if not ta.exists():ta=ROOT/'public/sources/tel-aviv.pdf'
     if not ho.exists():ho=ROOT/'public/sources/holon.pdf'
     ta_records=tel_aviv(ta);ho_records=holon(ho)
-    records=ta_records+ho_records
+    by_source=ROOT/'public/sources/bat-yam.json'
+    by_records=bat_yam(json.loads(by_source.read_text()))
+    records=ta_records+ho_records+by_records
     target=ROOT/'public/data/buildings.json'
     if target.exists():
-        old={r['id']:r for r in json.loads(target.read_text())['records']}
+        old_rows=json.loads(target.read_text())['records']
+        old={r['id']:r for r in old_rows}
+        holon_positions={(r['category'],r['address'],r.get('block'),r.get('parcel')):r for r in old_rows if r['city']=='חולון'}
         for record in records:
-            previous=old.get(record['id'],{})
-            if previous.get('address')==record['address']:
+            previous=holon_positions.get((record['category'],record['address'],record.get('block'),record.get('parcel')),{}) if record['city']=='חולון' else old.get(record['id'],{})
+            if record['city']!='בת ים' and previous.get('address')==record['address']:
                 record.update({k:v for k,v in previous.items() if k in ('lat','lng') or k.startswith('geocode_')})
     payload={'records':records,'sources':[
         {'city':'תל אביב','file':'tel-aviv.pdf','date':ta_records[0]['source_date'],'sha256':hashlib.sha256(ta.read_bytes()).hexdigest()},
-        {'city':'חולון','file':'holon.pdf','date':ho_records[0]['source_date'],'sha256':hashlib.sha256(ho.read_bytes()).hexdigest()}],
-        'audit':{'tel_aviv_rows':len(ta_records),'holon_dangerous_rows':sum(r['city']=='חולון' and r['category']=='dangerous' for r in records),
+        {'city':'חולון','file':'holon.pdf','date':ho_records[0]['source_date'],'sha256':hashlib.sha256(ho.read_bytes()).hexdigest()},
+        {'city':'בת ים','file':'bat-yam.json','date':by_records[0]['source_date'],'date_kind':'snapshot','sha256':hashlib.sha256(by_source.read_bytes()).hexdigest()}],
+        'audit':{'bat_yam_rows':len(by_records),'bat_yam_status_counts':{code:sum(r['status_code']==code for r in by_records) for code in sorted({r['status_code'] for r in by_records})},'tel_aviv_rows':len(ta_records),'holon_dangerous_rows':sum(r['city']=='חולון' and r['category']=='dangerous' for r in records),
         'holon_pal_kal_rows':sum(r['category']=='pal-kal' for r in records),
         'missing_addresses':sum(r.get('address_missing',False) for r in records),
-        'notes':['חולון: שורות 69 ו־70 ברשימת המבנים המסוכנים ריקות במקור ולא יובאו.', 'תל אביב: כמה תיקים עשויים להתייחס לאותה כתובת. ספירת הרשומות היא ספירת תיקים, לא מספר מבנים ייחודיים.']}}
+        'notes':['חולון: הרשימה מתוארכת ל־15.7.2026 וכוללת 70 רשומות מבנים מסוכנים.', 'תל אביב: כמה תיקים עשויים להתייחס לאותה כתובת. ספירת הרשומות היא ספירת תיקים, לא מספר מבנים ייחודיים.']}}
     temporary=target.with_suffix('.tmp')
     temporary.write_text(json.dumps(payload,ensure_ascii=False,indent=2))
     temporary.replace(target)

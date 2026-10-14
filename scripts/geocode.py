@@ -36,19 +36,26 @@ def suitable(record,street,house,candidate):
     road=a.get('road','')
     def street_key(value):
         return ''.join(sorted(normalized(w) for w in value.split() if w not in ('רחוב','דרך','שדרות',"שד'",'שביל','כיכר','ככר')))
-    if not road or difflib.SequenceMatcher(None,street_key(street),street_key(road)).ratio()<0.80:return False
+    # Common municipal short names and the established Baal Shem Tov acronym.
+    aliases={'בעלשםטוב':'הבעשט'}
+    short=aliases.get(normalized(street),normalized(street))
+    road_tokens={normalized(w) for w in road.split()}
+    exact_short_name=len(short)>=4 and short in road_tokens
+    if not road or not exact_short_name and difflib.SequenceMatcher(None,street_key(street),street_key(road)).ratio()<0.80:return False
     lat,lng=float(candidate['lat']),float(candidate['lon'])
     return 31.9<lat<32.2 and 34.65<lng<34.95
 
 def main():
     parser=argparse.ArgumentParser()
     parser.add_argument('--limit',type=int,default=1000,help='Maximum new network queries')
+    parser.add_argument('--city',choices=['תל אביב','חולון'],help='Limit address lookups to one city')
     args=parser.parse_args()
     target=ROOT/'public/data/buildings.json';cachepath=ROOT/'data/geocode-cache.json'
     data=json.loads(target.read_text());cache=json.loads(cachepath.read_text()) if cachepath.exists() else {}
     session=requests.Session();session.headers.update({'User-Agent':'NafaDangerMap/0.1 (https://github.com/igor-mish/danger_map)','Accept-Language':'he'})
     count=0;last=0
     for record in data['records']:
+        if args.city and record['city']!=args.city:continue
         if record.get('lat') is not None:continue
         address=query_address(record)
         if not address:continue
@@ -66,7 +73,9 @@ def main():
             if not isinstance(candidates,list):raise ValueError('Unexpected geocoder response')
             cache[key]=candidates;count+=1
             if count % 25 == 0: print(f'Geocoding: {count} new queries; {sum(r.get("lat") is not None for r in data["records"])} located rows', flush=True)
-            cachepath.write_text(json.dumps(cache,ensure_ascii=False,indent=2))
+            cachetemp=cachepath.with_suffix('.tmp')
+            cachetemp.write_text(json.dumps(cache,ensure_ascii=False,indent=2))
+            cachetemp.replace(cachepath)
         matches=[c for c in cache[key] if suitable(record,street,house,c)]
         # Multiple OSM features (building, address node, business) can share an address.
         # Accept only a tight spatial cluster; dispersed candidates remain unresolved.

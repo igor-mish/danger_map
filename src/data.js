@@ -1,7 +1,8 @@
 const base = import.meta.env?.BASE_URL || '/';
 export const sources = [
  {id:'tel-aviv',city:'תל אביב',date:'08.10.2026',localUrl:`${base}sources/tel-aviv.pdf`,url:'https://www.tel-aviv.gov.il/Residents/Construction/DocLib1/רשימת מבנים מסוכנים פעילים.pdf'},
- {id:'holon',city:'חולון',date:'19.05.2026',localUrl:`${base}sources/holon.pdf`,url:'https://www.holon.muni.il/CityHall/Documents/רשימת מבנים מסוכנים חדש ומונגש - 190526 (002).pdf'}
+ {id:'holon',city:'חולון',date:'15.07.2026',localUrl:`${base}sources/holon.pdf`,url:'https://www.holon.muni.il/CityHall/Documents/רשימת מבנים מסוכנים חדש ומונגש - - 15.7.26.pdf'},
+ {id:'bat-yam',city:'בת ים',date:'14.10.2026',dateKind:'snapshot',localUrl:`${base}sources/bat-yam.json`,url:'https://batyam.complot.co.il/searchdbuilding/#search'}
 ];
 export function normalizeRows(rows) {
  const errors=[], records=[];

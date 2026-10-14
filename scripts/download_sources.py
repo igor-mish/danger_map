@@ -5,7 +5,7 @@ import requests
 ROOT=Path(__file__).resolve().parents[1]
 SOURCES={
  'tel-aviv':'https://www.tel-aviv.gov.il/Residents/Construction/DocLib1/רשימת מבנים מסוכנים פעילים.pdf',
- 'holon':'https://www.holon.muni.il/CityHall/Documents/רשימת מבנים מסוכנים חדש ומונגש - 190526 (002).pdf',
+ 'holon':'https://www.holon.muni.il/CityHall/Documents/רשימת מבנים מסוכנים חדש ומונגש - - 15.7.26.pdf',
 }
 for city,url in SOURCES.items():
     response=requests.get(url,timeout=60,headers={'User-Agent':'NafaDangerMap/0.1 (https://github.com/igor-mish/danger_map)'})
