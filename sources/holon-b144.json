@@ -1,0 +1,1945 @@
+{
+  "provider": "B144 / Zoomap",
+  "independently_verified": false,
+  "records": [
+    {
+      "id": "holon-dangerous-1",
+      "address": "וולפסון 26",
+      "category": "dangerous",
+      "block": "6021",
+      "parcel": "196",
+      "locations": [
+        {
+          "address": "חולון,וולפסון,26",
+          "lat": 32.0175297784419,
+          "lng": 34.7815738014503
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,וולפסון,26@@34.7815738014503|32.0175297784419|http://www.zoomap.co.il/files/images/buildings/thumbs/203782DA1FE34909.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/203782DA1FE34909.jpg@@6600|337|26",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-2",
+      "address": "אריה שנקר 33",
+      "category": "dangerous",
+      "block": "7168",
+      "parcel": "8",
+      "locations": [
+        {
+          "address": "חולון,אריה שנקר,33",
+          "lat": 32.0243014464034,
+          "lng": 34.7766869192458
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,אריה שנקר,33@@34.7766869192458|32.0243014464034|http://www.zoomap.co.il/files/images/buildings/thumbs/20302C501FE33E90.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/20302C501FE33E90.jpg@@6600|706|33",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-3",
+      "address": "וולפסון 32",
+      "category": "dangerous",
+      "block": "6021",
+      "parcel": "201",
+      "locations": [
+        {
+          "address": "חולון,וולפסון,32",
+          "lat": 32.0173214343986,
+          "lng": 34.7820812663119
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,וולפסון,32@@34.7820812663119|32.0173214343986||@@6600|337|32",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-4",
+      "address": "הרצפלד 4",
+      "category": "dangerous",
+      "block": "6049",
+      "parcel": "341",
+      "locations": [
+        {
+          "address": "חולון,הרצפלד,4",
+          "lat": 32.0203480306348,
+          "lng": 34.7670897109034
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,הרצפלד,4@@34.7670897109034|32.0203480306348|http://www.zoomap.co.il/files/images/buildings/thumbs/20357B431FE345C6.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/20357B431FE345C6.jpg@@6600|711|4",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-5",
+      "address": "אילת 36 (חניון מרכז מסחרי)",
+      "category": "dangerous",
+      "block": "7132",
+      "parcel": "132",
+      "locations": [
+        {
+          "address": "חולון,אילת,36",
+          "lat": 32.017804191601,
+          "lng": 34.7646719197791
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,אילת,36@@34.7646719197791|32.017804191601|http://www.zoomap.co.il/files/images/buildings/thumbs/203233E81FE3416C.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/203233E81FE3416C.jpg@@6600|911|36",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-6",
+      "address": "משמר הירדן 1",
+      "category": "dangerous",
+      "block": "7174",
+      "parcel": "133",
+      "locations": [
+        {
+          "address": "חולון,משמר הירדן,1",
+          "lat": 32.017653412841,
+          "lng": 34.7768133533737
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,משמר הירדן,1@@34.7768133533737|32.017653412841|http://www.zoomap.co.il/files/images/buildings/thumbs/2037F8971FE34A2A.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/2037F8971FE34A2A.jpg@@6600|445|1",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-7",
+      "address": "חזית חמש 24",
+      "category": "dangerous",
+      "block": "7161",
+      "parcel": "265",
+      "locations": [
+        {
+          "address": "חולון,חזית חמש,24",
+          "lat": 32.0270969812534,
+          "lng": 34.7620598726258
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,חזית חמש,24@@34.7620598726258|32.0270969812534|http://www.zoomap.co.il/files/images/buildings/thumbs/3C956BFE3C74BFC5.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/3C956BFE3C74BFC5.jpg@@6600|622|24",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-8",
+      "address": "המשביר 14",
+      "category": "dangerous",
+      "block": "6785",
+      "parcel": "36",
+      "locations": [
+        {
+          "address": "חולון,המשביר,14",
+          "lat": 32.014145,
+          "lng": 34.8025965
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,המשביר,14@@34.8025965|32.014145|http://www.zoomap.co.il/files/images/buildings/thumbs/9FC4F8619F847AF0.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/9FC4F8619F847AF0.jpg@@6600|113|14",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-9",
+      "address": "המשביר 12",
+      "category": "dangerous",
+      "block": "6785",
+      "parcel": "37",
+      "locations": [
+        {
+          "address": "חולון,המשביר,12",
+          "lat": 32.0139842257177,
+          "lng": 34.8022371090967
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,המשביר,12@@34.8022371090967|32.0139842257177|http://www.zoomap.co.il/files/images/buildings/thumbs/9FC4F7579F847AEE.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/9FC4F7579F847AEE.jpg@@6600|113|12",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-10",
+      "address": "סוקולוב 77",
+      "category": "dangerous",
+      "block": "7168",
+      "parcel": "175",
+      "locations": [
+        {
+          "address": "חולון,סוקולוב,77",
+          "lat": 32.022683807331,
+          "lng": 34.7785938220711
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,סוקולוב,77@@34.7785938220711|32.022683807331|http://www.zoomap.co.il/files/images/buildings/thumbs/203612FE1FE34672.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/203612FE1FE34672.jpg@@6600|401|77",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-11",
+      "address": "חזית חמש 7",
+      "category": "dangerous",
+      "block": "6996",
+      "parcel": "232",
+      "locations": [
+        {
+          "address": "חולון,חזית חמש,7",
+          "lat": 32.0313702399859,
+          "lng": 34.7622238735732
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,חזית חמש,7@@34.7622238735732|32.0313702399859|http://www.zoomap.co.il/files/images/buildings/thumbs/205055D51FE37153.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/205055D51FE37153.jpg@@6600|622|7",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-12",
+      "address": "רבי עקיבא 34",
+      "category": "dangerous",
+      "block": "6020",
+      "parcel": "575",
+      "locations": [
+        {
+          "address": "חולון,רבי עקיבא,34",
+          "lat": 32.0125885441754,
+          "lng": 34.7914409689916
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,רבי עקיבא,34@@34.7914409689916|32.0125885441754||@@6600|308|34",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-13",
+      "address": "המלאכה 13",
+      "category": "dangerous",
+      "block": "6784",
+      "parcel": "5",
+      "locations": [
+        {
+          "address": "חולון,המלאכה,13",
+          "lat": 32.0185178083146,
+          "lng": 34.8028633193523
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,המלאכה,13@@34.8028633193523|32.0185178083146|http://www.zoomap.co.il/files/images/buildings/thumbs/9F8E5E0C9F847AA2.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/9F8E5E0C9F847AA2.jpg@@6600|111|13",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-14",
+      "address": "חומה ומגדל 35",
+      "category": "dangerous",
+      "block": "7170",
+      "parcel": "77",
+      "locations": [
+        {
+          "address": "חולון,חומה ומגדל,35",
+          "lat": 32.0201036711766,
+          "lng": 34.7774665412302
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,חומה ומגדל,35@@34.7774665412302|32.0201036711766|http://www.zoomap.co.il/files/images/buildings/thumbs/2037DE871FE349F9.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/2037DE871FE349F9.jpg@@6600|704|35",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-15",
+      "address": "ככר ויצמן 1",
+      "category": "dangerous",
+      "block": "7172",
+      "parcel": "128",
+      "locations": [
+        {
+          "address": "חולון,כיכר וייצמן,1",
+          "lat": 32.022000701578,
+          "lng": 34.7762030330031
+        }
+      ],
+      "evidence": "user-pasted B144 response for corrected spelling כיכר וייצמן",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,דן שומרון,1@@34.7758270756425|32.0219093341403|http://www.zoomap.co.il/files/images/buildings/thumbs/20327AB51FE341BB.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/20327AB51FE341BB.jpg@@6600|738|1",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-16",
+      "address": "החי\"ם 18",
+      "category": "dangerous",
+      "block": "7160",
+      "parcel": "332",
+      "locations": [
+        {
+          "address": "חולון,החי\"ם,18",
+          "lat": 32.0259274137841,
+          "lng": 34.7613408086264
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,החי\"ם,18@@34.7613408086264|32.0259274137841|http://www.zoomap.co.il/files/images/buildings/thumbs/203130721FE33FCB.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/203130721FE33FCB.jpg@@6600|627|18",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-17",
+      "address": "אלישע 8",
+      "category": "dangerous",
+      "block": "6018",
+      "parcel": "89",
+      "locations": [
+        {
+          "address": "חולון,אלישע,8",
+          "lat": 32.01836236673,
+          "lng": 34.7895889659811
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,אלישע,8@@34.7895889659811|32.01836236673||@@6600|233|8",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-18",
+      "address": "המרכבה 2",
+      "category": "dangerous",
+      "block": "6784",
+      "parcel": "2",
+      "locations": [
+        {
+          "address": "חולון,המרכבה,2",
+          "lat": 32.0192641709526,
+          "lng": 34.8042102019178
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,המרכבה,2@@34.8042102019178|32.0192641709526|http://www.zoomap.co.il/files/images/buildings/thumbs/9FC56C879F847BB3.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/9FC56C879F847BB3.jpg@@6600|112|2",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-19",
+      "address": "זכריה הרופא 9",
+      "category": "dangerous",
+      "block": "7070",
+      "parcel": "197",
+      "locations": [
+        {
+          "address": "חולון,זכריה הרופא,9",
+          "lat": 32.0295577301179,
+          "lng": 34.7704526116329
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,זכריה הרופא,9@@34.7704526116329|32.0295577301179|http://www.zoomap.co.il/files/images/buildings/thumbs/2032F4881FE3424F.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/2032F4881FE3424F.jpg@@6600|553|9",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-20",
+      "address": "משה שרת 15",
+      "category": "dangerous",
+      "block": "7343",
+      "parcel": "17",
+      "locations": [
+        {
+          "address": "חולון,משה שרת,15",
+          "lat": 32.009256490958,
+          "lng": 34.7927972314801
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,משה שרת,15@@34.7927972314801|32.009256490958|http://www.zoomap.co.il/files/images/buildings/thumbs/20495BC31FE36048.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/20495BC31FE36048.jpg@@6600|944|15",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-21",
+      "address": "יצחק הלוי 15",
+      "category": "dangerous",
+      "block": "7163",
+      "parcel": "222",
+      "locations": [
+        {
+          "address": "חולון,הרב יצחק הלוי,15",
+          "lat": 32.024504337866,
+          "lng": 34.7665821750112
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,הרב יצחק הלוי,15@@34.7665821750112|32.024504337866||@@6600|531|15",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-22",
+      "address": "נורדאו 10",
+      "category": "dangerous",
+      "block": "7167",
+      "parcel": "142",
+      "locations": [
+        {
+          "address": "חולון,נורדאו,10",
+          "lat": 32.0259834124588,
+          "lng": 34.7826642553888
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,נורדאו,10@@34.7826642553888|32.0259834124588|http://www.zoomap.co.il/files/images/buildings/thumbs/2030C64E1FE33F74.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/2030C64E1FE33F74.jpg@@6600|427|10",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-23",
+      "address": "אהרונוביץ' 40, דירה 6",
+      "category": "dangerous",
+      "block": "6043",
+      "parcel": "1221",
+      "locations": [
+        {
+          "address": "חולון,יוסף אהרונוביץ',40",
+          "lat": 32.0089816871357,
+          "lng": 34.7688786335957
+        }
+      ],
+      "evidence": "user-pasted corrected B144 responses",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": null,
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-24",
+      "address": "דב הוז 57",
+      "category": "dangerous",
+      "block": "7162",
+      "parcel": "190",
+      "locations": [
+        {
+          "address": "חולון,שדרות דב הוז,57",
+          "lat": 32.0231878707257,
+          "lng": 34.7642322447596
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,שדרות דב הוז,57@@34.7642322447596|32.0231878707257|http://www.zoomap.co.il/files/images/buildings/thumbs/2031EAB91FE34110.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/2031EAB91FE34110.jpg@@6600|725|57",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-25",
+      "address": "דב הוז 55",
+      "category": "dangerous",
+      "block": "7162",
+      "parcel": "188",
+      "locations": [
+        {
+          "address": "חולון,שדרות דב הוז,55",
+          "lat": 32.0231505092889,
+          "lng": 34.7644021884013
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,שדרות דב הוז,55@@34.7644021884013|32.0231505092889||@@6600|725|55",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-26",
+      "address": "שנקר 39",
+      "category": "dangerous",
+      "block": "7168",
+      "parcel": "159",
+      "locations": [
+        {
+          "address": "חולון,אריה שנקר,39",
+          "lat": 32.0238198392361,
+          "lng": 34.7766270427431
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,אריה שנקר,39@@34.7766270427431|32.0238198392361|http://www.zoomap.co.il/files/images/buildings/thumbs/20302F4E1FE33E96.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/20302F4E1FE33E96.jpg@@6600|706|39",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-27",
+      "address": "הארז 16",
+      "category": "dangerous",
+      "block": "6021",
+      "parcel": "467",
+      "locations": [
+        {
+          "address": "חולון,הארז,16",
+          "lat": 32.0207415278662,
+          "lng": 34.7848740714235
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,הארז,16@@34.7848740714235|32.0207415278662|http://www.zoomap.co.il/files/images/buildings/thumbs/3C51CAC33BFC159A.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/3C51CAC33BFC159A.jpg@@6600|347|16",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-28",
+      "address": "שד' קוגל 18 ג'",
+      "category": "dangerous",
+      "block": "7165",
+      "parcel": "39",
+      "locations": [
+        {
+          "address": "חולון,שדרות קוגל,18",
+          "lat": 32.0263039471713,
+          "lng": 34.7734159355974
+        }
+      ],
+      "evidence": "user-pasted corrected B144 responses",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": null,
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-29",
+      "address": "הופיין אליעזר 9",
+      "category": "dangerous",
+      "block": "6746",
+      "parcel": "343",
+      "locations": [
+        {
+          "address": "חולון,אליעזר הופיין,9",
+          "lat": 32.0144313525639,
+          "lng": 34.7662179600574
+        }
+      ],
+      "evidence": "user-pasted corrected B144 responses",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": null,
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-30",
+      "address": "ברנשטיין פרץ 9",
+      "category": "dangerous",
+      "block": "6746",
+      "parcel": "339",
+      "locations": [
+        {
+          "address": "חולון,ברנשטיין,9",
+          "lat": 32.0148036446598,
+          "lng": 34.766263424793
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,ברנשטיין,9@@34.766263424793|32.0148036446598|http://www.zoomap.co.il/files/images/buildings/thumbs/203176B21FE34051.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/203176B21FE34051.jpg@@6600|763|9",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-31",
+      "address": "ברנשטיין פרץ 7",
+      "category": "dangerous",
+      "block": "6746",
+      "parcel": "340",
+      "locations": [
+        {
+          "address": "חולון,ברנשטיין,7",
+          "lat": 32.0147582124558,
+          "lng": 34.766490705047
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,ברנשטיין,7@@34.766490705047|32.0147582124558|http://www.zoomap.co.il/files/images/buildings/thumbs/203175A81FE3404F.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/203175A81FE3404F.jpg@@6600|763|7",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-32",
+      "address": "ארלוזורוב 144",
+      "category": "dangerous",
+      "block": "6740",
+      "parcel": "305",
+      "locations": [
+        {
+          "address": "חולון,ארלוזורוב,144",
+          "lat": 32.0119973542887,
+          "lng": 34.7710391871995
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,ארלוזורוב,144@@34.7710391871995|32.0119973542887||@@6600|708|144",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-33",
+      "address": "ביאליק 42",
+      "category": "dangerous",
+      "block": "7172",
+      "parcel": "179",
+      "locations": [
+        {
+          "address": "חולון,ביאליק,42",
+          "lat": 32.0203739434733,
+          "lng": 34.7741133050882
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,ביאליק,42@@34.7741133050882|32.0203739434733|http://www.zoomap.co.il/files/images/buildings/thumbs/20329B3D1FE341EF.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/20329B3D1FE341EF.jpg@@6600|503|42",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-34",
+      "address": "פנחס לבון 6",
+      "category": "dangerous",
+      "block": "6043",
+      "parcel": "1961",
+      "locations": [
+        {
+          "address": "חולון,פנחס לבון,6",
+          "lat": 32.0094578446319,
+          "lng": 34.7700459059662
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,פנחס לבון,6@@34.7700459059662|32.0094578446319|http://www.zoomap.co.il/files/images/buildings/thumbs/203718E51FE34807.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/203718E51FE34807.jpg@@6600|921|6",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-35",
+      "address": "שד' ירושלים 30",
+      "category": "dangerous",
+      "block": "6021",
+      "parcel": "518",
+      "locations": [
+        {
+          "address": "חולון,שדרות ירושלים,30",
+          "lat": 32.0195224822951,
+          "lng": 34.7869492629779
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,שדרות ירושלים,30@@34.7869492629779|32.0195224822951|http://www.zoomap.co.il/files/images/buildings/thumbs/3C53959F3BFC16E3.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/3C53959F3BFC16E3.jpg@@6600|316|30",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-36",
+      "address": "אברהם יפה 5",
+      "category": "dangerous",
+      "block": "6873",
+      "parcel": "84",
+      "locations": [
+        {
+          "address": "חולון,יפה אברהם,5",
+          "lat": 32.0021796499101,
+          "lng": 34.7690814919543
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,יפה אברהם,5@@34.7690814919543|32.0021796499101||@@6600|980|5",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-37",
+      "address": "מרטין בובר 7",
+      "category": "dangerous",
+      "block": "6043",
+      "parcel": "1875",
+      "locations": [
+        {
+          "address": "חולון,בובר,7",
+          "lat": 32.0097310467264,
+          "lng": 34.7718443337589
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,בובר,7@@34.7718443337589|32.0097310467264|http://www.zoomap.co.il/files/images/buildings/thumbs/20372C8C1FE34831.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/20372C8C1FE34831.jpg@@6600|952|7",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-38",
+      "address": "משה דיין 60",
+      "category": "dangerous",
+      "block": "6760",
+      "parcel": "204",
+      "locations": [
+        {
+          "address": "חולון,משה דיין,60",
+          "lat": 32.0004119776525,
+          "lng": 34.771632551253
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,משה דיין,60@@34.771632551253|32.0004119776525|http://www.zoomap.co.il/files/images/buildings/thumbs/615A5416613F0753.JPG|http://www.zoomap.co.il/files/images/buildings/enlarged/615A5416613F0753.JPG@@6600|796|60",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-39",
+      "address": "יהושוע טהון 7",
+      "category": "dangerous",
+      "block": "6018",
+      "parcel": "205",
+      "locations": [
+        {
+          "address": "חולון,יהושע טהון,7",
+          "lat": 32.0216367889813,
+          "lng": 34.7875307777714
+        }
+      ],
+      "evidence": "user-pasted corrected B144 responses",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": null,
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-40",
+      "address": "יום הכיפורים 7",
+      "category": "dangerous",
+      "block": "7341",
+      "parcel": "20",
+      "locations": [
+        {
+          "address": "חולון,יום הכיפורים,7",
+          "lat": 32.0075521712343,
+          "lng": 34.7893511998998
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,יום הכיפורים,7@@34.7893511998998|32.0075521712343|http://www.zoomap.co.il/files/images/buildings/thumbs/204A477B1FE36192.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/204A477B1FE36192.jpg@@6600|962|7",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-41",
+      "address": "ההסתדרות  209כניסה ה'",
+      "category": "dangerous",
+      "block": "6020",
+      "parcel": "818",
+      "locations": [
+        {
+          "address": "חולון,ההסתדרות,209",
+          "lat": 32.0117038033588,
+          "lng": 34.7922664893013
+        }
+      ],
+      "evidence": "user-pasted corrected B144 responses",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": null,
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-42",
+      "address": "זלמן ארן 24",
+      "category": "dangerous",
+      "block": "6049",
+      "parcel": "273",
+      "locations": [
+        {
+          "address": "חולון,זלמן ארן,24",
+          "lat": 32.017045657848,
+          "lng": 34.7668053771869
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,זלמן ארן,24@@34.7668053771869|32.017045657848||@@6600|761|24",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-43",
+      "address": "ככר ויצמן 19",
+      "category": "dangerous",
+      "block": "7172",
+      "parcel": "222",
+      "locations": [
+        {
+          "address": "חולון,כיכר וייצמן,19",
+          "lat": 32.021937455,
+          "lng": 34.77487332
+        }
+      ],
+      "evidence": "user-pasted B144 response for corrected spelling כיכר וייצמן",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,דן שומרון,19@@34.7747521637467|32.0217753807905||@@6600|738|19",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-44",
+      "address": "ככר ויצמן 15",
+      "category": "dangerous",
+      "block": "7172",
+      "parcel": "216+217",
+      "locations": [
+        {
+          "address": "חולון,כיכר וייצמן,15",
+          "lat": 32.021960485,
+          "lng": 34.77510644
+        }
+      ],
+      "evidence": "user-pasted B144 response for corrected spelling כיכר וייצמן",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,דן שומרון,15@@34.7749355907399|32.0217941641745||@@6600|738|15",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-45",
+      "address": "ככר ויצמן 17",
+      "category": "dangerous",
+      "block": "7172",
+      "parcel": "218",
+      "locations": [
+        {
+          "address": "חולון,כיכר וייצמן,17",
+          "lat": 32.02194897,
+          "lng": 34.77498988
+        }
+      ],
+      "evidence": "user-pasted B144 response for corrected spelling כיכר וייצמן",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,דן שומרון,17@@34.7748443330198|32.0218431643984||@@6600|738|17",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-46",
+      "address": "הדר 15",
+      "category": "dangerous",
+      "block": "6996",
+      "parcel": "155",
+      "locations": [
+        {
+          "address": "חולון,הדר,15",
+          "lat": 32.0292855614486,
+          "lng": 34.7653415553149
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,הדר,15@@34.7653415553149|32.0292855614486|http://www.zoomap.co.il/files/images/buildings/thumbs/2050B25D1FE372DB.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/2050B25D1FE372DB.jpg@@6600|613|15",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-47",
+      "address": "ארלוזורוב 86",
+      "category": "dangerous",
+      "block": "7175",
+      "parcel": "88",
+      "locations": [
+        {
+          "address": "חולון,ארלוזורוב,86",
+          "lat": 32.0172962819871,
+          "lng": 34.7719111935979
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,ארלוזורוב,86@@34.7719111935979|32.0172962819871|http://www.zoomap.co.il/files/images/buildings/thumbs/AC132DDFAC12EB3D.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/AC132DDFAC12EB3D.jpg@@6600|708|86",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-48",
+      "address": "דוד אלעזר 45",
+      "category": "dangerous",
+      "block": "6748",
+      "parcel": "140",
+      "locations": [
+        {
+          "address": "חולון,דוד אלעזר,45",
+          "lat": 32.0091513958345,
+          "lng": 34.7851539955763
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,דוד אלעזר,45@@34.7851539955763|32.0091513958345|http://www.zoomap.co.il/files/images/buildings/thumbs/2049BE171FE360B9.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/2049BE171FE360B9.jpg@@6600|324|45",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-49",
+      "address": "ארבע ארצות 34",
+      "category": "dangerous",
+      "block": "7126",
+      "parcel": "60",
+      "locations": [
+        {
+          "address": "חולון,ארבע ארצות,34",
+          "lat": 32.0027785954515,
+          "lng": 34.7629392563497
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,ארבע ארצות,34@@34.7629392563497|32.0027785954515|http://www.zoomap.co.il/files/images/buildings/thumbs/EF2930CEEF189007.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/EF2930CEEF189007.jpg@@6600|811|34",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-50",
+      "address": "חובבי ציון 2",
+      "category": "dangerous",
+      "block": "7166",
+      "parcel": "158",
+      "locations": [
+        {
+          "address": "חולון,חובבי ציון,2",
+          "lat": 32.0232480224504,
+          "lng": 34.7720817298506
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,חובבי ציון,2@@34.7720817298506|32.0232480224504|http://www.zoomap.co.il/files/images/buildings/thumbs/2032A6C61FE34204.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/2032A6C61FE34204.jpg@@6600|509|2",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-51",
+      "address": "ארלוזורוב 142",
+      "category": "dangerous",
+      "block": "6740",
+      "parcel": "304",
+      "locations": [
+        {
+          "address": "חולון,ארלוזורוב,142",
+          "lat": 32.012154093979,
+          "lng": 34.7710931176578
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,ארלוזורוב,142@@34.7710931176578|32.012154093979||@@6600|708|142",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-52",
+      "address": "קראוזה 45",
+      "category": "dangerous",
+      "block": "7169",
+      "parcel": "42",
+      "locations": [
+        {
+          "address": "חולון,אליהו קראוזה,45",
+          "lat": 32.0227215345182,
+          "lng": 34.7816840119776
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,אליהו קראוזה,45@@34.7816840119776|32.0227215345182|http://www.zoomap.co.il/files/images/buildings/thumbs/2030BEFB1FE33F6C.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/2030BEFB1FE33F6C.jpg@@6600|406|45",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-53",
+      "address": "לסקוב 26",
+      "category": "dangerous",
+      "block": "7182",
+      "parcel": "29",
+      "locations": [
+        {
+          "address": "חולון,לסקוב,26",
+          "lat": 31.9964192707956,
+          "lng": 34.7717854104837
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,לסקוב,26@@34.7717854104837|31.9964192707956|http://www.zoomap.co.il/files/images/buildings/thumbs/20236F531FE32E4A.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/20236F531FE32E4A.jpg@@6600|794|26",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-54",
+      "address": "הסנהדרין 41",
+      "category": "dangerous",
+      "block": "7126",
+      "parcel": "167",
+      "locations": [
+        {
+          "address": "חולון,הסנהדרין,41",
+          "lat": 32.0023286192062,
+          "lng": 34.7626327245661
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,הסנהדרין,41@@34.7626327245661|32.0023286192062|http://www.zoomap.co.il/files/images/buildings/thumbs/EF3B6033EF18907A.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/EF3B6033EF18907A.jpg@@6600|807|41",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-55",
+      "address": "יגאל ידין 12",
+      "category": "dangerous",
+      "block": "6866",
+      "parcel": "13",
+      "locations": [
+        {
+          "address": "חולון,יגאל ידין,12",
+          "lat": 32.0111261322501,
+          "lng": 34.7841984980009
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,יגאל ידין,12@@34.7841984980009|32.0111261322501|http://www.zoomap.co.il/files/images/buildings/thumbs/204913401FE35FD0.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/204913401FE35FD0.jpg@@6600|323|12",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-56",
+      "address": "בעל שם טוב 31",
+      "category": "dangerous",
+      "block": "7162",
+      "parcel": "255",
+      "locations": [
+        {
+          "address": "חולון,הבעש\"ט,31",
+          "lat": 32.0224794664422,
+          "lng": 34.7618601241254
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,הבעש\"ט,31@@34.7618601241254|32.0224794664422|http://www.zoomap.co.il/files/images/buildings/thumbs/203210DF1FE34148.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/203210DF1FE34148.jpg@@6600|741|31",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-57",
+      "address": "בעל שם טוב 33",
+      "category": "dangerous",
+      "block": "7162",
+      "parcel": "255",
+      "locations": [
+        {
+          "address": "חולון,הבעש\"ט,33",
+          "lat": 32.0225320097577,
+          "lng": 34.7617627733574
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,הבעש\"ט,33@@34.7617627733574|32.0225320097577|http://www.zoomap.co.il/files/images/buildings/thumbs/203212A41FE3414A.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/203212A41FE3414A.jpg@@6600|741|33",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-58",
+      "address": "חנקין 21",
+      "category": "dangerous",
+      "block": "7167",
+      "parcel": "78",
+      "locations": [
+        {
+          "address": "חולון,יהושע חנקין,21",
+          "lat": 32.0256172231369,
+          "lng": 34.7793102102322
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,יהושע חנקין,21@@34.7793102102322|32.0256172231369|http://www.zoomap.co.il/files/images/buildings/thumbs/203410871FE343A9.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/203410871FE343A9.jpg@@6600|415|21",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-59",
+      "address": "יהושוע טהון 33",
+      "category": "dangerous",
+      "block": "6799",
+      "parcel": "14",
+      "locations": [
+        {
+          "address": "חולון,יהושע טהון,33",
+          "lat": 32.0230920197283,
+          "lng": 34.7904990681822
+        }
+      ],
+      "evidence": "user-pasted corrected B144 responses",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": null,
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-60",
+      "address": "עין גדי 6",
+      "category": "dangerous",
+      "block": "7127",
+      "parcel": "85",
+      "locations": [
+        {
+          "address": "חולון,עין גדי,6",
+          "lat": 32.006834916635,
+          "lng": 34.7629769466456
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,עין גדי,6@@34.7629769466456|32.006834916635|http://www.zoomap.co.il/files/images/buildings/thumbs/20310B751FE33FA0.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/20310B751FE33FA0.jpg@@6600|802|6",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-61",
+      "address": "מקווה ישראל  16ב'",
+      "category": "dangerous",
+      "block": "7167",
+      "parcel": "2",
+      "locations": [
+        {
+          "address": "חולון,מקווה ישראל,16",
+          "lat": 32.0277519766003,
+          "lng": 34.7788798567414
+        }
+      ],
+      "evidence": "user-pasted corrected B144 responses",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": null,
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-62",
+      "address": "ראש פינה 1+3",
+      "category": "dangerous",
+      "block": "6021",
+      "parcel": "851",
+      "locations": [
+        {
+          "address": "חולון,ראש פינה,1",
+          "lat": 32.0167224682563,
+          "lng": 34.7802813939013
+        },
+        {
+          "address": "חולון,ראש פינה,3",
+          "lat": 32.0166104202749,
+          "lng": 34.7804236133007
+        }
+      ],
+      "evidence": "user-pasted corrected B144 responses",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "ראש פינה,3@@0|0||@@26|963|3",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-63",
+      "address": "ההסתדרות 94,96,98,100,102",
+      "category": "dangerous",
+      "block": "6021",
+      "parcel": "851",
+      "locations": [
+        {
+          "address": "חולון,ההסתדרות,94",
+          "lat": 32.0168827041488,
+          "lng": 34.7803505132755
+        },
+        {
+          "address": "חולון,ההסתדרות,96",
+          "lat": 32.0169309289426,
+          "lng": 34.780473908229
+        },
+        {
+          "address": "חולון,ההסתדרות,98",
+          "lat": 32.0168812735403,
+          "lng": 34.7806148424426
+        },
+        {
+          "address": "חולון,ההסתדרות,100",
+          "lat": 32.01689776738,
+          "lng": 34.7807816803415
+        },
+        {
+          "address": "חולון,ההסתדרות,102",
+          "lat": 32.0168358304229,
+          "lng": 34.7809394672997
+        }
+      ],
+      "evidence": "user-pasted corrected B144 responses",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": null,
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-64",
+      "address": "סוקולוב 28",
+      "category": "dangerous",
+      "block": "7166",
+      "parcel": "139",
+      "locations": [
+        {
+          "address": "חולון,סוקולוב,28",
+          "lat": 32.0227239515082,
+          "lng": 34.7726681228326
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,סוקולוב,28@@34.7726681228326|32.0227239515082|http://www.zoomap.co.il/files/images/buildings/thumbs/2035E99D1FE3464A.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/2035E99D1FE3464A.jpg@@6600|401|28",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-65",
+      "address": "הופיין אליעזר 76",
+      "category": "dangerous",
+      "block": "6043",
+      "parcel": "1807",
+      "locations": [
+        {
+          "address": "חולון,אליעזר הופיין,76",
+          "lat": 32.0128490505231,
+          "lng": 34.7745393489558
+        }
+      ],
+      "evidence": "user-pasted corrected B144 responses",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": null,
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-66",
+      "address": "שער האריות 5",
+      "category": "dangerous",
+      "block": "7342",
+      "parcel": "166",
+      "locations": [
+        {
+          "address": "חולון,שער האריות,5",
+          "lat": 32.0055326169013,
+          "lng": 34.7959381172166
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,שער האריות,5@@34.7959381172166|32.0055326169013|http://www.zoomap.co.il/files/images/buildings/thumbs/2022A83B1FE32D63.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/2022A83B1FE32D63.jpg@@6600|940|5",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-67",
+      "address": "בעל שם טוב 3",
+      "category": "dangerous",
+      "block": "7162",
+      "parcel": "176",
+      "locations": [
+        {
+          "address": "חולון,הבעש\"ט,3",
+          "lat": 32.0225307068008,
+          "lng": 34.7649338364689
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,הבעש\"ט,3@@34.7649338364689|32.0225307068008|http://www.zoomap.co.il/files/images/buildings/thumbs/2031F8171FE3412C.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/2031F8171FE3412C.jpg@@6600|741|3",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-68",
+      "address": "קפלנסקי שלמה 5",
+      "category": "dangerous",
+      "block": "6746",
+      "parcel": "304",
+      "locations": [
+        {
+          "address": "חולון,שלמה קפלנסקי,5",
+          "lat": 32.0165039503501,
+          "lng": 34.7662035723473
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,שלמה קפלנסקי,5@@34.7662035723473|32.0165039503501|http://www.zoomap.co.il/files/images/buildings/thumbs/404A885840099B2A.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/404A885840099B2A.jpg@@6600|766|5",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-69",
+      "address": "ההסתדרות 90",
+      "category": "dangerous",
+      "block": "6021",
+      "parcel": "833",
+      "locations": [
+        {
+          "address": "חולון,ההסתדרות,90",
+          "lat": 32.0170034133814,
+          "lng": 34.7796942438307
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,ההסתדרות,90@@34.7796942438307|32.0170034133814|http://www.zoomap.co.il/files/images/buildings/thumbs/0099DDA6003D6A96.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/0099DDA6003D6A96.jpg@@6600|304|90",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-dangerous-70",
+      "address": "הדס 16",
+      "category": "dangerous",
+      "block": "6870",
+      "parcel": "78",
+      "locations": [
+        {
+          "address": "חולון,הדס,16",
+          "lat": 32.0058340784614,
+          "lng": 34.7791540632088
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,הדס,16@@34.7791540632088|32.0058340784614||@@6600|1005|16",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-pal-kal-1",
+      "address": "דב הוז 41",
+      "category": "pal-kal",
+      "block": "7162",
+      "parcel": "130",
+      "locations": [
+        {
+          "address": "חולון,שדרות דב הוז,41",
+          "lat": 32.0231727174121,
+          "lng": 34.7656377670292
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,שדרות דב הוז,41@@34.7656377670292|32.0231727174121|http://www.zoomap.co.il/files/images/buildings/thumbs/2031E4BE1FE34103.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/2031E4BE1FE34103.jpg@@6600|725|41",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-pal-kal-2",
+      "address": "יחזקאל 6",
+      "category": "pal-kal",
+      "block": "6019",
+      "parcel": "147",
+      "locations": [
+        {
+          "address": "חולון,יחזקאל,6",
+          "lat": 32.0160148003054,
+          "lng": 34.7904376798902
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,יחזקאל,6@@34.7904376798902|32.0160148003054|http://www.zoomap.co.il/files/images/buildings/thumbs/3CB95E723C74C053.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/3CB95E723C74C053.jpg@@6600|223|6",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-pal-kal-3",
+      "address": "חומה ומגדל 5",
+      "category": "pal-kal",
+      "block": "7172",
+      "parcel": "149",
+      "locations": [
+        {
+          "address": "חולון,חומה ומגדל,5",
+          "lat": 32.0203303651174,
+          "lng": 34.7726730943657
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,חומה ומגדל,5@@34.7726730943657|32.0203303651174||@@6600|704|5",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-pal-kal-4",
+      "address": "שד' קוגל 10",
+      "category": "pal-kal",
+      "block": "7070",
+      "parcel": "99",
+      "locations": [
+        {
+          "address": "חולון,שדרות קוגל,10",
+          "lat": 32.027629372027,
+          "lng": 34.7727530097095
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,שדרות קוגל,10@@34.7727530097095|32.027629372027||@@6600|505|10",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-pal-kal-5",
+      "address": "האורגים 1",
+      "category": "pal-kal",
+      "block": "6785",
+      "parcel": "72",
+      "locations": [
+        {
+          "address": "חולון,האורגים,1",
+          "lat": 32.0124971583202,
+          "lng": 34.7979167083726
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,האורגים,1@@34.7979167083726|32.0124971583202|http://www.zoomap.co.il/files/images/buildings/thumbs/9FC511779F847B1A.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/9FC511779F847B1A.jpg@@6600|106|1",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-pal-kal-6",
+      "address": "האורגים 3",
+      "category": "pal-kal",
+      "block": "6785",
+      "parcel": "73",
+      "locations": [
+        {
+          "address": "חולון,האורגים,3",
+          "lat": 32.0123127199174,
+          "lng": 34.7981990723711
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,האורגים,3@@34.7981990723711|32.0123127199174|http://www.zoomap.co.il/files/images/buildings/thumbs/9FC512809F847B1C.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/9FC512809F847B1C.jpg@@6600|106|3",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-pal-kal-7",
+      "address": "האורגים 5",
+      "category": "pal-kal",
+      "block": "6785",
+      "parcel": "74",
+      "locations": [
+        {
+          "address": "חולון,האורגים,5",
+          "lat": 32.0121840042908,
+          "lng": 34.7984269004093
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,האורגים,5@@34.7984269004093|32.0121840042908|http://www.zoomap.co.il/files/images/buildings/thumbs/9FC5132C9F847B1D.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/9FC5132C9F847B1D.jpg@@6600|106|5",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-pal-kal-8",
+      "address": "האורגים 7",
+      "category": "pal-kal",
+      "block": "6785",
+      "parcel": "75",
+      "locations": [
+        {
+          "address": "חולון,האורגים,7",
+          "lat": 32.0119812999045,
+          "lng": 34.7986949413664
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,האורגים,7@@34.7986949413664|32.0119812999045|http://www.zoomap.co.il/files/images/buildings/thumbs/9FC514559F847B1F.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/9FC514559F847B1F.jpg@@6600|106|7",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-pal-kal-9",
+      "address": "הבנאי 19",
+      "category": "pal-kal",
+      "block": "6786",
+      "parcel": "24",
+      "locations": [
+        {
+          "address": "חולון,הבנאי,19",
+          "lat": 32.0129997511125,
+          "lng": 34.8032356317963
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,הבנאי,19@@34.8032356317963|32.0129997511125|http://www.zoomap.co.il/files/images/buildings/thumbs/9FC507849F847B09.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/9FC507849F847B09.jpg@@6600|107|19",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-pal-kal-10",
+      "address": "הבנאי 21",
+      "category": "pal-kal",
+      "block": "6786",
+      "parcel": "24",
+      "locations": [
+        {
+          "address": "חולון,הבנאי,21",
+          "lat": 32.0122471310945,
+          "lng": 34.8030935895963
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,הבנאי,21@@34.8030935895963|32.0122471310945|http://www.zoomap.co.il/files/images/buildings/thumbs/9FC508CC9F847B0B.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/9FC508CC9F847B0B.jpg@@6600|107|21",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-pal-kal-11",
+      "address": "המנור 3",
+      "category": "pal-kal",
+      "block": "6805",
+      "parcel": "19",
+      "locations": [
+        {
+          "address": "חולון,המנור,3",
+          "lat": 32.0078376956115,
+          "lng": 34.8050145925011
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,המנור,3@@34.8050145925011|32.0078376956115||@@6600|121|3",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-pal-kal-12",
+      "address": "הסתת 6",
+      "category": "pal-kal",
+      "block": "6785",
+      "parcel": "9",
+      "locations": [
+        {
+          "address": "חולון,הסתת,6",
+          "lat": 32.0138043992537,
+          "lng": 34.8009064354062
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,הסתת,6@@34.8009064354062|32.0138043992537||@@6600|116|6",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-pal-kal-13",
+      "address": "הסדן 7",
+      "category": "pal-kal",
+      "block": "6782",
+      "parcel": "40",
+      "locations": [
+        {
+          "address": "חולון,הסדן,7",
+          "lat": 32.0212348448436,
+          "lng": 34.8030262799342
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,הסדן,7@@34.8030262799342|32.0212348448436||@@6600|289|7",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-pal-kal-14",
+      "address": "הפלד 26",
+      "category": "pal-kal",
+      "block": "6780",
+      "parcel": "32",
+      "locations": [
+        {
+          "address": "חולון,הפלד,26",
+          "lat": 32.0209962344488,
+          "lng": 34.7984502634326
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,הפלד,26@@34.7984502634326|32.0209962344488|http://www.zoomap.co.il/files/images/buildings/thumbs/9FC567289F847BA9.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/9FC567289F847BA9.jpg@@6600|117|26",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-pal-kal-15",
+      "address": "המרכבה 13",
+      "category": "pal-kal",
+      "block": "6783",
+      "parcel": "26",
+      "locations": [
+        {
+          "address": "חולון,המרכבה,13",
+          "lat": 32.0165970893428,
+          "lng": 34.8073299625054
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,המרכבה,13@@34.8073299625054|32.0165970893428||@@6600|112|13",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-pal-kal-16",
+      "address": "הסדנא 4",
+      "category": "pal-kal",
+      "block": "6782",
+      "parcel": "6",
+      "locations": [
+        {
+          "address": "חולון,הסדנה,4",
+          "lat": 32.0205636233704,
+          "lng": 34.8005164924831
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,הסדנה,4@@34.8005164924831|32.0205636233704|http://www.zoomap.co.il/files/images/buildings/thumbs/9FC527509F847B42.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/9FC527509F847B42.jpg@@6600|115|4",
+        "ErrorFields": {}
+      }
+    },
+    {
+      "id": "holon-pal-kal-17",
+      "address": "האורגים 12",
+      "category": "pal-kal",
+      "block": "6804",
+      "parcel": "11",
+      "locations": [
+        {
+          "address": "חולון,האורגים,12",
+          "lat": 32.0105613860442,
+          "lng": 34.7998810913992
+        }
+      ],
+      "evidence": "uploaded B144 results JSON",
+      "observed_date": "2026-10-16",
+      "original_response": {
+        "Success": true,
+        "ErrorMessage": "",
+        "Response": "חולון,האורגים,12@@34.7998810913992|32.0105613860442|http://www.zoomap.co.il/files/images/buildings/thumbs/9FC516689F847B23.jpg|http://www.zoomap.co.il/files/images/buildings/enlarged/9FC516689F847B23.jpg@@6600|106|12",
+        "ErrorFields": {}
+      }
+    }
+  ]
+}

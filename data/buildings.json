@@ -25134,8 +25134,19 @@
       "parcel": "8",
       "block": "7168",
       "notes": "גוש 7168 · חלקה 8",
-      "lat": null,
-      "lng": null
+      "lat": 32.0243014464034,
+      "lng": 34.7766869192458,
+      "locations": [
+        {
+          "address": "חולון,אריה שנקר,33",
+          "lat": 32.0243014464034,
+          "lng": 34.7766869192458
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-dangerous-3",
@@ -25148,8 +25159,19 @@
       "parcel": "201",
       "block": "6021",
       "notes": "גוש 6021 · חלקה 201",
-      "lat": null,
-      "lng": null
+      "lat": 32.0173214343986,
+      "lng": 34.7820812663119,
+      "locations": [
+        {
+          "address": "חולון,וולפסון,32",
+          "lat": 32.0173214343986,
+          "lng": 34.7820812663119
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-dangerous-4",
@@ -25162,8 +25184,19 @@
       "parcel": "341",
       "block": "6049",
       "notes": "גוש 6049 · חלקה 341",
-      "lat": null,
-      "lng": null
+      "lat": 32.0203480306348,
+      "lng": 34.7670897109034,
+      "locations": [
+        {
+          "address": "חולון,הרצפלד,4",
+          "lat": 32.0203480306348,
+          "lng": 34.7670897109034
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-dangerous-5",
@@ -25176,8 +25209,19 @@
       "parcel": "132",
       "block": "7132",
       "notes": "גוש 7132 · חלקה 132",
-      "lat": null,
-      "lng": null
+      "lat": 32.017804191601,
+      "lng": 34.7646719197791,
+      "locations": [
+        {
+          "address": "חולון,אילת,36",
+          "lat": 32.017804191601,
+          "lng": 34.7646719197791
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה · מיקום החניון עצמו לא אומת",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-dangerous-6",
@@ -25190,8 +25234,19 @@
       "parcel": "133",
       "block": "7174",
       "notes": "גוש 7174 · חלקה 133",
-      "lat": null,
-      "lng": null
+      "lat": 32.017653412841,
+      "lng": 34.7768133533737,
+      "locations": [
+        {
+          "address": "חולון,משמר הירדן,1",
+          "lat": 32.017653412841,
+          "lng": 34.7768133533737
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-dangerous-7",
@@ -25204,8 +25259,19 @@
       "parcel": "265",
       "block": "7161",
       "notes": "גוש 7161 · חלקה 265",
-      "lat": null,
-      "lng": null
+      "lat": 32.0270969812534,
+      "lng": 34.7620598726258,
+      "locations": [
+        {
+          "address": "חולון,חזית חמש,24",
+          "lat": 32.0270969812534,
+          "lng": 34.7620598726258
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-dangerous-8",
@@ -25218,8 +25284,19 @@
       "parcel": "36",
       "block": "6785",
       "notes": "גוש 6785 · חלקה 36",
-      "lat": null,
-      "lng": null
+      "lat": 32.014145,
+      "lng": 34.8025965,
+      "locations": [
+        {
+          "address": "חולון,המשביר,14",
+          "lat": 32.014145,
+          "lng": 34.8025965
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-dangerous-9",
@@ -25232,8 +25309,19 @@
       "parcel": "37",
       "block": "6785",
       "notes": "גוש 6785 · חלקה 37",
-      "lat": null,
-      "lng": null
+      "lat": 32.0139842257177,
+      "lng": 34.8022371090967,
+      "locations": [
+        {
+          "address": "חולון,המשביר,12",
+          "lat": 32.0139842257177,
+          "lng": 34.8022371090967
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-dangerous-10",
@@ -25246,8 +25334,19 @@
       "parcel": "175",
       "block": "7168",
       "notes": "גוש 7168 · חלקה 175",
-      "lat": null,
-      "lng": null
+      "lat": 32.022683807331,
+      "lng": 34.7785938220711,
+      "locations": [
+        {
+          "address": "חולון,סוקולוב,77",
+          "lat": 32.022683807331,
+          "lng": 34.7785938220711
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-dangerous-11",
@@ -25260,8 +25359,19 @@
       "parcel": "232",
       "block": "6996",
       "notes": "גוש 6996 · חלקה 232",
-      "lat": null,
-      "lng": null
+      "lat": 32.0313702399859,
+      "lng": 34.7622238735732,
+      "locations": [
+        {
+          "address": "חולון,חזית חמש,7",
+          "lat": 32.0313702399859,
+          "lng": 34.7622238735732
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-dangerous-12",
@@ -25274,8 +25384,19 @@
       "parcel": "575",
       "block": "6020",
       "notes": "גוש 6020 · חלקה 575",
-      "lat": null,
-      "lng": null
+      "lat": 32.0125885441754,
+      "lng": 34.7914409689916,
+      "locations": [
+        {
+          "address": "חולון,רבי עקיבא,34",
+          "lat": 32.0125885441754,
+          "lng": 34.7914409689916
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-dangerous-13",
@@ -25288,8 +25409,19 @@
       "parcel": "5",
       "block": "6784",
       "notes": "גוש 6784 · חלקה 5",
-      "lat": null,
-      "lng": null
+      "lat": 32.0185178083146,
+      "lng": 34.8028633193523,
+      "locations": [
+        {
+          "address": "חולון,המלאכה,13",
+          "lat": 32.0185178083146,
+          "lng": 34.8028633193523
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-dangerous-14",
@@ -25302,8 +25434,19 @@
       "parcel": "77",
       "block": "7170",
       "notes": "גוש 7170 · חלקה 77",
-      "lat": null,
-      "lng": null
+      "lat": 32.0201036711766,
+      "lng": 34.7774665412302,
+      "locations": [
+        {
+          "address": "חולון,חומה ומגדל,35",
+          "lat": 32.0201036711766,
+          "lng": 34.7774665412302
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-dangerous-15",
@@ -25316,8 +25459,19 @@
       "parcel": "128",
       "block": "7172",
       "notes": "גוש 7172 · חלקה 128",
-      "lat": null,
-      "lng": null
+      "lat": 32.022000701578,
+      "lng": 34.7762030330031,
+      "locations": [
+        {
+          "address": "חולון,כיכר וייצמן,1",
+          "lat": 32.022000701578,
+          "lng": 34.7762030330031
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "user-pasted B144 response for corrected spelling כיכר וייצמן"
     },
     {
       "id": "holon-dangerous-16",
@@ -25330,8 +25484,19 @@
       "parcel": "332",
       "block": "7160",
       "notes": "גוש 7160 · חלקה 332",
-      "lat": null,
-      "lng": null
+      "lat": 32.0259274137841,
+      "lng": 34.7613408086264,
+      "locations": [
+        {
+          "address": "חולון,החי\"ם,18",
+          "lat": 32.0259274137841,
+          "lng": 34.7613408086264
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-dangerous-17",
@@ -25344,8 +25509,19 @@
       "parcel": "89",
       "block": "6018",
       "notes": "גוש 6018 · חלקה 89",
-      "lat": null,
-      "lng": null
+      "lat": 32.01836236673,
+      "lng": 34.7895889659811,
+      "locations": [
+        {
+          "address": "חולון,אלישע,8",
+          "lat": 32.01836236673,
+          "lng": 34.7895889659811
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-dangerous-18",
@@ -25358,8 +25534,19 @@
       "parcel": "2",
       "block": "6784",
       "notes": "גוש 6784 · חלקה 2",
-      "lat": null,
-      "lng": null
+      "lat": 32.0192641709526,
+      "lng": 34.8042102019178,
+      "locations": [
+        {
+          "address": "חולון,המרכבה,2",
+          "lat": 32.0192641709526,
+          "lng": 34.8042102019178
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-dangerous-19",
@@ -25372,12 +25559,19 @@
       "parcel": "197",
       "block": "7070",
       "notes": "גוש 7070 · חלקה 197",
-      "lat": 32.0296039,
-      "lng": 34.7704721,
-      "geocode_label": "התאמת כתובת אוטומטית · OpenStreetMap",
-      "geocode_display_name": "9, זכריה הרופא, חולון, שכונת עם, חולון, נפת תל אביב, מחוז תל אביב, 5822304, ישראל",
-      "geocode_provider": "Nominatim",
-      "geocode_osm_id": 333105424
+      "lat": 32.0295577301179,
+      "lng": 34.7704526116329,
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_provider": "B144 / Zoomap",
+      "locations": [
+        {
+          "address": "חולון,זכריה הרופא,9",
+          "lat": 32.0295577301179,
+          "lng": 34.7704526116329
+        }
+      ],
+      "location_precision": "address",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-dangerous-20",
@@ -25390,12 +25584,19 @@
       "parcel": "17",
       "block": "7343",
       "notes": "גוש 7343 · חלקה 17",
-      "lat": 32.0092301,
-      "lng": 34.7928813,
-      "geocode_label": "התאמת כתובת אוטומטית · OpenStreetMap",
-      "geocode_display_name": "15, משה שרת, חולון, קרית שרת, חולון, נפת תל אביב, מחוז תל אביב, 5845935, ישראל",
-      "geocode_provider": "Nominatim",
-      "geocode_osm_id": 330427433
+      "lat": 32.009256490958,
+      "lng": 34.7927972314801,
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_provider": "B144 / Zoomap",
+      "locations": [
+        {
+          "address": "חולון,משה שרת,15",
+          "lat": 32.009256490958,
+          "lng": 34.7927972314801
+        }
+      ],
+      "location_precision": "address",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-dangerous-21",
@@ -25408,8 +25609,19 @@
       "parcel": "222",
       "block": "7163",
       "notes": "גוש 7163 · חלקה 222",
-      "lat": null,
-      "lng": null
+      "lat": 32.024504337866,
+      "lng": 34.7665821750112,
+      "locations": [
+        {
+          "address": "חולון,הרב יצחק הלוי,15",
+          "lat": 32.024504337866,
+          "lng": 34.7665821750112
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-dangerous-22",
@@ -25422,8 +25634,19 @@
       "parcel": "142",
       "block": "7167",
       "notes": "גוש 7167 · חלקה 142",
-      "lat": null,
-      "lng": null
+      "lat": 32.0259834124588,
+      "lng": 34.7826642553888,
+      "locations": [
+        {
+          "address": "חולון,נורדאו,10",
+          "lat": 32.0259834124588,
+          "lng": 34.7826642553888
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-dangerous-23",
@@ -25436,8 +25659,19 @@
       "parcel": "1221",
       "block": "6043",
       "notes": "גוש 6043 · חלקה 1221",
-      "lat": null,
-      "lng": null
+      "lat": 32.0089816871357,
+      "lng": 34.7688786335957,
+      "locations": [
+        {
+          "address": "חולון,יוסף אהרונוביץ',40",
+          "lat": 32.0089816871357,
+          "lng": 34.7688786335957
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "user-pasted corrected B144 responses"
     },
     {
       "id": "holon-dangerous-24",
@@ -25450,12 +25684,19 @@
       "parcel": "190",
       "block": "7162",
       "notes": "גוש 7162 · חלקה 190",
-      "lat": 32.0230969,
-      "lng": 34.7643344,
-      "geocode_label": "התאמת כתובת אוטומטית · OpenStreetMap",
-      "geocode_display_name": "57, שדרות דב הוז, חולון, קריית עבודה, חולון, נפת תל אביב, מחוז תל אביב, 5832337, ישראל",
-      "geocode_provider": "Nominatim",
-      "geocode_osm_id": 1832119770
+      "lat": 32.0231878707257,
+      "lng": 34.7642322447596,
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_provider": "B144 / Zoomap",
+      "locations": [
+        {
+          "address": "חולון,שדרות דב הוז,57",
+          "lat": 32.0231878707257,
+          "lng": 34.7642322447596
+        }
+      ],
+      "location_precision": "address",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-dangerous-25",
@@ -25468,12 +25709,19 @@
       "parcel": "188",
       "block": "7162",
       "notes": "גוש 7162 · חלקה 188",
-      "lat": 32.0231916,
-      "lng": 34.7644286,
-      "geocode_label": "התאמת כתובת אוטומטית · OpenStreetMap",
-      "geocode_display_name": "55, שדרות דב הוז, חולון, קריית עבודה, חולון, נפת תל אביב, מחוז תל אביב, 5832337, ישראל",
-      "geocode_provider": "Nominatim",
-      "geocode_osm_id": 1257991633
+      "lat": 32.0231505092889,
+      "lng": 34.7644021884013,
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_provider": "B144 / Zoomap",
+      "locations": [
+        {
+          "address": "חולון,שדרות דב הוז,55",
+          "lat": 32.0231505092889,
+          "lng": 34.7644021884013
+        }
+      ],
+      "location_precision": "address",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-dangerous-26",
@@ -25486,8 +25734,19 @@
       "parcel": "159",
       "block": "7168",
       "notes": "גוש 7168 · חלקה 159",
-      "lat": null,
-      "lng": null
+      "lat": 32.0238198392361,
+      "lng": 34.7766270427431,
+      "locations": [
+        {
+          "address": "חולון,אריה שנקר,39",
+          "lat": 32.0238198392361,
+          "lng": 34.7766270427431
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-dangerous-27",
@@ -25500,8 +25759,19 @@
       "parcel": "467",
       "block": "6021",
       "notes": "גוש 6021 · חלקה 467",
-      "lat": null,
-      "lng": null
+      "lat": 32.0207415278662,
+      "lng": 34.7848740714235,
+      "locations": [
+        {
+          "address": "חולון,הארז,16",
+          "lat": 32.0207415278662,
+          "lng": 34.7848740714235
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-dangerous-28",
@@ -25514,8 +25784,19 @@
       "parcel": "39",
       "block": "7165",
       "notes": "גוש 7165 · חלקה 39",
-      "lat": null,
-      "lng": null
+      "lat": 32.0263039471713,
+      "lng": 34.7734159355974,
+      "locations": [
+        {
+          "address": "חולון,שדרות קוגל,18",
+          "lat": 32.0263039471713,
+          "lng": 34.7734159355974
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "user-pasted corrected B144 responses"
     },
     {
       "id": "holon-dangerous-29",
@@ -25528,8 +25809,19 @@
       "parcel": "343",
       "block": "6746",
       "notes": "גוש 6746 · חלקה 343",
-      "lat": null,
-      "lng": null
+      "lat": 32.0144313525639,
+      "lng": 34.7662179600574,
+      "locations": [
+        {
+          "address": "חולון,אליעזר הופיין,9",
+          "lat": 32.0144313525639,
+          "lng": 34.7662179600574
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "user-pasted corrected B144 responses"
     },
     {
       "id": "holon-dangerous-30",
@@ -25542,8 +25834,19 @@
       "parcel": "339",
       "block": "6746",
       "notes": "גוש 6746 · חלקה 339",
-      "lat": null,
-      "lng": null
+      "lat": 32.0148036446598,
+      "lng": 34.766263424793,
+      "locations": [
+        {
+          "address": "חולון,ברנשטיין,9",
+          "lat": 32.0148036446598,
+          "lng": 34.766263424793
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-dangerous-31",
@@ -25556,8 +25859,19 @@
       "parcel": "340",
       "block": "6746",
       "notes": "גוש 6746 · חלקה 340",
-      "lat": null,
-      "lng": null
+      "lat": 32.0147582124558,
+      "lng": 34.766490705047,
+      "locations": [
+        {
+          "address": "חולון,ברנשטיין,7",
+          "lat": 32.0147582124558,
+          "lng": 34.766490705047
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-dangerous-32",
@@ -25570,8 +25884,19 @@
       "parcel": "305",
       "block": "6740",
       "notes": "גוש 6740 · חלקה 305",
-      "lat": null,
-      "lng": null
+      "lat": 32.0119973542887,
+      "lng": 34.7710391871995,
+      "locations": [
+        {
+          "address": "חולון,ארלוזורוב,144",
+          "lat": 32.0119973542887,
+          "lng": 34.7710391871995
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-dangerous-33",
@@ -25584,12 +25909,19 @@
       "parcel": "179",
       "block": "7172",
       "notes": "גוש 7172 · חלקה 179",
-      "lat": 32.0205052,
-      "lng": 34.7740993,
-      "geocode_label": "התאמת כתובת אוטומטית · OpenStreetMap",
-      "geocode_display_name": "42, ביאליק, חולון, קריית עבודה, חולון, נפת תל אביב, מחוז תל אביב, 5832337, ישראל",
-      "geocode_provider": "Nominatim",
-      "geocode_osm_id": 332345981
+      "lat": 32.0203739434733,
+      "lng": 34.7741133050882,
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_provider": "B144 / Zoomap",
+      "locations": [
+        {
+          "address": "חולון,ביאליק,42",
+          "lat": 32.0203739434733,
+          "lng": 34.7741133050882
+        }
+      ],
+      "location_precision": "address",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-dangerous-34",
@@ -25602,8 +25934,19 @@
       "parcel": "1961",
       "block": "6043",
       "notes": "גוש 6043 · חלקה 1961",
-      "lat": null,
-      "lng": null
+      "lat": 32.0094578446319,
+      "lng": 34.7700459059662,
+      "locations": [
+        {
+          "address": "חולון,פנחס לבון,6",
+          "lat": 32.0094578446319,
+          "lng": 34.7700459059662
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-dangerous-35",
@@ -25616,8 +25959,19 @@
       "parcel": "518",
       "block": "6021",
       "notes": "גוש 6021 · חלקה 518",
-      "lat": null,
-      "lng": null
+      "lat": 32.0195224822951,
+      "lng": 34.7869492629779,
+      "locations": [
+        {
+          "address": "חולון,שדרות ירושלים,30",
+          "lat": 32.0195224822951,
+          "lng": 34.7869492629779
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-dangerous-36",
@@ -25630,8 +25984,19 @@
       "parcel": "84",
       "block": "6873",
       "notes": "גוש 6873 · חלקה 84",
-      "lat": null,
-      "lng": null
+      "lat": 32.0021796499101,
+      "lng": 34.7690814919543,
+      "locations": [
+        {
+          "address": "חולון,יפה אברהם,5",
+          "lat": 32.0021796499101,
+          "lng": 34.7690814919543
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-dangerous-37",
@@ -25644,8 +26009,19 @@
       "parcel": "1875",
       "block": "6043",
       "notes": "גוש 6043 · חלקה 1875",
-      "lat": null,
-      "lng": null
+      "lat": 32.0097310467264,
+      "lng": 34.7718443337589,
+      "locations": [
+        {
+          "address": "חולון,בובר,7",
+          "lat": 32.0097310467264,
+          "lng": 34.7718443337589
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-dangerous-38",
@@ -25658,8 +26034,19 @@
       "parcel": "204",
       "block": "6760",
       "notes": "גוש 6760 · חלקה 204",
-      "lat": null,
-      "lng": null
+      "lat": 32.0004119776525,
+      "lng": 34.771632551253,
+      "locations": [
+        {
+          "address": "חולון,משה דיין,60",
+          "lat": 32.0004119776525,
+          "lng": 34.771632551253
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-dangerous-39",
@@ -25672,8 +26059,19 @@
       "parcel": "205",
       "block": "6018",
       "notes": "גוש 6018 · חלקה 205",
-      "lat": null,
-      "lng": null
+      "lat": 32.0216367889813,
+      "lng": 34.7875307777714,
+      "locations": [
+        {
+          "address": "חולון,יהושע טהון,7",
+          "lat": 32.0216367889813,
+          "lng": 34.7875307777714
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "user-pasted corrected B144 responses"
     },
     {
       "id": "holon-dangerous-40",
@@ -25686,8 +26084,19 @@
       "parcel": "20",
       "block": "7341",
       "notes": "גוש 7341 · חלקה 20",
-      "lat": null,
-      "lng": null
+      "lat": 32.0075521712343,
+      "lng": 34.7893511998998,
+      "locations": [
+        {
+          "address": "חולון,יום הכיפורים,7",
+          "lat": 32.0075521712343,
+          "lng": 34.7893511998998
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-dangerous-41",
@@ -25700,12 +26109,19 @@
       "parcel": "818",
       "block": "6020",
       "notes": "גוש 6020 · חלקה 818",
-      "lat": 32.011721,
-      "lng": 34.7922847,
-      "geocode_label": "התאמת כתובת אוטומטית · OpenStreetMap",
-      "geocode_display_name": "209, ההסתדרות, חולון, רסקו ב', חולון, נפת תל אביב, מחוז תל אביב, 5834049, ישראל",
-      "geocode_provider": "Nominatim",
-      "geocode_osm_id": 2017181993
+      "lat": 32.0117038033588,
+      "lng": 34.7922664893013,
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_provider": "B144 / Zoomap",
+      "locations": [
+        {
+          "address": "חולון,ההסתדרות,209",
+          "lat": 32.0117038033588,
+          "lng": 34.7922664893013
+        }
+      ],
+      "location_precision": "address",
+      "geocode_evidence": "user-pasted corrected B144 responses"
     },
     {
       "id": "holon-dangerous-42",
@@ -25718,8 +26134,19 @@
       "parcel": "273",
       "block": "6049",
       "notes": "גוש 6049 · חלקה 273",
-      "lat": null,
-      "lng": null
+      "lat": 32.017045657848,
+      "lng": 34.7668053771869,
+      "locations": [
+        {
+          "address": "חולון,זלמן ארן,24",
+          "lat": 32.017045657848,
+          "lng": 34.7668053771869
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-dangerous-43",
@@ -25732,8 +26159,19 @@
       "parcel": "222",
       "block": "7172",
       "notes": "גוש 7172 · חלקה 222",
-      "lat": null,
-      "lng": null
+      "lat": 32.021937455,
+      "lng": 34.77487332,
+      "locations": [
+        {
+          "address": "חולון,כיכר וייצמן,19",
+          "lat": 32.021937455,
+          "lng": 34.77487332
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "user-pasted B144 response for corrected spelling כיכר וייצמן"
     },
     {
       "id": "holon-dangerous-44",
@@ -25746,8 +26184,19 @@
       "parcel": "216+217",
       "block": "7172",
       "notes": "גוש 7172 · חלקה 216+217",
-      "lat": null,
-      "lng": null
+      "lat": 32.021960485,
+      "lng": 34.77510644,
+      "locations": [
+        {
+          "address": "חולון,כיכר וייצמן,15",
+          "lat": 32.021960485,
+          "lng": 34.77510644
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "user-pasted B144 response for corrected spelling כיכר וייצמן"
     },
     {
       "id": "holon-dangerous-45",
@@ -25760,8 +26209,19 @@
       "parcel": "218",
       "block": "7172",
       "notes": "גוש 7172 · חלקה 218",
-      "lat": null,
-      "lng": null
+      "lat": 32.02194897,
+      "lng": 34.77498988,
+      "locations": [
+        {
+          "address": "חולון,כיכר וייצמן,17",
+          "lat": 32.02194897,
+          "lng": 34.77498988
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "user-pasted B144 response for corrected spelling כיכר וייצמן"
     },
     {
       "id": "holon-dangerous-46",
@@ -25774,8 +26234,19 @@
       "parcel": "155",
       "block": "6996",
       "notes": "גוש 6996 · חלקה 155",
-      "lat": null,
-      "lng": null
+      "lat": 32.0292855614486,
+      "lng": 34.7653415553149,
+      "locations": [
+        {
+          "address": "חולון,הדר,15",
+          "lat": 32.0292855614486,
+          "lng": 34.7653415553149
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-dangerous-47",
@@ -25788,8 +26259,19 @@
       "parcel": "88",
       "block": "7175",
       "notes": "גוש 7175 · חלקה 88",
-      "lat": null,
-      "lng": null
+      "lat": 32.0172962819871,
+      "lng": 34.7719111935979,
+      "locations": [
+        {
+          "address": "חולון,ארלוזורוב,86",
+          "lat": 32.0172962819871,
+          "lng": 34.7719111935979
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-dangerous-48",
@@ -25802,8 +26284,19 @@
       "parcel": "140",
       "block": "6748",
       "notes": "גוש 6748 · חלקה 140",
-      "lat": null,
-      "lng": null
+      "lat": 32.0091513958345,
+      "lng": 34.7851539955763,
+      "locations": [
+        {
+          "address": "חולון,דוד אלעזר,45",
+          "lat": 32.0091513958345,
+          "lng": 34.7851539955763
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-dangerous-49",
@@ -25816,8 +26309,19 @@
       "parcel": "60",
       "block": "7126",
       "notes": "גוש 7126 · חלקה 60",
-      "lat": null,
-      "lng": null
+      "lat": 32.0027785954515,
+      "lng": 34.7629392563497,
+      "locations": [
+        {
+          "address": "חולון,ארבע ארצות,34",
+          "lat": 32.0027785954515,
+          "lng": 34.7629392563497
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-dangerous-50",
@@ -25830,8 +26334,19 @@
       "parcel": "158",
       "block": "7166",
       "notes": "גוש 7166 · חלקה 158",
-      "lat": null,
-      "lng": null
+      "lat": 32.0232480224504,
+      "lng": 34.7720817298506,
+      "locations": [
+        {
+          "address": "חולון,חובבי ציון,2",
+          "lat": 32.0232480224504,
+          "lng": 34.7720817298506
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-dangerous-51",
@@ -25844,8 +26359,19 @@
       "parcel": "304",
       "block": "6740",
       "notes": "גוש 6740 · חלקה 304",
-      "lat": null,
-      "lng": null
+      "lat": 32.012154093979,
+      "lng": 34.7710931176578,
+      "locations": [
+        {
+          "address": "חולון,ארלוזורוב,142",
+          "lat": 32.012154093979,
+          "lng": 34.7710931176578
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-dangerous-52",
@@ -25858,8 +26384,19 @@
       "parcel": "42",
       "block": "7169",
       "notes": "גוש 7169 · חלקה 42",
-      "lat": null,
-      "lng": null
+      "lat": 32.0227215345182,
+      "lng": 34.7816840119776,
+      "locations": [
+        {
+          "address": "חולון,אליהו קראוזה,45",
+          "lat": 32.0227215345182,
+          "lng": 34.7816840119776
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-dangerous-53",
@@ -25872,8 +26409,19 @@
       "parcel": "29",
       "block": "7182",
       "notes": "גוש 7182 · חלקה 29",
-      "lat": null,
-      "lng": null
+      "lat": 31.9964192707956,
+      "lng": 34.7717854104837,
+      "locations": [
+        {
+          "address": "חולון,לסקוב,26",
+          "lat": 31.9964192707956,
+          "lng": 34.7717854104837
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-dangerous-54",
@@ -25886,8 +26434,19 @@
       "parcel": "167",
       "block": "7126",
       "notes": "גוש 7126 · חלקה 167",
-      "lat": null,
-      "lng": null
+      "lat": 32.0023286192062,
+      "lng": 34.7626327245661,
+      "locations": [
+        {
+          "address": "חולון,הסנהדרין,41",
+          "lat": 32.0023286192062,
+          "lng": 34.7626327245661
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-dangerous-55",
@@ -25900,8 +26459,19 @@
       "parcel": "13",
       "block": "6866",
       "notes": "גוש 6866 · חלקה 13",
-      "lat": null,
-      "lng": null
+      "lat": 32.0111261322501,
+      "lng": 34.7841984980009,
+      "locations": [
+        {
+          "address": "חולון,יגאל ידין,12",
+          "lat": 32.0111261322501,
+          "lng": 34.7841984980009
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-dangerous-56",
@@ -25914,12 +26484,19 @@
       "parcel": "255",
       "block": "7162",
       "notes": "גוש 7162 · חלקה 255",
-      "lat": 32.038138,
-      "lng": 34.754283,
-      "geocode_label": "התאמת כתובת אוטומטית · OpenStreetMap",
-      "geocode_display_name": "31, הבעש\"ט, חולון, נאות רחל, חולון, נפת תל אביב, מחוז תל אביב, 5823707, ישראל",
-      "geocode_provider": "Nominatim",
-      "geocode_osm_id": 2079037118
+      "lat": 32.0224794664422,
+      "lng": 34.7618601241254,
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה · קיימת אי־התאמה למיקום הקודם",
+      "geocode_provider": "B144 / Zoomap",
+      "locations": [
+        {
+          "address": "חולון,הבעש\"ט,31",
+          "lat": 32.0224794664422,
+          "lng": 34.7618601241254
+        }
+      ],
+      "location_precision": "address",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-dangerous-57",
@@ -25932,12 +26509,19 @@
       "parcel": "255",
       "block": "7162",
       "notes": "גוש 7162 · חלקה 255",
-      "lat": 32.038178,
-      "lng": 34.754439,
-      "geocode_label": "התאמת כתובת אוטומטית · OpenStreetMap",
-      "geocode_display_name": "33, הבעש\"ט, חולון, נאות רחל, חולון, נפת תל אביב, מחוז תל אביב, 5823707, ישראל",
-      "geocode_provider": "Nominatim",
-      "geocode_osm_id": 2079038666
+      "lat": 32.0225320097577,
+      "lng": 34.7617627733574,
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה · קיימת אי־התאמה למיקום הקודם",
+      "geocode_provider": "B144 / Zoomap",
+      "locations": [
+        {
+          "address": "חולון,הבעש\"ט,33",
+          "lat": 32.0225320097577,
+          "lng": 34.7617627733574
+        }
+      ],
+      "location_precision": "address",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-dangerous-58",
@@ -25950,12 +26534,19 @@
       "parcel": "78",
       "block": "7167",
       "notes": "גוש 7167 · חלקה 78",
-      "lat": 32.0256472,
-      "lng": 34.7793775,
-      "geocode_label": "התאמת כתובת אוטומטית · OpenStreetMap",
-      "geocode_display_name": "21, יהושע חנקין, חולון, שיכון עממי, חולון, נפת תל אביב, מחוז תל אביב, 5829212, ישראל",
-      "geocode_provider": "Nominatim",
-      "geocode_osm_id": 301282465
+      "lat": 32.0256172231369,
+      "lng": 34.7793102102322,
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_provider": "B144 / Zoomap",
+      "locations": [
+        {
+          "address": "חולון,יהושע חנקין,21",
+          "lat": 32.0256172231369,
+          "lng": 34.7793102102322
+        }
+      ],
+      "location_precision": "address",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-dangerous-59",
@@ -25968,8 +26559,19 @@
       "parcel": "14",
       "block": "6799",
       "notes": "גוש 6799 · חלקה 14",
-      "lat": null,
-      "lng": null
+      "lat": 32.0230920197283,
+      "lng": 34.7904990681822,
+      "locations": [
+        {
+          "address": "חולון,יהושע טהון,33",
+          "lat": 32.0230920197283,
+          "lng": 34.7904990681822
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "user-pasted corrected B144 responses"
     },
     {
       "id": "holon-dangerous-60",
@@ -25982,8 +26584,19 @@
       "parcel": "85",
       "block": "7127",
       "notes": "גוש 7127 · חלקה 85",
-      "lat": null,
-      "lng": null
+      "lat": 32.006834916635,
+      "lng": 34.7629769466456,
+      "locations": [
+        {
+          "address": "חולון,עין גדי,6",
+          "lat": 32.006834916635,
+          "lng": 34.7629769466456
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-dangerous-61",
@@ -25996,8 +26609,19 @@
       "parcel": "2",
       "block": "7167",
       "notes": "גוש 7167 · חלקה 2",
-      "lat": null,
-      "lng": null
+      "lat": 32.0277519766003,
+      "lng": 34.7788798567414,
+      "locations": [
+        {
+          "address": "חולון,מקווה ישראל,16",
+          "lat": 32.0277519766003,
+          "lng": 34.7788798567414
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "user-pasted corrected B144 responses"
     },
     {
       "id": "holon-dangerous-62",
@@ -26010,8 +26634,24 @@
       "parcel": "851",
       "block": "6021",
       "notes": "גוש 6021 · חלקה 851",
-      "lat": null,
-      "lng": null
+      "lat": 32.0167224682563,
+      "lng": 34.7802813939013,
+      "locations": [
+        {
+          "address": "חולון,ראש פינה,1",
+          "lat": 32.0167224682563,
+          "lng": 34.7802813939013
+        },
+        {
+          "address": "חולון,ראש פינה,3",
+          "lat": 32.0166104202749,
+          "lng": 34.7804236133007
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "user-pasted corrected B144 responses"
     },
     {
       "id": "holon-dangerous-63",
@@ -26024,8 +26664,39 @@
       "parcel": "851",
       "block": "6021",
       "notes": "גוש 6021 · חלקה 851",
-      "lat": null,
-      "lng": null
+      "lat": 32.0168827041488,
+      "lng": 34.7803505132755,
+      "locations": [
+        {
+          "address": "חולון,ההסתדרות,94",
+          "lat": 32.0168827041488,
+          "lng": 34.7803505132755
+        },
+        {
+          "address": "חולון,ההסתדרות,96",
+          "lat": 32.0169309289426,
+          "lng": 34.780473908229
+        },
+        {
+          "address": "חולון,ההסתדרות,98",
+          "lat": 32.0168812735403,
+          "lng": 34.7806148424426
+        },
+        {
+          "address": "חולון,ההסתדרות,100",
+          "lat": 32.01689776738,
+          "lng": 34.7807816803415
+        },
+        {
+          "address": "חולון,ההסתדרות,102",
+          "lat": 32.0168358304229,
+          "lng": 34.7809394672997
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "user-pasted corrected B144 responses"
     },
     {
       "id": "holon-dangerous-64",
@@ -26038,12 +26709,19 @@
       "parcel": "139",
       "block": "7166",
       "notes": "גוש 7166 · חלקה 139",
-      "lat": 32.0227403,
-      "lng": 34.7726599,
-      "geocode_label": "התאמת כתובת אוטומטית · OpenStreetMap",
-      "geocode_display_name": "28, סוקולוב, חולון, קריית עבודה, חולון, נפת תל אביב, מחוז תל אביב, 5832337, ישראל",
-      "geocode_provider": "Nominatim",
-      "geocode_osm_id": 1777324575
+      "lat": 32.0227239515082,
+      "lng": 34.7726681228326,
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_provider": "B144 / Zoomap",
+      "locations": [
+        {
+          "address": "חולון,סוקולוב,28",
+          "lat": 32.0227239515082,
+          "lng": 34.7726681228326
+        }
+      ],
+      "location_precision": "address",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-dangerous-65",
@@ -26056,8 +26734,19 @@
       "parcel": "1807",
       "block": "6043",
       "notes": "גוש 6043 · חלקה 1807",
-      "lat": null,
-      "lng": null
+      "lat": 32.0128490505231,
+      "lng": 34.7745393489558,
+      "locations": [
+        {
+          "address": "חולון,אליעזר הופיין,76",
+          "lat": 32.0128490505231,
+          "lng": 34.7745393489558
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "user-pasted corrected B144 responses"
     },
     {
       "id": "holon-dangerous-66",
@@ -26070,8 +26759,19 @@
       "parcel": "166",
       "block": "7342",
       "notes": "גוש 7342 · חלקה 166",
-      "lat": null,
-      "lng": null
+      "lat": 32.0055326169013,
+      "lng": 34.7959381172166,
+      "locations": [
+        {
+          "address": "חולון,שער האריות,5",
+          "lat": 32.0055326169013,
+          "lng": 34.7959381172166
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-dangerous-67",
@@ -26084,12 +26784,19 @@
       "parcel": "176",
       "block": "7162",
       "notes": "גוש 7162 · חלקה 176",
-      "lat": 32.037796,
-      "lng": 34.750797,
-      "geocode_label": "התאמת כתובת אוטומטית · OpenStreetMap",
-      "geocode_display_name": "3, הבעש\"ט, חולון, נאות רחל, חולון, נפת תל אביב, מחוז תל אביב, 5823707, ישראל",
-      "geocode_provider": "Nominatim",
-      "geocode_osm_id": 2079033420
+      "lat": 32.0225307068008,
+      "lng": 34.7649338364689,
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה · קיימת אי־התאמה למיקום הקודם",
+      "geocode_provider": "B144 / Zoomap",
+      "locations": [
+        {
+          "address": "חולון,הבעש\"ט,3",
+          "lat": 32.0225307068008,
+          "lng": 34.7649338364689
+        }
+      ],
+      "location_precision": "address",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-dangerous-68",
@@ -26102,8 +26809,19 @@
       "parcel": "304",
       "block": "6746",
       "notes": "גוש 6746 · חלקה 304",
-      "lat": null,
-      "lng": null
+      "lat": 32.0165039503501,
+      "lng": 34.7662035723473,
+      "locations": [
+        {
+          "address": "חולון,שלמה קפלנסקי,5",
+          "lat": 32.0165039503501,
+          "lng": 34.7662035723473
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-dangerous-69",
@@ -26116,12 +26834,19 @@
       "parcel": "833",
       "block": "6021",
       "notes": "גוש 6021 · חלקה 833",
-      "lat": 32.0169967,
-      "lng": 34.7796447,
-      "geocode_label": "התאמת כתובת אוטומטית · OpenStreetMap",
-      "geocode_display_name": "90, ההסתדרות, חולון, ח 501, חולון, נפת תל אביב, מחוז תל אביב, 5834049, ישראל",
-      "geocode_provider": "Nominatim",
-      "geocode_osm_id": 200357839
+      "lat": 32.0170034133814,
+      "lng": 34.7796942438307,
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_provider": "B144 / Zoomap",
+      "locations": [
+        {
+          "address": "חולון,ההסתדרות,90",
+          "lat": 32.0170034133814,
+          "lng": 34.7796942438307
+        }
+      ],
+      "location_precision": "address",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-dangerous-70",
@@ -26134,12 +26859,19 @@
       "parcel": "78",
       "block": "6870",
       "notes": "גוש 6870 · חלקה 78",
-      "lat": 32.0052006,
-      "lng": 34.778913,
-      "geocode_label": "התאמת כתובת אוטומטית · OpenStreetMap",
-      "geocode_display_name": "16, הדס, חולון, קרית פנחס אילון, חולון, נפת תל אביב, מחוז תל אביב, 5846112, ישראל",
-      "geocode_provider": "Nominatim",
-      "geocode_osm_id": 861124350
+      "lat": 32.0058340784614,
+      "lng": 34.7791540632088,
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_provider": "B144 / Zoomap",
+      "locations": [
+        {
+          "address": "חולון,הדס,16",
+          "lat": 32.0058340784614,
+          "lng": 34.7791540632088
+        }
+      ],
+      "location_precision": "address",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-pal-kal-1",
@@ -26152,12 +26884,19 @@
       "parcel": "130",
       "block": "7162",
       "notes": "גוש 7162 · חלקה 130",
-      "lat": 32.0231963,
-      "lng": 34.7655663,
-      "geocode_label": "התאמת כתובת אוטומטית · OpenStreetMap",
-      "geocode_display_name": "41, שדרות דב הוז, חולון, קריית עבודה, חולון, נפת תל אביב, מחוז תל אביב, 5832337, ישראל",
-      "geocode_provider": "Nominatim",
-      "geocode_osm_id": 2123649575
+      "lat": 32.0231727174121,
+      "lng": 34.7656377670292,
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_provider": "B144 / Zoomap",
+      "locations": [
+        {
+          "address": "חולון,שדרות דב הוז,41",
+          "lat": 32.0231727174121,
+          "lng": 34.7656377670292
+        }
+      ],
+      "location_precision": "address",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-pal-kal-2",
@@ -26170,8 +26909,19 @@
       "parcel": "147",
       "block": "6019",
       "notes": "גוש 6019 · חלקה 147",
-      "lat": null,
-      "lng": null
+      "lat": 32.0160148003054,
+      "lng": 34.7904376798902,
+      "locations": [
+        {
+          "address": "חולון,יחזקאל,6",
+          "lat": 32.0160148003054,
+          "lng": 34.7904376798902
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-pal-kal-3",
@@ -26184,12 +26934,19 @@
       "parcel": "149",
       "block": "7172",
       "notes": "גוש 7172 · חלקה 149",
-      "lat": 32.0203085,
-      "lng": 34.7727048,
-      "geocode_label": "התאמת כתובת אוטומטית · OpenStreetMap",
-      "geocode_display_name": "5, חומה ומגדל, חולון, קריית עבודה, חולון, נפת תל אביב, מחוז תל אביב, 5832337, ישראל",
-      "geocode_provider": "Nominatim",
-      "geocode_osm_id": 8951670401
+      "lat": 32.0203303651174,
+      "lng": 34.7726730943657,
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_provider": "B144 / Zoomap",
+      "locations": [
+        {
+          "address": "חולון,חומה ומגדל,5",
+          "lat": 32.0203303651174,
+          "lng": 34.7726730943657
+        }
+      ],
+      "location_precision": "address",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-pal-kal-4",
@@ -26202,8 +26959,19 @@
       "parcel": "99",
       "block": "7070",
       "notes": "גוש 7070 · חלקה 99",
-      "lat": null,
-      "lng": null
+      "lat": 32.027629372027,
+      "lng": 34.7727530097095,
+      "locations": [
+        {
+          "address": "חולון,שדרות קוגל,10",
+          "lat": 32.027629372027,
+          "lng": 34.7727530097095
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-pal-kal-5",
@@ -26216,12 +26984,19 @@
       "parcel": "72",
       "block": "6785",
       "notes": "גוש 6785 · חלקה 72",
-      "lat": 32.0126418,
-      "lng": 34.7980871,
-      "geocode_label": "התאמת כתובת אוטומטית · OpenStreetMap",
-      "geocode_display_name": "1, האורגים, חולון, נווה פנחס, חולון, נפת תל אביב, מחוז תל אביב, 5800239, ישראל",
-      "geocode_provider": "Nominatim",
-      "geocode_osm_id": 334233815
+      "lat": 32.0124971583202,
+      "lng": 34.7979167083726,
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_provider": "B144 / Zoomap",
+      "locations": [
+        {
+          "address": "חולון,האורגים,1",
+          "lat": 32.0124971583202,
+          "lng": 34.7979167083726
+        }
+      ],
+      "location_precision": "address",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-pal-kal-6",
@@ -26234,12 +27009,19 @@
       "parcel": "73",
       "block": "6785",
       "notes": "גוש 6785 · חלקה 73",
-      "lat": 32.0124242,
-      "lng": 34.7982727,
-      "geocode_label": "התאמת כתובת אוטומטית · OpenStreetMap",
-      "geocode_display_name": "3, האורגים, חולון, נווה פנחס, חולון, נפת תל אביב, מחוז תל אביב, 5800239, ישראל",
-      "geocode_provider": "Nominatim",
-      "geocode_osm_id": 334222091
+      "lat": 32.0123127199174,
+      "lng": 34.7981990723711,
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_provider": "B144 / Zoomap",
+      "locations": [
+        {
+          "address": "חולון,האורגים,3",
+          "lat": 32.0123127199174,
+          "lng": 34.7981990723711
+        }
+      ],
+      "location_precision": "address",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-pal-kal-7",
@@ -26252,12 +27034,19 @@
       "parcel": "74",
       "block": "6785",
       "notes": "גוש 6785 · חלקה 74",
-      "lat": 32.0122531,
-      "lng": 34.7985411,
-      "geocode_label": "התאמת כתובת אוטומטית · OpenStreetMap",
-      "geocode_display_name": "5, האורגים, חולון, נווה פנחס, חולון, נפת תל אביב, מחוז תל אביב, 5800239, ישראל",
-      "geocode_provider": "Nominatim",
-      "geocode_osm_id": 334222056
+      "lat": 32.0121840042908,
+      "lng": 34.7984269004093,
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_provider": "B144 / Zoomap",
+      "locations": [
+        {
+          "address": "חולון,האורגים,5",
+          "lat": 32.0121840042908,
+          "lng": 34.7984269004093
+        }
+      ],
+      "location_precision": "address",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-pal-kal-8",
@@ -26270,12 +27059,19 @@
       "parcel": "75",
       "block": "6785",
       "notes": "גוש 6785 · חלקה 75",
-      "lat": 32.0120409,
-      "lng": 34.7988318,
-      "geocode_label": "התאמת כתובת אוטומטית · OpenStreetMap",
-      "geocode_display_name": "7, האורגים, חולון, נווה פנחס, חולון, נפת תל אביב, מחוז תל אביב, 5800239, ישראל",
-      "geocode_provider": "Nominatim",
-      "geocode_osm_id": 334222144
+      "lat": 32.0119812999045,
+      "lng": 34.7986949413664,
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_provider": "B144 / Zoomap",
+      "locations": [
+        {
+          "address": "חולון,האורגים,7",
+          "lat": 32.0119812999045,
+          "lng": 34.7986949413664
+        }
+      ],
+      "location_precision": "address",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-pal-kal-9",
@@ -26288,12 +27084,19 @@
       "parcel": "24",
       "block": "6786",
       "notes": "גוש 6786 · חלקה 24",
-      "lat": 32.0132565,
-      "lng": 34.8033783,
-      "geocode_label": "התאמת כתובת אוטומטית · OpenStreetMap",
-      "geocode_display_name": "Hapodium, 19, הבנאי, חולון, אזור תעשייה ג, חולון, נפת תל אביב, מחוז תל אביב, 5800239, ישראל",
-      "geocode_provider": "Nominatim",
-      "geocode_osm_id": 6426624046
+      "lat": 32.0129997511125,
+      "lng": 34.8032356317963,
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_provider": "B144 / Zoomap",
+      "locations": [
+        {
+          "address": "חולון,הבנאי,19",
+          "lat": 32.0129997511125,
+          "lng": 34.8032356317963
+        }
+      ],
+      "location_precision": "address",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-pal-kal-10",
@@ -26306,8 +27109,19 @@
       "parcel": "24",
       "block": "6786",
       "notes": "גוש 6786 · חלקה 24",
-      "lat": null,
-      "lng": null
+      "lat": 32.0122471310945,
+      "lng": 34.8030935895963,
+      "locations": [
+        {
+          "address": "חולון,הבנאי,21",
+          "lat": 32.0122471310945,
+          "lng": 34.8030935895963
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-pal-kal-11",
@@ -26320,8 +27134,19 @@
       "parcel": "19",
       "block": "6805",
       "notes": "גוש 6805 · חלקה 19",
-      "lat": null,
-      "lng": null
+      "lat": 32.0078376956115,
+      "lng": 34.8050145925011,
+      "locations": [
+        {
+          "address": "חולון,המנור,3",
+          "lat": 32.0078376956115,
+          "lng": 34.8050145925011
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-pal-kal-12",
@@ -26334,8 +27159,19 @@
       "parcel": "9",
       "block": "6785",
       "notes": "גוש 6785 · חלקה 9",
-      "lat": null,
-      "lng": null
+      "lat": 32.0138043992537,
+      "lng": 34.8009064354062,
+      "locations": [
+        {
+          "address": "חולון,הסתת,6",
+          "lat": 32.0138043992537,
+          "lng": 34.8009064354062
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-pal-kal-13",
@@ -26348,8 +27184,19 @@
       "parcel": "40",
       "block": "6782",
       "notes": "גוש 6782 · חלקה 40",
-      "lat": null,
-      "lng": null
+      "lat": 32.0212348448436,
+      "lng": 34.8030262799342,
+      "locations": [
+        {
+          "address": "חולון,הסדן,7",
+          "lat": 32.0212348448436,
+          "lng": 34.8030262799342
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-pal-kal-14",
@@ -26362,8 +27209,19 @@
       "parcel": "32",
       "block": "6780",
       "notes": "גוש 6780 · חלקה 32",
-      "lat": null,
-      "lng": null
+      "lat": 32.0209962344488,
+      "lng": 34.7984502634326,
+      "locations": [
+        {
+          "address": "חולון,הפלד,26",
+          "lat": 32.0209962344488,
+          "lng": 34.7984502634326
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-pal-kal-15",
@@ -26376,8 +27234,19 @@
       "parcel": "26",
       "block": "6783",
       "notes": "גוש 6783 · חלקה 26",
-      "lat": null,
-      "lng": null
+      "lat": 32.0165970893428,
+      "lng": 34.8073299625054,
+      "locations": [
+        {
+          "address": "חולון,המרכבה,13",
+          "lat": 32.0165970893428,
+          "lng": 34.8073299625054
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-pal-kal-16",
@@ -26390,8 +27259,19 @@
       "parcel": "6",
       "block": "6782",
       "notes": "גוש 6782 · חלקה 6",
-      "lat": null,
-      "lng": null
+      "lat": 32.0205636233704,
+      "lng": 34.8005164924831,
+      "locations": [
+        {
+          "address": "חולון,הסדנה,4",
+          "lat": 32.0205636233704,
+          "lng": 34.8005164924831
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "holon-pal-kal-17",
@@ -26404,8 +27284,19 @@
       "parcel": "11",
       "block": "6804",
       "notes": "גוש 6804 · חלקה 11",
-      "lat": null,
-      "lng": null
+      "lat": 32.0105613860442,
+      "lng": 34.7998810913992,
+      "locations": [
+        {
+          "address": "חולון,האורגים,12",
+          "lat": 32.0105613860442,
+          "lng": 34.7998810913992
+        }
+      ],
+      "location_precision": "address",
+      "geocode_provider": "B144 / Zoomap",
+      "geocode_label": "איתור כתובת · B144 / Zoomap · לא אומת מול חלקה או כניסה",
+      "geocode_evidence": "uploaded B144 results JSON"
     },
     {
       "id": "bat-yam-1",
