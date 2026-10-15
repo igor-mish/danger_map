@@ -1,4 +1,5 @@
 """Import the supplied municipal PDFs. Coordinates are never inferred here."""
+from holon_b144 import enrich_holon
 import hashlib
 from datetime import datetime
 import json
@@ -106,6 +107,7 @@ def main():
         for record in records:
             if (record['city'],record['address'],str(record.get('block')),str(record.get('parcel')))==(location['city'],location['address'],location['block'],location['parcel']):
                 record.update(lat=location['lat'],lng=location['lng'],location_precision='parcel',location_source_url=location['source_url'],geocode_label='מיקום החלקה לפי GovMap · אינו מיקום מדויק של המבנה או הכניסה')
+    enrich_holon(records,json.loads((ROOT/'public/sources/holon-b144.json').read_text()))
     payload={'records':records,'sources':[
         {'city':'תל אביב','file':'tel-aviv.pdf','date':ta_records[0]['source_date'],'sha256':hashlib.sha256(ta.read_bytes()).hexdigest()},
         {'city':'חולון','file':'holon.pdf','date':ho_records[0]['source_date'],'sha256':hashlib.sha256(ho.read_bytes()).hexdigest()},
