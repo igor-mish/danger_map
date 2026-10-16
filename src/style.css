@@ -8,3 +8,5 @@
 .parcel-marker span{background:#4b7fac;border-style:dashed}.parcel-dot{background:#4b7fac;margin-right:14px}
 
 .gis-details p{white-space:pre-line}.gis-details section{border-bottom:1px solid #e1e7e2;padding:12px 0}.gis-details small{color:#718582}.leaflet-popup-content .gis-details{margin-top:12px;padding-top:10px}
+
+#address-form{padding-bottom:18px;margin-bottom:18px;border-bottom:1px solid #d7e1e3}#address-submit{margin-top:8px}.address-result{display:block;width:100%;text-align:right;white-space:normal;margin-top:6px;background:#eef4fc;color:#183755}.search-location-marker{background:#285fc7;color:white;border:3px solid white;border-radius:50%;box-shadow:0 2px 8px #0005;text-align:center;font-size:23px;line-height:26px}#clear-address{margin-top:8px}

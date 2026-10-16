@@ -22,9 +22,18 @@ try {
    assert.equal(response.status(),200);assert.equal(response.headers()['x-blocked'],undefined);try{await route.fulfill({response});}catch(e){if(!e.message.includes('Route is already handled'))throw e;}
   });
  }
+ if(verifiedNetwork)await page.route('https://nominatim.openstreetmap.org/**',async route=>{
+  const response=await verifiedNetwork.get(route.request().url(),{headers:{'User-Agent':'DangerMapBrowserCheck/1.0 (https://igor-mish.github.io/danger_map/)'}});
+  assert.equal(response.status(),200);await route.fulfill({response});
+ });
  const errors=[];page.on('pageerror',e=>errors.push(e.message));
  await page.goto(process.env.APP_URL||'http://localhost:5173/');
  await page.waitForFunction(()=>document.querySelector('#total').textContent==='890');
+ await page.locator('#address-query').fill('סוקולוב 28 חולון');await page.locator('#address-submit').click();
+ await page.locator('.address-result').first().waitFor();await page.locator('.address-result').first().click();
+ assert.equal(await page.locator('.search-location-marker').count(),1);assert.ok(Number(await page.locator('#total').innerText())>0);assert.ok(Number(await page.locator('#total').innerText())<890);
+ assert.equal(await page.locator('#nearby-controls').isVisible(),true);assert.match(await page.locator('.leaflet-popup').innerText(),/סמן חיפוש בלבד/);
+ await page.locator('#clear-address').click();assert.equal(await page.locator('.search-location-marker').count(),0);
  await page.locator('#city').selectOption('בת ים');
  assert.equal(await page.locator('.card').count(),205);assert.equal(await page.locator('.building-marker').count(),205);
  assert.equal(await page.locator('.card .record-details dd').filter({hasText:/^פ$/}).count(),198);
@@ -41,6 +50,10 @@ try {
  const gisDetails=page.locator('.leaflet-popup .gis-details');await gisDetails.getByRole('heading',{name:'ממצאים ותיאור צו'}).waitFor();assert.match(await gisDetails.innerText(),/התאמה לפי כתובת/);assert.match(await gisDetails.innerText(),/11\/10\/2026/);
  await page.locator('#search').fill('אהרונסון, רחוב 28');assert.equal(await page.locator('.card').count(),1);assert.equal(await page.locator('.building-marker').count(),1);await page.locator('.card').getByRole('button',{name:'הצגה במפה'}).click();await page.waitForFunction(()=>document.querySelectorAll('.leaflet-popup').length===1);await page.locator('.leaflet-popup').waitFor();assert.match(await page.locator('.leaflet-popup').innerText(),/מיקום מה־GIS העירוני/);
  await page.locator('#search').fill('');
+ await page.locator('#address-query').fill('הרצל 130');await page.locator('#address-submit').click();await page.locator('.address-result').first().waitFor();await page.locator('.address-result').first().click();
+ assert.equal(await page.locator('#city').inputValue(),'תל אביב');const nearbyCount=Number(await page.locator('#total').innerText());assert.ok(nearbyCount>0&&nearbyCount<615);
+ assert.equal(await page.locator('#search').inputValue(),'');await page.locator('#radius').selectOption('1000');assert.ok(Number(await page.locator('#total').innerText())>=nearbyCount);
+ await page.locator('#clear-address').click();assert.equal(await page.locator('#total').innerText(),'615');
  await page.locator('#city').selectOption('חולון');
  assert.equal(await page.locator('.card').count(),70);
  assert.equal(await page.locator('#mapped').innerText(),'70');assert.match(await page.locator('#coverage').innerText(),/0 ללא מיקום/);

@@ -15,4 +15,26 @@ export function normalizeRows(rows) {
  });
  return {records,errors};
 }
-export function filterRecords(records,city,query){return records.filter(r=>(!city||r.city===city)&&`${r.address} ${r.city}`.includes(query.trim()));}
+function addressTokens(text){
+ const aliases={'ככר':'כיכר','ויצמן':'וייצמן'};
+ return String(text??'').normalize('NFKC').toLowerCase().replace(/[\u0591-\u05c7]/g,'').replace(/["'׳״]/g,'').replace(/(\d)([א-ת])/g,'$1 $2').match(/[\p{L}]+|\d+/gu)?.map(w=>aliases[w]||w).filter(w=>!['רחוב','רח','שדרות','שד','כיכר','דרך','סמטה'].includes(w))||[];
+}
+export function filterRecords(records,city,query){
+ const wanted=addressTokens(query);
+ return records.filter(r=>{
+  if(city&&r.city!==city)return false;
+  const fields=[r.address,r.city,...(r.locations||[]).map(p=>p.address)].join(' ');
+  const available=addressTokens(fields);
+  return wanted.every(q=>available.some(w=>/^\d+$/.test(q)?w===q:w.includes(q)));
+ });
+}
+
+export function nearbyRecords(records,center,radius){
+ const radians=Math.PI/180;
+ return records.filter(r=>(r.locations?.length?r.locations:[r]).some(p=>{
+  if(p.lat==null||p.lng==null)return false;
+  const a=(p.lat-center.lat)*radians,b=(p.lng-center.lng)*radians;
+  const h=Math.sin(a/2)**2+Math.cos(center.lat*radians)*Math.cos(p.lat*radians)*Math.sin(b/2)**2;
+  return 6371000*2*Math.asin(Math.sqrt(Math.min(1,h)))<=radius;
+ }));
+}

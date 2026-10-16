@@ -1,15 +1,17 @@
+import {searchAddresses} from './geocoder.js';
 import L from 'leaflet';
 import Papa from 'papaparse';
 import 'leaflet/dist/leaflet.css';
 import './style.css';
-import {sources,normalizeRows,filterRecords} from './data.js';
+import {sources,normalizeRows,filterRecords,nearbyRecords} from './data.js';
 
 const app=document.querySelector('#app');
-app.innerHTML=`<header><div class="brand"><span class="logo">⌖</span><div><h1>מבנים מסוכנים</h1><p>תל אביב, חולון ובת ים · מידע ממקורות עירוניים</p></div></div><span class="badge">מפה עירונית</span></header><main><aside><div class="intro"><span class="eyebrow">מבט על העיר</span><h2>המידע במקום אחד.</h2><p>חיפוש מבנים שפורסמו ברשימות העירוניות, לפי עיר וכתובת.</p></div><div class="stats"><div><strong id="total">0</strong><span>רשומות בתצוגה</span></div><div><strong id="mapped">0</strong><span>רשומות עם מיקום</span></div></div><label for="search">חיפוש כתובת</label><input id="search" type="search" placeholder="שם רחוב או מספר בית…"><label for="city">עיר</label><select id="city"><option value="">כל הערים</option><option>תל אביב</option><option>חולון</option><option>בת ים</option></select><label class="category-toggle"><input id="pal-kal" type="checkbox"> הצגת מבני פל־קל מחולון (קטגוריה נפרדת)</label><p id="coverage" class="hint" aria-live="polite"></p><div class="list-title"><h3>תוצאות החיפוש</h3><span id="count">0</span></div><div id="results" aria-live="polite"></div><details><summary>מקורות וטעינת נתונים</summary><p>הרשימות העירוניות הן המקור לסטטוס המבנה. תאריך הרשימה אינו בהכרח תאריך העדכון האחרון.</p><div id="sources"></div><label class="upload" for="upload">טעינת CSV מאומת</label><input id="upload" type="file" accept=".csv,text/csv"><p class="hint">עמודות: city, address, lat, lng. אפשר להוסיף source_date ו־notes. כתובות ללא קואורדינטות יופיעו ברשימה בלבד. הנתונים נשארים בדפדפן.</p><button id="download">הורדת תבנית CSV</button> <button id="export">ייצוא כל הרשומות</button></details></aside><section class="map-area"><div id="map" aria-label="מפת מבנים מסוכנים"></div><div class="map-label"><span class="dot"></span>מבנה ברשימה העירונית <span class="dot parcel-dot"></span>מיקום חלקה</div><div id="status" role="status"></div><div id="placement" hidden></div></section></main><footer>המידע מוצג לעיון ואינו מחליף בדיקה עדכנית מול הרשות המקומית. בת ים: כל קודי הסטטוס מוצגים; צילום הנתונים מ־14.10.2026.</footer>`;
+app.innerHTML=`<header><div class="brand"><span class="logo">⌖</span><div><h1>מבנים מסוכנים</h1><p>תל אביב, חולון ובת ים · מידע ממקורות עירוניים</p></div></div><span class="badge">מפה עירונית</span></header><main><aside><div class="intro"><span class="eyebrow">מבט על העיר</span><h2>המידע במקום אחד.</h2><p>חיפוש מבנים שפורסמו ברשימות העירוניות, לפי עיר וכתובת.</p></div><div class="stats"><div><strong id="total">0</strong><span>רשומות בתצוגה</span></div><div><strong id="mapped">0</strong><span>רשומות עם מיקום</span></div></div><form id="address-form"><label for="address-query">חיפוש כתובת במפה</label><input id="address-query" type="search" placeholder="למשל: אבן גבירול 160, תל אביב" autocomplete="off" required minlength="3"><button id="address-submit" type="submit">איתור כתובת</button><p id="address-message" class="hint" role="status"></p><div id="address-results"></div><div id="nearby-controls" hidden><label for="radius">מבנים מסוכנים סביב הכתובת</label><select id="radius"><option value="250">עד 250 מטר</option><option value="500" selected>עד 500 מטר</option><option value="1000">עד קילומטר</option><option value="2000">עד 2 קילומטר</option></select><p class="hint">המרחק בקו אווירי. מוצגות רק רשומות עם מיקום, בהתאם למסננים.</p></div><button id="clear-address" type="button" hidden>ניקוי מיקום החיפוש</button></form><label for="search">סינון המבנים שברשימה</label><input id="search" type="search" placeholder="רחוב, מספר בית או עיר…"><label for="city">עיר</label><select id="city"><option value="">כל הערים</option><option>תל אביב</option><option>חולון</option><option>בת ים</option></select><label class="category-toggle"><input id="pal-kal" type="checkbox"> הצגת מבני פל־קל מחולון (קטגוריה נפרדת)</label><p id="coverage" class="hint" aria-live="polite"></p><div class="list-title"><h3>תוצאות החיפוש</h3><span id="count">0</span></div><div id="results" aria-live="polite"></div><details><summary>מקורות וטעינת נתונים</summary><p>הרשימות העירוניות הן המקור לסטטוס המבנה. תאריך הרשימה אינו בהכרח תאריך העדכון האחרון.</p><div id="sources"></div><label class="upload" for="upload">טעינת CSV מאומת</label><input id="upload" type="file" accept=".csv,text/csv"><p class="hint">עמודות: city, address, lat, lng. אפשר להוסיף source_date ו־notes. כתובות ללא קואורדינטות יופיעו ברשימה בלבד. הנתונים נשארים בדפדפן.</p><button id="download">הורדת תבנית CSV</button> <button id="export">ייצוא כל הרשומות</button></details></aside><section class="map-area"><div id="map" aria-label="מפת מבנים מסוכנים"></div><div class="map-label"><span class="dot"></span>מבנה ברשימה העירונית <span class="dot parcel-dot"></span>מיקום חלקה</div><div id="status" role="status"></div><div id="placement" hidden></div></section></main><footer>המידע מוצג לעיון ואינו מחליף בדיקה עדכנית מול הרשות המקומית. בת ים: כל קודי הסטטוס מוצגים; צילום הנתונים מ־14.10.2026.</footer>`;
 const map=L.map('map',{zoomControl:false}).setView([32.045,34.785],12);
 L.control.zoom({position:'bottomleft'}).addTo(map);
 const tiles=L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',subdomains:'abc',maxZoom:19}).addTo(map);
 tiles.on('tileerror',()=>{document.querySelector('#status').textContent='לא ניתן לטעון את מפת הרקע. יש לבדוק חיבור וגישה לשרת המפות.';});
+let searchMarker=null,searchCircle=null,proximityCenter=null;
 const markers=L.layerGroup().addTo(map);let records=[];let imported=false;let placement=null,placementMarker=null;
 let overrides={};try{overrides=JSON.parse(localStorage.getItem('nafa-map-locations')||'{}');}catch{}
 const icon=L.divIcon({className:'building-marker',html:'<span></span>',iconSize:[22,22],iconAnchor:[11,11]});
@@ -45,7 +47,8 @@ const taGisLink=el('a','תל אביב · שכבת GIS עירונית (שליפה
 sources.forEach(s=>{const box=el('div');box.append(sourceLink(s),el('p',`${s.dateKind==='snapshot'?'צילום הנתונים':'תאריך המסמך'}: ${s.date}`));const original=el('a','פתיחה באתר העירייה');original.href=s.url;original.target='_blank';original.rel='noopener noreferrer';box.append(original);document.querySelector('#sources').append(box);});
 function render(){
  const selected=records.filter(r=>r.category!=='pal-kal'||document.querySelector('#pal-kal').checked);
- const visible=filterRecords(selected,document.querySelector('#city').value,document.querySelector('#search').value).sort((a,b)=>Number(Boolean(a.address_missing))-Number(Boolean(b.address_missing))||a.address.localeCompare(b.address,'he',{numeric:true}));
+ const filtered=filterRecords(selected,document.querySelector('#city').value,document.querySelector('#search').value);
+ const visible=(proximityCenter?nearbyRecords(filtered,proximityCenter,Number(document.querySelector('#radius').value)):filtered).sort((a,b)=>Number(Boolean(a.address_missing))-Number(Boolean(b.address_missing))||a.address.localeCompare(b.address,'he',{numeric:true}));
  document.querySelector('#total').textContent=visible.length;document.querySelector('#mapped').textContent=visible.filter(r=>r.positioned).length;document.querySelector('#count').textContent=visible.length;
  const positioned=visible.filter(r=>r.positioned).length;document.querySelector('#coverage').textContent=`${visible.length} רשומות ברשימה · ${positioned} עם מיקום · ${visible.length-positioned} ללא מיקום. כתובות ללא מיקום מופיעות ברשימה בלבד.`;
  markers.clearLayers();const list=document.querySelector('#results');list.replaceChildren();
@@ -97,3 +100,36 @@ document.querySelector('#export').onclick=()=>{
  const csv=Papa.unparse(records.map(({id,city,address,lat,lng,source_date,source_page,category,case_id,case_url,location_precision,location_source_url,status_code,announcement_date,end_date,source_object_id,occupancy,treatment,section,case_opened,last_visit,treatment_since,preserved_marker,notes,geocode_label,locations})=>({id,city,address,lat,lng,source_date,source_page,category,case_id,case_url,location_precision,location_source_url,status_code,announcement_date,end_date,source_object_id,occupancy,treatment,section,case_opened,last_visit,treatment_since,preserved_marker,notes,geocode_label,locations_json:locations?JSON.stringify(locations):''})),{escapeFormulae:true});
  const url=URL.createObjectURL(new Blob(['\ufeff'+csv],{type:'text/csv;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download='municipal-buildings.csv';a.click();URL.revokeObjectURL(url);
 };
+
+
+const addressForm=document.querySelector('#address-form');
+const addressResults=document.querySelector('#address-results');
+const addressMessage=document.querySelector('#address-message');
+const clearAddress=document.querySelector('#clear-address');
+clearAddress.onclick=()=>{proximityCenter=null;if(searchCircle)map.removeLayer(searchCircle);searchCircle=null;document.querySelector('#nearby-controls').hidden=true;render();if(searchMarker)map.removeLayer(searchMarker);searchMarker=null;addressResults.replaceChildren();addressMessage.textContent='';clearAddress.hidden=true;};
+addressForm.onsubmit=async event=>{
+ event.preventDefault();const button=document.querySelector('#address-submit');if(button.disabled)return;
+ button.disabled=true;addressResults.replaceChildren();addressMessage.textContent='מחפש כתובת…';
+ if(searchMarker){map.removeLayer(searchMarker);searchMarker=null;}if(searchCircle)map.removeLayer(searchCircle);searchCircle=null;proximityCenter=null;document.querySelector('#nearby-controls').hidden=true;render();clearAddress.hidden=true;
+ try{
+  const input=document.querySelector('#address-query').value.trim();const city=document.querySelector('#city').value;
+  const results=await searchAddresses(city&&!/חולון|בת.?ים|תל.?אביב/.test(input)?`${input}, ${city}`:input);
+  addressMessage.textContent=results.length?'בחרו תוצאה כדי לעבור אליה במפה.':'לא נמצאה כתובת. נסו איות אחר והוסיפו עיר: תל אביב, חולון או בת ים.';
+  for(const point of results){const b=el('button',point.label);b.type='button';b.className='address-result';b.onclick=()=>{
+   if(searchMarker)map.removeLayer(searchMarker);
+   const content=el('div');content.append(el('strong','הכתובת שחיפשת'),el('p',point.label),el('p',point.precision),el('p','סמן חיפוש בלבד. אינו מעיד שהמבנה מסוכן או שאינו מסוכן.'),el('small','איתור כתובת: OpenStreetMap / Nominatim'));
+   const searchIcon=L.divIcon({className:'search-location-marker',html:'<span>⌖</span>',iconSize:[32,32],iconAnchor:[16,16]});
+   searchMarker=L.marker([point.lat,point.lng],{icon:searchIcon}).addTo(map).bindPopup(content,{maxWidth:320});proximityCenter=point;document.querySelector('#search').value='';document.querySelector('#nearby-controls').hidden=false;updateNearby();searchMarker.openPopup();clearAddress.hidden=false;
+   addressMessage.textContent=point.precision+' · מוצגים המבנים שסביב הכתובת לפי העיר והמרחק שנבחרו.';
+  };addressResults.append(b);}
+ }catch(error){addressMessage.textContent=error.name==='TimeoutError'?'החיפוש התעכב. נסו שוב בעוד רגע.':error.message||'לא ניתן להשלים את חיפוש הכתובת.';}
+ finally{button.disabled=false;}
+};
+
+function updateNearby(){
+ if(!proximityCenter)return;
+ if(searchCircle)map.removeLayer(searchCircle);
+ searchCircle=L.circle([proximityCenter.lat,proximityCenter.lng],{radius:Number(document.querySelector('#radius').value),color:'#285fc7',weight:2,fillOpacity:0.06,interactive:false}).addTo(map);
+ render();map.fitBounds(searchCircle.getBounds(),{padding:[24,24],maxZoom:16});
+}
+document.querySelector('#radius').addEventListener('change',updateNearby);
